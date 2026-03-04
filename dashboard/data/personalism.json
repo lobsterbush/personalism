@@ -27,7 +27,12 @@
         "source": "Wikidata",
         "description": "Leader holds honorific prefixes, suffixes, or noble titles"
       }
-    ]
+    ],
+    "universe": {
+      "total_archigos": 2090,
+      "with_wikipedia": 861,
+      "with_wikidata": 579
+    }
   },
   "countries": [
     {
