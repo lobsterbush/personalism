@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalism in Dictatorships — Data Explorer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+<body>
+    <header>
+        <h1>Personalism in Dictatorships</h1>
+        <p class="subtitle">Interactive Data Explorer — Sample Data (v0.1)</p>
+    </header>
+
+    <nav class="tabs" role="tablist">
+        <button class="tab active" data-tab="overview" role="tab" aria-selected="true">Overview</button>
+        <button class="tab" data-tab="countries" role="tab">Country Profiles</button>
+        <button class="tab" data-tab="indicators" role="tab">Indicators</button>
+        <button class="tab" data-tab="data" role="tab">Data Table</button>
+    </nav>
+
+    <main>
+        <!-- Overview Tab -->
+        <section id="tab-overview" class="tab-content active">
+            <div class="overview-grid">
+                <div class="stat-cards">
+                    <div class="stat-card">
+                        <span class="stat-number" id="stat-countries">—</span>
+                        <span class="stat-label">Countries</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number" id="stat-leaders">—</span>
+                        <span class="stat-label">Leaders</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number" id="stat-indicators">—</span>
+                        <span class="stat-label">Indicators</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number" id="stat-year-range">—</span>
+                        <span class="stat-label">Year range</span>
+                    </div>
+                </div>
+
+                <div class="chart-container">
+                    <h2>Composite Personalism Score by Leader</h2>
+                    <p class="chart-note">Score = proportion of coded indicators that are positive (0–1 scale). Higher = more personalist features documented.</p>
+                    <div id="bar-chart" class="chart"></div>
+                </div>
+
+                <div class="chart-container">
+                    <h2>Indicator Prevalence</h2>
+                    <p class="chart-note">Share of leaders for whom each indicator is coded as present.</p>
+                    <div id="prevalence-chart" class="chart"></div>
+                </div>
+
+                <div class="chart-container">
+                    <h2>Power Concentration vs. Personality Cult</h2>
+                    <p class="chart-note">Each point is a leader. X-axis = power concentration indicators; Y-axis = personality cult indicators.</p>
+                    <div id="scatter-chart" class="chart"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Countries Tab -->
+        <section id="tab-countries" class="tab-content">
+            <div class="country-controls">
+                <div class="search-container">
+                    <input type="text" id="country-search" placeholder="Search countries..." aria-label="Search countries">
+                </div>
+                <div class="filter-group">
+                    <label for="sort-by">Sort by</label>
+                    <select id="sort-by">
+                        <option value="name">Name</option>
+                        <option value="score-desc">Score (high → low)</option>
+                        <option value="score-asc">Score (low → high)</option>
+                    </select>
+                </div>
+            </div>
+            <div id="country-grid" class="country-grid"></div>
+        </section>
+
+        <!-- Indicators Tab -->
+        <section id="tab-indicators" class="tab-content">
+            <div class="indicator-intro">
+                <p>Each indicator captures a different observable feature of personalist rule. They are grouped into two dimensions: <strong class="dim-power">Power Concentration</strong> and <strong class="dim-cult">Personality Cult</strong>.</p>
+            </div>
+            <div id="indicator-grid" class="indicator-grid"></div>
+        </section>
+
+        <!-- Data Table Tab -->
+        <section id="tab-data" class="tab-content">
+            <div class="table-controls">
+                <input type="text" id="table-search" placeholder="Filter by country or leader..." aria-label="Filter table">
+                <button id="export-csv" class="btn-secondary">Export CSV</button>
+            </div>
+            <div class="table-wrapper">
+                <table id="data-table">
+                    <thead>
+                        <tr id="table-header"></tr>
+                    </thead>
+                    <tbody id="table-body"></tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Morgenbesser & Crabtree · <a href="../codebook/codebook.md">Codebook</a> · Sample data for demonstration</p>
+    </footer>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

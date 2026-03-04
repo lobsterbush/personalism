@@ -1,0 +1,158 @@
+{
+  "metadata": {
+    "version": "0.1-sample",
+    "description": "Personalism in Dictatorships — SAMPLE DATA for dashboard demonstration. Based on secondary sources; not yet validated by scrapers.",
+    "last_updated": "2026-03-04",
+    "sources": ["hand-coded from secondary sources"],
+    "indicators": [
+      {"key": "currency_portrait", "label": "Currency Portrait", "dimension": "cult", "source": "Numista", "description": "Living ruler's portrait appears on national banknotes"},
+      {"key": "term_limits_removed", "label": "Term Limits Removed", "dimension": "power", "source": "Constitute Project", "description": "Constitutional term limits amended or abolished during tenure"},
+      {"key": "president_for_life", "label": "President for Life", "dimension": "power", "source": "Constitute Project", "description": "Leader holds an official life-tenure title"},
+      {"key": "oath_to_person", "label": "Loyalty Oath", "dimension": "cult", "source": "Constitute Project", "description": "Officials required to swear loyalty to the leader personally"},
+      {"key": "appointment_monopoly", "label": "Appointment Monopoly", "dimension": "power", "source": "Constitute Project", "description": "Leader exercises unilateral control over senior appointments"},
+      {"key": "family_in_govt", "label": "Family in Government", "dimension": "power", "source": "Wikidata", "description": "≥2 immediate family members in senior government positions"},
+      {"key": "places_named", "label": "Places Named After", "dimension": "cult", "source": "Wikidata", "description": "≥2 major places or institutions named after the living ruler"},
+      {"key": "grandiose_titles", "label": "Grandiose Titles", "dimension": "cult", "source": "Wikidata", "description": "Leader holds non-standard honorific titles"}
+    ]
+  },
+  "countries": [
+    {
+      "iso3": "PRK", "name": "North Korea",
+      "leaders": [
+        {"name": "Kim Il-sung", "start_year": 1948, "end_year": 1994, "indicators": {"currency_portrait":1,"term_limits_removed":1,"president_for_life":1,"oath_to_person":1,"appointment_monopoly":1,"family_in_govt":1,"places_named":1,"grandiose_titles":1}},
+        {"name": "Kim Jong-il", "start_year": 1994, "end_year": 2011, "indicators": {"currency_portrait":1,"term_limits_removed":1,"president_for_life":1,"oath_to_person":1,"appointment_monopoly":1,"family_in_govt":1,"places_named":1,"grandiose_titles":1}},
+        {"name": "Kim Jong-un", "start_year": 2011, "end_year": 2026, "indicators": {"currency_portrait":1,"term_limits_removed":1,"president_for_life":0,"oath_to_person":1,"appointment_monopoly":1,"family_in_govt":1,"places_named":1,"grandiose_titles":1}}
+      ]
+    },
+    {
+      "iso3": "IRQ", "name": "Iraq",
+      "leaders": [
+        {"name": "Saddam Hussein", "start_year": 1979, "end_year": 2003, "indicators": {"currency_portrait":1,"term_limits_removed":1,"president_for_life":0,"oath_to_person":1,"appointment_monopoly":1,"family_in_govt":1,"places_named":1,"grandiose_titles":1}}
+      ]
+    },
+    {
+      "iso3": "LBY", "name": "Libya",
+      "leaders": [
+        {"name": "Muammar Gaddafi", "start_year": 1969, "end_year": 2011, "indicators": {"currency_portrait":0,"term_limits_removed":1,"president_for_life":1,"oath_to_person":1,"appointment_monopoly":1,"family_in_govt":1,"places_named":1,"grandiose_titles":1}}
+      ]
+    },
+    {
+      "iso3": "TKM", "name": "Turkmenistan",
+      "leaders": [
+        {"name": "Saparmurat Niyazov", "start_year": 1991, "end_year": 2006, "indicators": {"currency_portrait":1,"term_limits_removed":1,"president_for_life":1,"oath_to_person":1,"appointment_monopoly":1,"family_in_govt":0,"places_named":1,"grandiose_titles":1}}
+      ]
+    },
+    {
+      "iso3": "ZWE", "name": "Zimbabwe",
+      "leaders": [
+        {"name": "Robert Mugabe", "start_year": 1987, "end_year": 2017, "indicators": {"currency_portrait":0,"term_limits_removed":1,"president_for_life":0,"oath_to_person":0,"appointment_monopoly":1,"family_in_govt":1,"places_named":1,"grandiose_titles":1}}
+      ]
+    },
+    {
+      "iso3": "UGA", "name": "Uganda",
+      "leaders": [
+        {"name": "Idi Amin", "start_year": 1971, "end_year": 1979, "indicators": {"currency_portrait":1,"term_limits_removed":1,"president_for_life":1,"oath_to_person":1,"appointment_monopoly":1,"family_in_govt":0,"places_named":0,"grandiose_titles":1}},
+        {"name": "Yoweri Museveni", "start_year": 1986, "end_year": 2026, "indicators": {"currency_portrait":0,"term_limits_removed":1,"president_for_life":0,"oath_to_person":0,"appointment_monopoly":1,"family_in_govt":1,"places_named":0,"grandiose_titles":0}}
+      ]
+    },
+    {
+      "iso3": "GNQ", "name": "Equatorial Guinea",
+      "leaders": [
+        {"name": "Teodoro Obiang", "start_year": 1979, "end_year": 2026, "indicators": {"currency_portrait":1,"term_limits_removed":1,"president_for_life":0,"oath_to_person":0,"appointment_monopoly":1,"family_in_govt":1,"places_named":1,"grandiose_titles":1}}
+      ]
+    },
+    {
+      "iso3": "CMR", "name": "Cameroon",
+      "leaders": [
+        {"name": "Paul Biya", "start_year": 1982, "end_year": 2026, "indicators": {"currency_portrait":0,"term_limits_removed":1,"president_for_life":0,"oath_to_person":0,"appointment_monopoly":1,"family_in_govt":1,"places_named":0,"grandiose_titles":0}}
+      ]
+    },
+    {
+      "iso3": "BLR", "name": "Belarus",
+      "leaders": [
+        {"name": "Alexander Lukashenko", "start_year": 1994, "end_year": 2026, "indicators": {"currency_portrait":0,"term_limits_removed":1,"president_for_life":0,"oath_to_person":0,"appointment_monopoly":1,"family_in_govt":1,"places_named":0,"grandiose_titles":0}}
+      ]
+    },
+    {
+      "iso3": "RUS", "name": "Russia",
+      "leaders": [
+        {"name": "Vladimir Putin", "start_year": 2000, "end_year": 2026, "indicators": {"currency_portrait":0,"term_limits_removed":1,"president_for_life":0,"oath_to_person":0,"appointment_monopoly":1,"family_in_govt":0,"places_named":0,"grandiose_titles":0}}
+      ]
+    },
+    {
+      "iso3": "CUB", "name": "Cuba",
+      "leaders": [
+        {"name": "Fidel Castro", "start_year": 1959, "end_year": 2008, "indicators": {"currency_portrait":0,"term_limits_removed":1,"president_for_life":0,"oath_to_person":1,"appointment_monopoly":1,"family_in_govt":1,"places_named":0,"grandiose_titles":1}}
+      ]
+    },
+    {
+      "iso3": "SYR", "name": "Syria",
+      "leaders": [
+        {"name": "Hafez al-Assad", "start_year": 1971, "end_year": 2000, "indicators": {"currency_portrait":1,"term_limits_removed":1,"president_for_life":0,"oath_to_person":1,"appointment_monopoly":1,"family_in_govt":1,"places_named":1,"grandiose_titles":1}},
+        {"name": "Bashar al-Assad", "start_year": 2000, "end_year": 2024, "indicators": {"currency_portrait":0,"term_limits_removed":1,"president_for_life":0,"oath_to_person":0,"appointment_monopoly":1,"family_in_govt":1,"places_named":0,"grandiose_titles":0}}
+      ]
+    },
+    {
+      "iso3": "KHM", "name": "Cambodia",
+      "leaders": [
+        {"name": "Hun Sen", "start_year": 1985, "end_year": 2023, "indicators": {"currency_portrait":0,"term_limits_removed":1,"president_for_life":0,"oath_to_person":0,"appointment_monopoly":1,"family_in_govt":1,"places_named":1,"grandiose_titles":1}}
+      ]
+    },
+    {
+      "iso3": "CHN", "name": "China",
+      "leaders": [
+        {"name": "Mao Zedong", "start_year": 1949, "end_year": 1976, "indicators": {"currency_portrait":1,"term_limits_removed":1,"president_for_life":0,"oath_to_person":1,"appointment_monopoly":1,"family_in_govt":1,"places_named":1,"grandiose_titles":1}}
+      ]
+    },
+    {
+      "iso3": "EGY", "name": "Egypt",
+      "leaders": [
+        {"name": "Hosni Mubarak", "start_year": 1981, "end_year": 2011, "indicators": {"currency_portrait":0,"term_limits_removed":1,"president_for_life":0,"oath_to_person":0,"appointment_monopoly":1,"family_in_govt":1,"places_named":0,"grandiose_titles":0}}
+      ]
+    },
+    {
+      "iso3": "KAZ", "name": "Kazakhstan",
+      "leaders": [
+        {"name": "Nursultan Nazarbayev", "start_year": 1991, "end_year": 2019, "indicators": {"currency_portrait":1,"term_limits_removed":1,"president_for_life":0,"oath_to_person":0,"appointment_monopoly":1,"family_in_govt":1,"places_named":1,"grandiose_titles":1}}
+      ]
+    },
+    {
+      "iso3": "VEN", "name": "Venezuela",
+      "leaders": [
+        {"name": "Hugo Chávez", "start_year": 1999, "end_year": 2013, "indicators": {"currency_portrait":0,"term_limits_removed":1,"president_for_life":0,"oath_to_person":0,"appointment_monopoly":1,"family_in_govt":0,"places_named":1,"grandiose_titles":1}}
+      ]
+    },
+    {
+      "iso3": "ETH", "name": "Ethiopia",
+      "leaders": [
+        {"name": "Haile Selassie", "start_year": 1930, "end_year": 1974, "indicators": {"currency_portrait":1,"term_limits_removed":1,"president_for_life":1,"oath_to_person":1,"appointment_monopoly":1,"family_in_govt":1,"places_named":1,"grandiose_titles":1}},
+        {"name": "Mengistu Haile Mariam", "start_year": 1977, "end_year": 1991, "indicators": {"currency_portrait":0,"term_limits_removed":1,"president_for_life":0,"oath_to_person":1,"appointment_monopoly":1,"family_in_govt":0,"places_named":0,"grandiose_titles":1}}
+      ]
+    },
+    {
+      "iso3": "HTI", "name": "Haiti",
+      "leaders": [
+        {"name": "François Duvalier", "start_year": 1957, "end_year": 1971, "indicators": {"currency_portrait":1,"term_limits_removed":1,"president_for_life":1,"oath_to_person":1,"appointment_monopoly":1,"family_in_govt":1,"places_named":1,"grandiose_titles":1}},
+        {"name": "Jean-Claude Duvalier", "start_year": 1971, "end_year": 1986, "indicators": {"currency_portrait":1,"term_limits_removed":1,"president_for_life":1,"oath_to_person":1,"appointment_monopoly":1,"family_in_govt":1,"places_named":0,"grandiose_titles":1}}
+      ]
+    },
+    {
+      "iso3": "ERI", "name": "Eritrea",
+      "leaders": [
+        {"name": "Isaias Afwerki", "start_year": 1993, "end_year": 2026, "indicators": {"currency_portrait":0,"term_limits_removed":1,"president_for_life":0,"oath_to_person":0,"appointment_monopoly":1,"family_in_govt":0,"places_named":0,"grandiose_titles":0}}
+      ]
+    },
+    {
+      "iso3": "TJK", "name": "Tajikistan",
+      "leaders": [
+        {"name": "Emomali Rahmon", "start_year": 1994, "end_year": 2026, "indicators": {"currency_portrait":0,"term_limits_removed":1,"president_for_life":0,"oath_to_person":0,"appointment_monopoly":1,"family_in_govt":1,"places_named":1,"grandiose_titles":1}}
+      ]
+    },
+    {
+      "iso3": "RWA", "name": "Rwanda",
+      "leaders": [
+        {"name": "Paul Kagame", "start_year": 2000, "end_year": 2026, "indicators": {"currency_portrait":0,"term_limits_removed":1,"president_for_life":0,"oath_to_person":0,"appointment_monopoly":1,"family_in_govt":0,"places_named":0,"grandiose_titles":0}}
+      ]
+    }
+  ]
+}
