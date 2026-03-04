@@ -1,157 +1,6669 @@
 {
   "metadata": {
-    "version": "0.1-sample",
-    "description": "Personalism in Dictatorships — SAMPLE DATA for dashboard demonstration. Based on secondary sources; not yet validated by scrapers.",
+    "version": "0.2",
+    "description": "Personalism indicators from Wikidata for all Archigos leaders (post-1945)",
     "last_updated": "2026-03-04",
-    "sources": ["hand-coded from secondary sources"],
+    "source": "Wikidata SPARQL + Archigos 4.1",
+    "n_leaders": 579,
     "indicators": [
-      {"key": "currency_portrait", "label": "Currency Portrait", "dimension": "cult", "source": "Numista", "description": "Living ruler's portrait appears on national banknotes"},
-      {"key": "term_limits_removed", "label": "Term Limits Removed", "dimension": "power", "source": "Constitute Project", "description": "Constitutional term limits amended or abolished during tenure"},
-      {"key": "president_for_life", "label": "President for Life", "dimension": "power", "source": "Constitute Project", "description": "Leader holds an official life-tenure title"},
-      {"key": "oath_to_person", "label": "Loyalty Oath", "dimension": "cult", "source": "Constitute Project", "description": "Officials required to swear loyalty to the leader personally"},
-      {"key": "appointment_monopoly", "label": "Appointment Monopoly", "dimension": "power", "source": "Constitute Project", "description": "Leader exercises unilateral control over senior appointments"},
-      {"key": "family_in_govt", "label": "Family in Government", "dimension": "power", "source": "Wikidata", "description": "≥2 immediate family members in senior government positions"},
-      {"key": "places_named", "label": "Places Named After", "dimension": "cult", "source": "Wikidata", "description": "≥2 major places or institutions named after the living ruler"},
-      {"key": "grandiose_titles", "label": "Grandiose Titles", "dimension": "cult", "source": "Wikidata", "description": "Leader holds non-standard honorific titles"}
+      {
+        "key": "family_in_govt",
+        "label": "Family in Government",
+        "dimension": "power",
+        "source": "Wikidata",
+        "description": "≥2 immediate family members held political office"
+      },
+      {
+        "key": "places_named",
+        "label": "Places Named After",
+        "dimension": "cult",
+        "source": "Wikidata",
+        "description": "≥2 places or institutions named after the leader"
+      },
+      {
+        "key": "grandiose_titles",
+        "label": "Grandiose Titles",
+        "dimension": "cult",
+        "source": "Wikidata",
+        "description": "Leader holds honorific prefixes, suffixes, or noble titles"
+      }
     ]
   },
   "countries": [
     {
-      "iso3": "PRK", "name": "North Korea",
+      "iso3": "AFG",
+      "name": "AFG",
       "leaders": [
-        {"name": "Kim Il-sung", "start_year": 1948, "end_year": 1994, "indicators": {"currency_portrait":1,"term_limits_removed":1,"president_for_life":1,"oath_to_person":1,"appointment_monopoly":1,"family_in_govt":1,"places_named":1,"grandiose_titles":1}},
-        {"name": "Kim Jong-il", "start_year": 1994, "end_year": 2011, "indicators": {"currency_portrait":1,"term_limits_removed":1,"president_for_life":1,"oath_to_person":1,"appointment_monopoly":1,"family_in_govt":1,"places_named":1,"grandiose_titles":1}},
-        {"name": "Kim Jong-un", "start_year": 2011, "end_year": 2026, "indicators": {"currency_portrait":1,"term_limits_removed":1,"president_for_life":0,"oath_to_person":1,"appointment_monopoly":1,"family_in_govt":1,"places_named":1,"grandiose_titles":1}}
+        {
+          "name": "Abdallah Yakta",
+          "start_year": 1967,
+          "end_year": 1967,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Amin",
+          "start_year": 1979,
+          "end_year": 1979,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Karmal",
+          "start_year": 1979,
+          "end_year": 1986,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Hamid Karzai",
+          "start_year": 2001,
+          "end_year": 2014,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
       ]
     },
     {
-      "iso3": "IRQ", "name": "Iraq",
+      "iso3": "AGO",
+      "name": "ANG",
       "leaders": [
-        {"name": "Saddam Hussein", "start_year": 1979, "end_year": 2003, "indicators": {"currency_portrait":1,"term_limits_removed":1,"president_for_life":0,"oath_to_person":1,"appointment_monopoly":1,"family_in_govt":1,"places_named":1,"grandiose_titles":1}}
+        {
+          "name": "Neto",
+          "start_year": 1975,
+          "end_year": 1979,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        }
       ]
     },
     {
-      "iso3": "LBY", "name": "Libya",
+      "iso3": "ALB",
+      "name": "ALB",
       "leaders": [
-        {"name": "Muammar Gaddafi", "start_year": 1969, "end_year": 2011, "indicators": {"currency_portrait":0,"term_limits_removed":1,"president_for_life":1,"oath_to_person":1,"appointment_monopoly":1,"family_in_govt":1,"places_named":1,"grandiose_titles":1}}
+        {
+          "name": "Alia",
+          "start_year": 1985,
+          "end_year": 1992,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Berisha",
+          "start_year": 1992,
+          "end_year": 1997,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Fatos Nano",
+          "start_year": 1997,
+          "end_year": 1998,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Majko",
+          "start_year": 1998,
+          "end_year": 1999,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Majko",
+          "start_year": 2002,
+          "end_year": 2002,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Fatos Nano",
+          "start_year": 2002,
+          "end_year": 2005,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
       ]
     },
     {
-      "iso3": "TKM", "name": "Turkmenistan",
+      "iso3": "ARG",
+      "name": "ARG",
       "leaders": [
-        {"name": "Saparmurat Niyazov", "start_year": 1991, "end_year": 2006, "indicators": {"currency_portrait":1,"term_limits_removed":1,"president_for_life":1,"oath_to_person":1,"appointment_monopoly":1,"family_in_govt":0,"places_named":1,"grandiose_titles":1}}
+        {
+          "name": "Lonardi",
+          "start_year": 1955,
+          "end_year": 1955,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Aramburu",
+          "start_year": 1955,
+          "end_year": 1958,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Frondizi",
+          "start_year": 1958,
+          "end_year": 1962,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Arturo Illia",
+          "start_year": 1963,
+          "end_year": 1966,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Viola",
+          "start_year": 1981,
+          "end_year": 1981,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Galtieri",
+          "start_year": 1981,
+          "end_year": 1982,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Bignone",
+          "start_year": 1982,
+          "end_year": 1983,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Menem",
+          "start_year": 1989,
+          "end_year": 1999,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Eduardo Duhalde",
+          "start_year": 2002,
+          "end_year": 2003,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
       ]
     },
     {
-      "iso3": "ZWE", "name": "Zimbabwe",
+      "iso3": "ARM",
+      "name": "ARM",
       "leaders": [
-        {"name": "Robert Mugabe", "start_year": 1987, "end_year": 2017, "indicators": {"currency_portrait":0,"term_limits_removed":1,"president_for_life":0,"oath_to_person":0,"appointment_monopoly":1,"family_in_govt":1,"places_named":1,"grandiose_titles":1}}
+        {
+          "name": "Kocharian",
+          "start_year": 1998,
+          "end_year": 2008,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
       ]
     },
     {
-      "iso3": "UGA", "name": "Uganda",
+      "iso3": "AUS",
+      "name": "AUL",
       "leaders": [
-        {"name": "Idi Amin", "start_year": 1971, "end_year": 1979, "indicators": {"currency_portrait":1,"term_limits_removed":1,"president_for_life":1,"oath_to_person":1,"appointment_monopoly":1,"family_in_govt":0,"places_named":0,"grandiose_titles":1}},
-        {"name": "Yoweri Museveni", "start_year": 1986, "end_year": 2026, "indicators": {"currency_portrait":0,"term_limits_removed":1,"president_for_life":0,"oath_to_person":0,"appointment_monopoly":1,"family_in_govt":1,"places_named":0,"grandiose_titles":0}}
+        {
+          "name": "Forde",
+          "start_year": 1945,
+          "end_year": 1945,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "Chifley",
+          "start_year": 1945,
+          "end_year": 1949,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Menzies",
+          "start_year": 1949,
+          "end_year": 1966,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "Holt",
+          "start_year": 1966,
+          "end_year": 1967,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "McEwen",
+          "start_year": 1967,
+          "end_year": 1968,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Gorton",
+          "start_year": 1968,
+          "end_year": 1971,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "McMahon",
+          "start_year": 1971,
+          "end_year": 1972,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Whitlam",
+          "start_year": 1972,
+          "end_year": 1975,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Fraser",
+          "start_year": 1975,
+          "end_year": 1983,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Hawke",
+          "start_year": 1983,
+          "end_year": 1991,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "Howard",
+          "start_year": 1996,
+          "end_year": 2007,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
       ]
     },
     {
-      "iso3": "GNQ", "name": "Equatorial Guinea",
+      "iso3": "AUT",
+      "name": "AUS",
       "leaders": [
-        {"name": "Teodoro Obiang", "start_year": 1979, "end_year": 2026, "indicators": {"currency_portrait":1,"term_limits_removed":1,"president_for_life":0,"oath_to_person":0,"appointment_monopoly":1,"family_in_govt":1,"places_named":1,"grandiose_titles":1}}
+        {
+          "name": "Renner",
+          "start_year": 1945,
+          "end_year": 1945,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Gorbach",
+          "start_year": 1961,
+          "end_year": 1964,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Klaus",
+          "start_year": 1964,
+          "end_year": 1970,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Kreisky",
+          "start_year": 1970,
+          "end_year": 1983,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Vranitzky",
+          "start_year": 1986,
+          "end_year": 1997,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Klima",
+          "start_year": 1997,
+          "end_year": 2000,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
       ]
     },
     {
-      "iso3": "CMR", "name": "Cameroon",
+      "iso3": "AZE",
+      "name": "AZE",
       "leaders": [
-        {"name": "Paul Biya", "start_year": 1982, "end_year": 2026, "indicators": {"currency_portrait":0,"term_limits_removed":1,"president_for_life":0,"oath_to_person":0,"appointment_monopoly":1,"family_in_govt":1,"places_named":0,"grandiose_titles":0}}
+        {
+          "name": "H. Aliyev",
+          "start_year": 1993,
+          "end_year": 2003,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Ilhma Aliyev",
+          "start_year": 2003,
+          "end_year": 2015,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
       ]
     },
     {
-      "iso3": "BLR", "name": "Belarus",
+      "iso3": "BDI",
+      "name": "BUI",
       "leaders": [
-        {"name": "Alexander Lukashenko", "start_year": 1994, "end_year": 2026, "indicators": {"currency_portrait":0,"term_limits_removed":1,"president_for_life":0,"oath_to_person":0,"appointment_monopoly":1,"family_in_govt":1,"places_named":0,"grandiose_titles":0}}
+        {
+          "name": "Micombero",
+          "start_year": 1966,
+          "end_year": 1976,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Ndadaye",
+          "start_year": 1993,
+          "end_year": 1993,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Ndayizeye",
+          "start_year": 2003,
+          "end_year": 2005,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
       ]
     },
     {
-      "iso3": "RUS", "name": "Russia",
+      "iso3": "BEL",
+      "name": "BEL",
       "leaders": [
-        {"name": "Vladimir Putin", "start_year": 2000, "end_year": 2026, "indicators": {"currency_portrait":0,"term_limits_removed":1,"president_for_life":0,"oath_to_person":0,"appointment_monopoly":1,"family_in_govt":0,"places_named":0,"grandiose_titles":0}}
+        {
+          "name": "Martens",
+          "start_year": 1979,
+          "end_year": 1981,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Eyskens, M.",
+          "start_year": 1981,
+          "end_year": 1981,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Martens",
+          "start_year": 1981,
+          "end_year": 1992,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
       ]
     },
     {
-      "iso3": "CUB", "name": "Cuba",
+      "iso3": "BEN",
+      "name": "BEN",
       "leaders": [
-        {"name": "Fidel Castro", "start_year": 1959, "end_year": 2008, "indicators": {"currency_portrait":0,"term_limits_removed":1,"president_for_life":0,"oath_to_person":1,"appointment_monopoly":1,"family_in_govt":1,"places_named":0,"grandiose_titles":1}}
+        {
+          "name": "Maga",
+          "start_year": 1960,
+          "end_year": 1963,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Maga",
+          "start_year": 1970,
+          "end_year": 1972,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
       ]
     },
     {
-      "iso3": "SYR", "name": "Syria",
+      "iso3": "BFA",
+      "name": "BFO",
       "leaders": [
-        {"name": "Hafez al-Assad", "start_year": 1971, "end_year": 2000, "indicators": {"currency_portrait":1,"term_limits_removed":1,"president_for_life":0,"oath_to_person":1,"appointment_monopoly":1,"family_in_govt":1,"places_named":1,"grandiose_titles":1}},
-        {"name": "Bashar al-Assad", "start_year": 2000, "end_year": 2024, "indicators": {"currency_portrait":0,"term_limits_removed":1,"president_for_life":0,"oath_to_person":0,"appointment_monopoly":1,"family_in_govt":1,"places_named":0,"grandiose_titles":0}}
+        {
+          "name": "Sankara",
+          "start_year": 1983,
+          "end_year": 1987,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        }
       ]
     },
     {
-      "iso3": "KHM", "name": "Cambodia",
+      "iso3": "BGD",
+      "name": "BNG",
       "leaders": [
-        {"name": "Hun Sen", "start_year": 1985, "end_year": 2023, "indicators": {"currency_portrait":0,"term_limits_removed":1,"president_for_life":0,"oath_to_person":0,"appointment_monopoly":1,"family_in_govt":1,"places_named":1,"grandiose_titles":1}}
+        {
+          "name": "Sheikh Mujib Rahman",
+          "start_year": 1972,
+          "end_year": 1975,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "Ziaur Rahman",
+          "start_year": 1975,
+          "end_year": 1981,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
       ]
     },
     {
-      "iso3": "CHN", "name": "China",
+      "iso3": "BGR",
+      "name": "BUL",
       "leaders": [
-        {"name": "Mao Zedong", "start_year": 1949, "end_year": 1976, "indicators": {"currency_portrait":1,"term_limits_removed":1,"president_for_life":0,"oath_to_person":1,"appointment_monopoly":1,"family_in_govt":1,"places_named":1,"grandiose_titles":1}}
+        {
+          "name": "Zhivkov",
+          "start_year": 1956,
+          "end_year": 1989,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "Mladenov",
+          "start_year": 1989,
+          "end_year": 1990,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Indzhova",
+          "start_year": 1994,
+          "end_year": 1995,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
       ]
     },
     {
-      "iso3": "EGY", "name": "Egypt",
+      "iso3": "BHS",
+      "name": "BHM",
       "leaders": [
-        {"name": "Hosni Mubarak", "start_year": 1981, "end_year": 2011, "indicators": {"currency_portrait":0,"term_limits_removed":1,"president_for_life":0,"oath_to_person":0,"appointment_monopoly":1,"family_in_govt":1,"places_named":0,"grandiose_titles":0}}
+        {
+          "name": "Ingraham",
+          "start_year": 1992,
+          "end_year": 2002,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
       ]
     },
     {
-      "iso3": "KAZ", "name": "Kazakhstan",
+      "iso3": "BLR",
+      "name": "BLR",
       "leaders": [
-        {"name": "Nursultan Nazarbayev", "start_year": 1991, "end_year": 2019, "indicators": {"currency_portrait":1,"term_limits_removed":1,"president_for_life":0,"oath_to_person":0,"appointment_monopoly":1,"family_in_govt":1,"places_named":1,"grandiose_titles":1}}
+        {
+          "name": "Lukashenko",
+          "start_year": 1994,
+          "end_year": 2015,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 1
+          }
+        }
       ]
     },
     {
-      "iso3": "VEN", "name": "Venezuela",
+      "iso3": "BLZ",
+      "name": "BLZ",
       "leaders": [
-        {"name": "Hugo Chávez", "start_year": 1999, "end_year": 2013, "indicators": {"currency_portrait":0,"term_limits_removed":1,"president_for_life":0,"oath_to_person":0,"appointment_monopoly":1,"family_in_govt":0,"places_named":1,"grandiose_titles":1}}
+        {
+          "name": "Price",
+          "start_year": 1961,
+          "end_year": 1984,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Esquivel",
+          "start_year": 1984,
+          "end_year": 1989,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Price",
+          "start_year": 1989,
+          "end_year": 1993,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Esquivel",
+          "start_year": 1993,
+          "end_year": 1998,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Musa",
+          "start_year": 1998,
+          "end_year": 2008,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
       ]
     },
     {
-      "iso3": "ETH", "name": "Ethiopia",
+      "iso3": "BOL",
+      "name": "BOL",
       "leaders": [
-        {"name": "Haile Selassie", "start_year": 1930, "end_year": 1974, "indicators": {"currency_portrait":1,"term_limits_removed":1,"president_for_life":1,"oath_to_person":1,"appointment_monopoly":1,"family_in_govt":1,"places_named":1,"grandiose_titles":1}},
-        {"name": "Mengistu Haile Mariam", "start_year": 1977, "end_year": 1991, "indicators": {"currency_portrait":0,"term_limits_removed":1,"president_for_life":0,"oath_to_person":1,"appointment_monopoly":1,"family_in_govt":0,"places_named":0,"grandiose_titles":1}}
+        {
+          "name": "Siles Salinas",
+          "start_year": 1969,
+          "end_year": 1969,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Paz Zamora",
+          "start_year": 1989,
+          "end_year": 1993,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Carlos Mesa",
+          "start_year": 2003,
+          "end_year": 2005,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
       ]
     },
     {
-      "iso3": "HTI", "name": "Haiti",
+      "iso3": "BRA",
+      "name": "BRA",
       "leaders": [
-        {"name": "François Duvalier", "start_year": 1957, "end_year": 1971, "indicators": {"currency_portrait":1,"term_limits_removed":1,"president_for_life":1,"oath_to_person":1,"appointment_monopoly":1,"family_in_govt":1,"places_named":1,"grandiose_titles":1}},
-        {"name": "Jean-Claude Duvalier", "start_year": 1971, "end_year": 1986, "indicators": {"currency_portrait":1,"term_limits_removed":1,"president_for_life":1,"oath_to_person":1,"appointment_monopoly":1,"family_in_govt":1,"places_named":0,"grandiose_titles":1}}
+        {
+          "name": "Dutra",
+          "start_year": 1946,
+          "end_year": 1951,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Ranieri Mazzilli",
+          "start_year": 1961,
+          "end_year": 1961,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Ranieri Mazzilli",
+          "start_year": 1964,
+          "end_year": 1964,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Geisel",
+          "start_year": 1974,
+          "end_year": 1979,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Mello",
+          "start_year": 1990,
+          "end_year": 1992,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Franco, Itamar",
+          "start_year": 1992,
+          "end_year": 1994,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Cardoso",
+          "start_year": 1995,
+          "end_year": 2003,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
       ]
     },
     {
-      "iso3": "ERI", "name": "Eritrea",
+      "iso3": "BRB",
+      "name": "BAR",
       "leaders": [
-        {"name": "Isaias Afwerki", "start_year": 1993, "end_year": 2026, "indicators": {"currency_portrait":0,"term_limits_removed":1,"president_for_life":0,"oath_to_person":0,"appointment_monopoly":1,"family_in_govt":0,"places_named":0,"grandiose_titles":0}}
+        {
+          "name": "Barrow",
+          "start_year": 1966,
+          "end_year": 1976,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "St. John",
+          "start_year": 1985,
+          "end_year": 1986,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Barrow",
+          "start_year": 1986,
+          "end_year": 1987,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Sandiford",
+          "start_year": 1987,
+          "end_year": 1994,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 1
+          }
+        }
       ]
     },
     {
-      "iso3": "TJK", "name": "Tajikistan",
+      "iso3": "BRN",
+      "name": "BRU",
       "leaders": [
-        {"name": "Emomali Rahmon", "start_year": 1994, "end_year": 2026, "indicators": {"currency_portrait":0,"term_limits_removed":1,"president_for_life":0,"oath_to_person":0,"appointment_monopoly":1,"family_in_govt":1,"places_named":1,"grandiose_titles":1}}
+        {
+          "name": "Hassanal Bolkiah",
+          "start_year": 1967,
+          "end_year": 2015,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 1
+          }
+        }
       ]
     },
     {
-      "iso3": "RWA", "name": "Rwanda",
+      "iso3": "BWA",
+      "name": "BOT",
       "leaders": [
-        {"name": "Paul Kagame", "start_year": 2000, "end_year": 2026, "indicators": {"currency_portrait":0,"term_limits_removed":1,"president_for_life":0,"oath_to_person":0,"appointment_monopoly":1,"family_in_govt":0,"places_named":0,"grandiose_titles":0}}
+        {
+          "name": "Khama",
+          "start_year": 1966,
+          "end_year": 1980,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Masire",
+          "start_year": 1980,
+          "end_year": 1998,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Mogae",
+          "start_year": 1998,
+          "end_year": 2008,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "CAN",
+      "name": "CAN",
+      "leaders": [
+        {
+          "name": "St. Laurent",
+          "start_year": 1948,
+          "end_year": 1957,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "Diefenbaker",
+          "start_year": 1957,
+          "end_year": 1963,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Pearson",
+          "start_year": 1963,
+          "end_year": 1968,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "Pierre Trudeau",
+          "start_year": 1968,
+          "end_year": 1979,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Clark",
+          "start_year": 1979,
+          "end_year": 1980,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "Pierre Trudeau",
+          "start_year": 1980,
+          "end_year": 1984,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Turner",
+          "start_year": 1984,
+          "end_year": 1984,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "Mulroney",
+          "start_year": 1984,
+          "end_year": 1993,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 1
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "CHL",
+      "name": "CHL",
+      "leaders": [
+        {
+          "name": "Alessandri Rodriguez",
+          "start_year": 1958,
+          "end_year": 1964,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Frei Montalva",
+          "start_year": 1964,
+          "end_year": 1970,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Allende",
+          "start_year": 1970,
+          "end_year": 1973,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Pinochet",
+          "start_year": 1973,
+          "end_year": 1990,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Aylwin",
+          "start_year": 1990,
+          "end_year": 1994,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "CHN",
+      "name": "CHN",
+      "leaders": [
+        {
+          "name": "Mao Tse-Tung",
+          "start_year": 1949,
+          "end_year": 1976,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Hua Guofeng",
+          "start_year": 1976,
+          "end_year": 1980,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Deng Xiaoping",
+          "start_year": 1980,
+          "end_year": 1997,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Jiang Zemin",
+          "start_year": 1997,
+          "end_year": 2003,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Hu Jintao",
+          "start_year": 2003,
+          "end_year": 2012,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "CIV",
+      "name": "CDI",
+      "leaders": [
+        {
+          "name": "Laurent Gbagbo",
+          "start_year": 2000,
+          "end_year": 2011,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "CMR",
+      "name": "CAO",
+      "leaders": [
+        {
+          "name": "Ahidjo",
+          "start_year": 1960,
+          "end_year": 1982,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Biya",
+          "start_year": 1982,
+          "end_year": 2015,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "COD",
+      "name": "DRC",
+      "leaders": [
+        {
+          "name": "Lumumba",
+          "start_year": 1960,
+          "end_year": 1960,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Mobutu",
+          "start_year": 1960,
+          "end_year": 1960,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "Mobutu",
+          "start_year": 1965,
+          "end_year": 1997,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 1
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "COL",
+      "name": "COL",
+      "leaders": [
+        {
+          "name": "Lleras Camargo",
+          "start_year": 1945,
+          "end_year": 1946,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Rojas Pinillia",
+          "start_year": 1953,
+          "end_year": 1957,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Lleras Camargo",
+          "start_year": 1958,
+          "end_year": 1962,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Lleras Restropo",
+          "start_year": 1966,
+          "end_year": 1970,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Pastrana Borrero",
+          "start_year": 1970,
+          "end_year": 1974,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Vargas",
+          "start_year": 1986,
+          "end_year": 1990,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "COM",
+      "name": "COM",
+      "leaders": [
+        {
+          "name": "Abdallah",
+          "start_year": 1975,
+          "end_year": 1975,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "COW760",
+      "name": "BHU",
+      "leaders": [
+        {
+          "name": "Wangchuk, Jigme Dorji",
+          "start_year": 1952,
+          "end_year": 1972,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Wangchuck, Jigme Singye",
+          "start_year": 1972,
+          "end_year": 1998,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "CPV",
+      "name": "CAP",
+      "leaders": [
+        {
+          "name": "Pires",
+          "start_year": 1975,
+          "end_year": 1991,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "CRI",
+      "name": "COS",
+      "leaders": [
+        {
+          "name": "Orlich",
+          "start_year": 1962,
+          "end_year": 1966,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Carazo Odio",
+          "start_year": 1978,
+          "end_year": 1982,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "CUB",
+      "name": "CUB",
+      "leaders": [
+        {
+          "name": "Batista",
+          "start_year": 1952,
+          "end_year": 1959,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "CYP",
+      "name": "CYP",
+      "leaders": [
+        {
+          "name": "Makarios",
+          "start_year": 1960,
+          "end_year": 1974,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Makarios",
+          "start_year": 1974,
+          "end_year": 1977,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Kyprianou",
+          "start_year": 1977,
+          "end_year": 1988,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "CZE",
+      "name": "CZE",
+      "leaders": [
+        {
+          "name": "Gottwald",
+          "start_year": 1948,
+          "end_year": 1953,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Klaus",
+          "start_year": 1993,
+          "end_year": 1997,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Stanislav Gross",
+          "start_year": 2004,
+          "end_year": 2005,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "DEU",
+      "name": "GFR",
+      "leaders": [
+        {
+          "name": "Wilhelm Pieck",
+          "start_year": 1946,
+          "end_year": 1950,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Adenauer",
+          "start_year": 1949,
+          "end_year": 1963,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "Ulbricht",
+          "start_year": 1950,
+          "end_year": 1971,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Erhard",
+          "start_year": 1963,
+          "end_year": 1966,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Kiesinger",
+          "start_year": 1966,
+          "end_year": 1969,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Brandt",
+          "start_year": 1969,
+          "end_year": 1974,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Honecker",
+          "start_year": 1971,
+          "end_year": 1989,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Schmidt",
+          "start_year": 1974,
+          "end_year": 1982,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "Kohl",
+          "start_year": 1982,
+          "end_year": 1998,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "Krenz",
+          "start_year": 1989,
+          "end_year": 1989,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "DJI",
+      "name": "DJI",
+      "leaders": [
+        {
+          "name": "Gouled Aptidon",
+          "start_year": 1977,
+          "end_year": 1999,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "DNK",
+      "name": "DEN",
+      "leaders": [
+        {
+          "name": "Buhl",
+          "start_year": 1945,
+          "end_year": 1945,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Kristensen",
+          "start_year": 1945,
+          "end_year": 1947,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Hedtoft",
+          "start_year": 1947,
+          "end_year": 1950,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Eriksen",
+          "start_year": 1950,
+          "end_year": 1953,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Hedtoft",
+          "start_year": 1953,
+          "end_year": 1955,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Hansen",
+          "start_year": 1955,
+          "end_year": 1960,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Kampmann",
+          "start_year": 1960,
+          "end_year": 1962,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Krag",
+          "start_year": 1962,
+          "end_year": 1968,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Baunsgaard",
+          "start_year": 1968,
+          "end_year": 1971,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Krag",
+          "start_year": 1971,
+          "end_year": 1972,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Hartling",
+          "start_year": 1973,
+          "end_year": 1975,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Nyrup Rasmussen",
+          "start_year": 1993,
+          "end_year": 2001,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Fogh Rasmussen",
+          "start_year": 2001,
+          "end_year": 2009,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "DOM",
+      "name": "DOM",
+      "leaders": [
+        {
+          "name": "Filiberto Bonnelly",
+          "start_year": 1962,
+          "end_year": 1963,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Bosch",
+          "start_year": 1963,
+          "end_year": 1963,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Blanco",
+          "start_year": 1982,
+          "end_year": 1986,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "DZA",
+      "name": "ALG",
+      "leaders": [
+        {
+          "name": "Ben Khedda",
+          "start_year": 1962,
+          "end_year": 1962,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Bitat",
+          "start_year": 1978,
+          "end_year": 1979,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Benjedid",
+          "start_year": 1979,
+          "end_year": 1992,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Bouteflika",
+          "start_year": 1999,
+          "end_year": 2015,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "ECU",
+      "name": "ECU",
+      "leaders": [
+        {
+          "name": "Arosemena Gomez",
+          "start_year": 1966,
+          "end_year": 1968,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Borja Cevallos",
+          "start_year": 1988,
+          "end_year": 1992,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Mahuad",
+          "start_year": 1998,
+          "end_year": 2000,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "EGY",
+      "name": "EGY",
+      "leaders": [
+        {
+          "name": "Nasser",
+          "start_year": 1954,
+          "end_year": 1970,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "EST",
+      "name": "EST",
+      "leaders": [
+        {
+          "name": "Laar",
+          "start_year": 1992,
+          "end_year": 1994,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Laar",
+          "start_year": 1999,
+          "end_year": 2002,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "FIN",
+      "name": "FIN",
+      "leaders": [
+        {
+          "name": "Paasikivi",
+          "start_year": 1946,
+          "end_year": 1956,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Kekkonen",
+          "start_year": 1956,
+          "end_year": 1981,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Koivisto",
+          "start_year": 1981,
+          "end_year": 1994,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Marthi Ahtisaari",
+          "start_year": 1994,
+          "end_year": 2000,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Halonen",
+          "start_year": 2000,
+          "end_year": 2012,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "FJI",
+      "name": "FJI",
+      "leaders": [
+        {
+          "name": "Mara",
+          "start_year": 1970,
+          "end_year": 1987,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Rabuka",
+          "start_year": 1987,
+          "end_year": 1987,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Mara",
+          "start_year": 1987,
+          "end_year": 1992,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Rabuka",
+          "start_year": 1992,
+          "end_year": 1999,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Bainimarama",
+          "start_year": 2000,
+          "end_year": 2000,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "FRA",
+      "name": "FRN",
+      "leaders": [
+        {
+          "name": "Bidault",
+          "start_year": 1946,
+          "end_year": 1946,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Ramadier",
+          "start_year": 1947,
+          "end_year": 1947,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Schuman",
+          "start_year": 1947,
+          "end_year": 1948,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "Schuman",
+          "start_year": 1948,
+          "end_year": 1948,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "Queuille",
+          "start_year": 1948,
+          "end_year": 1949,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Bidault",
+          "start_year": 1949,
+          "end_year": 1950,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Queuille",
+          "start_year": 1950,
+          "end_year": 1950,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Queuille",
+          "start_year": 1951,
+          "end_year": 1951,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Faure",
+          "start_year": 1952,
+          "end_year": 1952,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Pinay",
+          "start_year": 1952,
+          "end_year": 1952,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Laniel",
+          "start_year": 1953,
+          "end_year": 1954,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Faure",
+          "start_year": 1955,
+          "end_year": 1956,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Mollet",
+          "start_year": 1956,
+          "end_year": 1957,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Pflimin",
+          "start_year": 1958,
+          "end_year": 1958,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "De Gaulle",
+          "start_year": 1958,
+          "end_year": 1969,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Poher",
+          "start_year": 1969,
+          "end_year": 1969,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Pompidou",
+          "start_year": 1969,
+          "end_year": 1974,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Poher",
+          "start_year": 1974,
+          "end_year": 1974,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Chirac",
+          "start_year": 1995,
+          "end_year": 2007,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 1
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "GAB",
+      "name": "GAB",
+      "leaders": [
+        {
+          "name": "Bongo",
+          "start_year": 1967,
+          "end_year": 2009,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "GBR",
+      "name": "UKG",
+      "leaders": [
+        {
+          "name": "Atlee",
+          "start_year": 1945,
+          "end_year": 1951,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "Churchill",
+          "start_year": 1951,
+          "end_year": 1955,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "Eden",
+          "start_year": 1955,
+          "end_year": 1957,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "MacMillan",
+          "start_year": 1957,
+          "end_year": 1963,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "Wilson",
+          "start_year": 1964,
+          "end_year": 1970,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "Heath",
+          "start_year": 1970,
+          "end_year": 1974,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "Wilson",
+          "start_year": 1974,
+          "end_year": 1976,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "Callaghan",
+          "start_year": 1976,
+          "end_year": 1979,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "Thatcher",
+          "start_year": 1979,
+          "end_year": 1990,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "Major",
+          "start_year": 1990,
+          "end_year": 1997,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "Blair",
+          "start_year": 1997,
+          "end_year": 2007,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 1
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "GEO",
+      "name": "GRG",
+      "leaders": [
+        {
+          "name": "Gamsakhurdia",
+          "start_year": 1991,
+          "end_year": 1992,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Shevardnadze",
+          "start_year": 1992,
+          "end_year": 2003,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Burdjanadze",
+          "start_year": 2003,
+          "end_year": 2004,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Saakashvili",
+          "start_year": 2004,
+          "end_year": 2007,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "GHA",
+      "name": "GHA",
+      "leaders": [
+        {
+          "name": "Nkrumah",
+          "start_year": 1952,
+          "end_year": 1966,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "Ankrah",
+          "start_year": 1966,
+          "end_year": 1969,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Afrifa",
+          "start_year": 1969,
+          "end_year": 1969,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Acheampong",
+          "start_year": 1972,
+          "end_year": 1978,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Akuffo",
+          "start_year": 1978,
+          "end_year": 1979,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Rawlings",
+          "start_year": 1979,
+          "end_year": 1979,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "Limann",
+          "start_year": 1979,
+          "end_year": 1981,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Rawlings",
+          "start_year": 1981,
+          "end_year": 2001,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "John Agyekum Kufuor",
+          "start_year": 2001,
+          "end_year": 2009,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "GMB",
+      "name": "GAM",
+      "leaders": [
+        {
+          "name": "Jammeh",
+          "start_year": 1994,
+          "end_year": 2015,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "GRC",
+      "name": "GRC",
+      "leaders": [
+        {
+          "name": "Plastiras",
+          "start_year": 1945,
+          "end_year": 1945,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Voulgaris",
+          "start_year": 1945,
+          "end_year": 1945,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Diomidis",
+          "start_year": 1949,
+          "end_year": 1950,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Plastiras",
+          "start_year": 1950,
+          "end_year": 1950,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Plastiras",
+          "start_year": 1951,
+          "end_year": 1952,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Kiousopoulos",
+          "start_year": 1952,
+          "end_year": 1952,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Mavromichalis",
+          "start_year": 1963,
+          "end_year": 1963,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Papadopoulos",
+          "start_year": 1967,
+          "end_year": 1973,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "A. Papandreou",
+          "start_year": 1981,
+          "end_year": 1989,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Zolotas",
+          "start_year": 1989,
+          "end_year": 1990,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "A. Papandreou",
+          "start_year": 1993,
+          "end_year": 1995,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "GTM",
+      "name": "GUA",
+      "leaders": [
+        {
+          "name": "Cerezo",
+          "start_year": 1986,
+          "end_year": 1991,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "GUY",
+      "name": "GUY",
+      "leaders": [
+        {
+          "name": "Burnham",
+          "start_year": 1966,
+          "end_year": 1985,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Hoyte",
+          "start_year": 1985,
+          "end_year": 1992,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Jagan Cheddi",
+          "start_year": 1992,
+          "end_year": 1997,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Samuel Hinds",
+          "start_year": 1997,
+          "end_year": 1997,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Janet Jagan",
+          "start_year": 1997,
+          "end_year": 1999,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Bharrat Jagdeo",
+          "start_year": 1999,
+          "end_year": 2011,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "HND",
+      "name": "HON",
+      "leaders": [
+        {
+          "name": "Castro",
+          "start_year": 1975,
+          "end_year": 1978,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Reina",
+          "start_year": 1994,
+          "end_year": 1998,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Ricardo Maduro",
+          "start_year": 2002,
+          "end_year": 2006,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "HTI",
+      "name": "HAI",
+      "leaders": [
+        {
+          "name": "Magloire",
+          "start_year": 1950,
+          "end_year": 1956,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Namphy",
+          "start_year": 1986,
+          "end_year": 1988,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Manigat",
+          "start_year": 1988,
+          "end_year": 1988,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Namphy",
+          "start_year": 1988,
+          "end_year": 1988,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "HUN",
+      "name": "HUN",
+      "leaders": [
+        {
+          "name": "Nagy",
+          "start_year": 1956,
+          "end_year": 1956,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Horn",
+          "start_year": 1994,
+          "end_year": 1998,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "IDN",
+      "name": "INS",
+      "leaders": [
+        {
+          "name": "Sukarno",
+          "start_year": 1945,
+          "end_year": 1948,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Louis Beel",
+          "start_year": 1948,
+          "end_year": 1949,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Sukarno",
+          "start_year": 1949,
+          "end_year": 1966,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "IND",
+      "name": "IND",
+      "leaders": [
+        {
+          "name": "Nehru",
+          "start_year": 1947,
+          "end_year": 1964,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "Nanda",
+          "start_year": 1964,
+          "end_year": 1964,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Shastri",
+          "start_year": 1964,
+          "end_year": 1966,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Nanda",
+          "start_year": 1966,
+          "end_year": 1966,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Gandhi, I.",
+          "start_year": 1966,
+          "end_year": 1977,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Desai",
+          "start_year": 1977,
+          "end_year": 1979,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Gandhi, I.",
+          "start_year": 1980,
+          "end_year": 1984,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Gandhi, R.",
+          "start_year": 1984,
+          "end_year": 1989,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Rao",
+          "start_year": 1991,
+          "end_year": 1996,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Gowda",
+          "start_year": 1996,
+          "end_year": 1997,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Gujral",
+          "start_year": 1997,
+          "end_year": 1998,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "IRL",
+      "name": "IRE",
+      "leaders": [
+        {
+          "name": "Costello",
+          "start_year": 1948,
+          "end_year": 1951,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Costello",
+          "start_year": 1954,
+          "end_year": 1957,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Lynch",
+          "start_year": 1966,
+          "end_year": 1973,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Lynch",
+          "start_year": 1977,
+          "end_year": 1979,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Haughey",
+          "start_year": 1979,
+          "end_year": 1981,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Fitzgerald",
+          "start_year": 1981,
+          "end_year": 1982,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Haughey",
+          "start_year": 1982,
+          "end_year": 1982,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Fitzgerald",
+          "start_year": 1982,
+          "end_year": 1987,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Haughey",
+          "start_year": 1987,
+          "end_year": 1992,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "IRN",
+      "name": "IRN",
+      "leaders": [
+        {
+          "name": "Mohammad Reza",
+          "start_year": 1953,
+          "end_year": 1979,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "Ayatollah Khomeini",
+          "start_year": 1979,
+          "end_year": 1989,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 1
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "IRQ",
+      "name": "IRQ",
+      "leaders": [
+        {
+          "name": "Salem Aref",
+          "start_year": 1963,
+          "end_year": 1966,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Saddam Hussein",
+          "start_year": 1979,
+          "end_year": 2003,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 1
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "ISL",
+      "name": "ICE",
+      "leaders": [
+        {
+          "name": "Benediktsson",
+          "start_year": 1963,
+          "end_year": 1970,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Thoroddsen",
+          "start_year": 1980,
+          "end_year": 1983,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "ISR",
+      "name": "ISR",
+      "leaders": [
+        {
+          "name": "Sharett",
+          "start_year": 1953,
+          "end_year": 1955,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Eshkol",
+          "start_year": 1963,
+          "end_year": 1969,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Meir",
+          "start_year": 1969,
+          "end_year": 1974,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Rabin",
+          "start_year": 1974,
+          "end_year": 1977,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Peres",
+          "start_year": 1977,
+          "end_year": 1977,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Begin",
+          "start_year": 1977,
+          "end_year": 1983,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Peres",
+          "start_year": 1984,
+          "end_year": 1986,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Rabin",
+          "start_year": 1992,
+          "end_year": 1995,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Peres",
+          "start_year": 1995,
+          "end_year": 1996,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Barak",
+          "start_year": 1999,
+          "end_year": 2001,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Ariel Sharon",
+          "start_year": 2001,
+          "end_year": 2006,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "ITA",
+      "name": "ITA",
+      "leaders": [
+        {
+          "name": "Parri",
+          "start_year": 1945,
+          "end_year": 1945,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "de Gasperi",
+          "start_year": 1945,
+          "end_year": 1953,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "Pella",
+          "start_year": 1953,
+          "end_year": 1954,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Fanfani",
+          "start_year": 1954,
+          "end_year": 1954,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Scelba",
+          "start_year": 1954,
+          "end_year": 1955,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Segni",
+          "start_year": 1955,
+          "end_year": 1957,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Zoli",
+          "start_year": 1957,
+          "end_year": 1958,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Fanfani",
+          "start_year": 1958,
+          "end_year": 1959,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Segni",
+          "start_year": 1959,
+          "end_year": 1960,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Tambroni",
+          "start_year": 1960,
+          "end_year": 1960,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Fanfani",
+          "start_year": 1960,
+          "end_year": 1963,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Leone",
+          "start_year": 1963,
+          "end_year": 1963,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Moro",
+          "start_year": 1963,
+          "end_year": 1968,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Leone",
+          "start_year": 1968,
+          "end_year": 1968,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Rumor",
+          "start_year": 1968,
+          "end_year": 1970,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Colombo",
+          "start_year": 1970,
+          "end_year": 1972,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Andreotti",
+          "start_year": 1972,
+          "end_year": 1973,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Rumor",
+          "start_year": 1973,
+          "end_year": 1974,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Moro",
+          "start_year": 1974,
+          "end_year": 1976,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Andreotti",
+          "start_year": 1976,
+          "end_year": 1979,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Cossiga",
+          "start_year": 1979,
+          "end_year": 1980,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Forlani",
+          "start_year": 1980,
+          "end_year": 1981,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Spadolini",
+          "start_year": 1981,
+          "end_year": 1982,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Fanfani",
+          "start_year": 1982,
+          "end_year": 1983,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Craxi",
+          "start_year": 1983,
+          "end_year": 1987,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "Fanfani",
+          "start_year": 1987,
+          "end_year": 1987,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Goria",
+          "start_year": 1987,
+          "end_year": 1988,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Andreotti",
+          "start_year": 1989,
+          "end_year": 1992,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Amato",
+          "start_year": 1992,
+          "end_year": 1993,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Ciampi",
+          "start_year": 1993,
+          "end_year": 1994,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Berlusconi",
+          "start_year": 1994,
+          "end_year": 1995,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "Dini",
+          "start_year": 1995,
+          "end_year": 1996,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Prodi",
+          "start_year": 1996,
+          "end_year": 1998,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Amato",
+          "start_year": 2000,
+          "end_year": 2001,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Berlusconi",
+          "start_year": 2001,
+          "end_year": 2006,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 1
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "JAM",
+      "name": "JAM",
+      "leaders": [
+        {
+          "name": "Sangster",
+          "start_year": 1967,
+          "end_year": 1967,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Shearer",
+          "start_year": 1967,
+          "end_year": 1972,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Manley",
+          "start_year": 1972,
+          "end_year": 1980,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Manley",
+          "start_year": 1989,
+          "end_year": 1992,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "JOR",
+      "name": "JOR",
+      "leaders": [
+        {
+          "name": "Hussein Ibn Talal El-Hashim",
+          "start_year": 1952,
+          "end_year": 1999,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 1
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "JPN",
+      "name": "JPN",
+      "leaders": [
+        {
+          "name": "Matthew Bunker Ridgway",
+          "start_year": 1951,
+          "end_year": 1952,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Yoshida, Shigeru",
+          "start_year": 1952,
+          "end_year": 1954,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Ishibashi",
+          "start_year": 1956,
+          "end_year": 1957,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Kishi",
+          "start_year": 1957,
+          "end_year": 1960,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Ikeda",
+          "start_year": 1960,
+          "end_year": 1964,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Tanaka",
+          "start_year": 1972,
+          "end_year": 1974,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Miki",
+          "start_year": 1974,
+          "end_year": 1976,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Fukuda",
+          "start_year": 1976,
+          "end_year": 1978,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Masayoshi Ito",
+          "start_year": 1980,
+          "end_year": 1980,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Nakasone",
+          "start_year": 1982,
+          "end_year": 1987,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Takeshita",
+          "start_year": 1987,
+          "end_year": 1989,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Kaifu",
+          "start_year": 1989,
+          "end_year": 1991,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Miyazawa",
+          "start_year": 1991,
+          "end_year": 1993,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Hosokawa",
+          "start_year": 1993,
+          "end_year": 1994,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Hata",
+          "start_year": 1994,
+          "end_year": 1994,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Hashimoto",
+          "start_year": 1996,
+          "end_year": 1998,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Junichiro Koizumi",
+          "start_year": 2001,
+          "end_year": 2006,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "KAZ",
+      "name": "KZK",
+      "leaders": [
+        {
+          "name": "Nazarbayev",
+          "start_year": 1990,
+          "end_year": 2015,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "KEN",
+      "name": "KEN",
+      "leaders": [
+        {
+          "name": "Kenyatta",
+          "start_year": 1963,
+          "end_year": 1978,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Moi",
+          "start_year": 1978,
+          "end_year": 2002,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "KGZ",
+      "name": "KYR",
+      "leaders": [
+        {
+          "name": "Akayev",
+          "start_year": 1990,
+          "end_year": 2005,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "KHM",
+      "name": "CAM",
+      "leaders": [
+        {
+          "name": "Sihanouk",
+          "start_year": 1953,
+          "end_year": 1970,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "Lon Nol",
+          "start_year": 1970,
+          "end_year": 1975,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Pol Pot",
+          "start_year": 1975,
+          "end_year": 1979,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Hun Sen",
+          "start_year": 1985,
+          "end_year": 1993,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Hun Sen",
+          "start_year": 1997,
+          "end_year": 2015,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "KOR",
+      "name": "ROK",
+      "leaders": [
+        {
+          "name": "Rhee",
+          "start_year": 1948,
+          "end_year": 1960,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "KWT",
+      "name": "KUW",
+      "leaders": [
+        {
+          "name": "Saddam Hussein",
+          "start_year": 1990,
+          "end_year": 1991,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 1
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "LAO",
+      "name": "LAO",
+      "leaders": [
+        {
+          "name": "Souvanna Phouma",
+          "start_year": 1951,
+          "end_year": 1954,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "Souvanna Phouma",
+          "start_year": 1956,
+          "end_year": 1958,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "Souvanna Phouma",
+          "start_year": 1960,
+          "end_year": 1960,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "Boun Oum",
+          "start_year": 1960,
+          "end_year": 1962,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Souvanna Phouma",
+          "start_year": 1962,
+          "end_year": 1964,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "Souvanna Phouma",
+          "start_year": 1964,
+          "end_year": 1975,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 1
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "LBN",
+      "name": "LEB",
+      "leaders": [
+        {
+          "name": "Chamoun",
+          "start_year": 1952,
+          "end_year": 1958,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "Aoun",
+          "start_year": 1988,
+          "end_year": 1989,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "LBR",
+      "name": "LBR",
+      "leaders": [
+        {
+          "name": "Doe",
+          "start_year": 1980,
+          "end_year": 1990,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "LKA",
+      "name": "SRI",
+      "leaders": [
+        {
+          "name": "Senanayake, Dudley",
+          "start_year": 1952,
+          "end_year": 1953,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Kotelawala",
+          "start_year": 1953,
+          "end_year": 1956,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Dahanayake",
+          "start_year": 1959,
+          "end_year": 1960,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Senanayake, Dudley",
+          "start_year": 1960,
+          "end_year": 1960,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Bandaranaike, S",
+          "start_year": 1960,
+          "end_year": 1965,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Senanayake, Dudley",
+          "start_year": 1965,
+          "end_year": 1970,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Bandaranaike, S",
+          "start_year": 1970,
+          "end_year": 1977,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Premadasa",
+          "start_year": 1989,
+          "end_year": 1993,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Kumaratunga",
+          "start_year": 1994,
+          "end_year": 2005,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "LSO",
+      "name": "LES",
+      "leaders": [
+        {
+          "name": "Jonathan",
+          "start_year": 1966,
+          "end_year": 1986,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Mosisili",
+          "start_year": 1998,
+          "end_year": 2012,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "LTU",
+      "name": "LIT",
+      "leaders": [
+        {
+          "name": "Adamkus",
+          "start_year": 1998,
+          "end_year": 2003,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Paksas",
+          "start_year": 2003,
+          "end_year": 2004,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "LUX",
+      "name": "LUX",
+      "leaders": [
+        {
+          "name": "Dupong",
+          "start_year": 1945,
+          "end_year": 1953,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Bech",
+          "start_year": 1953,
+          "end_year": 1958,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "Frieden",
+          "start_year": 1958,
+          "end_year": 1959,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Werner",
+          "start_year": 1959,
+          "end_year": 1974,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Thorn G.",
+          "start_year": 1974,
+          "end_year": 1979,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Werner",
+          "start_year": 1979,
+          "end_year": 1984,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Santer",
+          "start_year": 1984,
+          "end_year": 1995,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "LVA",
+      "name": "LAT",
+      "leaders": [
+        {
+          "name": "Godmanis",
+          "start_year": 1990,
+          "end_year": 1993,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "MAR",
+      "name": "MOR",
+      "leaders": [
+        {
+          "name": "Mohammed V",
+          "start_year": 1956,
+          "end_year": 1961,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "Hassan II",
+          "start_year": 1961,
+          "end_year": 1999,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 1
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "MDA",
+      "name": "MLD",
+      "leaders": [
+        {
+          "name": "Lucinschi",
+          "start_year": 1997,
+          "end_year": 2001,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "MDG",
+      "name": "MAG",
+      "leaders": [
+        {
+          "name": "Marc Ravalomanana",
+          "start_year": 2002,
+          "end_year": 2009,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "MDV",
+      "name": "MAD",
+      "leaders": [
+        {
+          "name": "Nasir",
+          "start_year": 1957,
+          "end_year": 1978,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Maumoon Abdul Gayoom",
+          "start_year": 1978,
+          "end_year": 2008,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "MEX",
+      "name": "MEX",
+      "leaders": [
+        {
+          "name": "Ruiz Cortines",
+          "start_year": 1952,
+          "end_year": 1958,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "de La Madrid",
+          "start_year": 1982,
+          "end_year": 1988,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Salinas",
+          "start_year": 1988,
+          "end_year": 1994,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Zedillo",
+          "start_year": 1994,
+          "end_year": 2000,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "MLT",
+      "name": "MLT",
+      "leaders": [
+        {
+          "name": "Mintoff",
+          "start_year": 1971,
+          "end_year": 1984,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Adami",
+          "start_year": 1987,
+          "end_year": 1996,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Adami",
+          "start_year": 1998,
+          "end_year": 2004,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "MMR",
+      "name": "MYA",
+      "leaders": [
+        {
+          "name": "U Nu",
+          "start_year": 1948,
+          "end_year": 1956,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "U Ba Swe",
+          "start_year": 1956,
+          "end_year": 1957,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "U Nu",
+          "start_year": 1957,
+          "end_year": 1958,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Ne Win",
+          "start_year": 1958,
+          "end_year": 1960,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "U Nu",
+          "start_year": 1960,
+          "end_year": 1962,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Ne Win",
+          "start_year": 1962,
+          "end_year": 1988,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Maung Maung",
+          "start_year": 1988,
+          "end_year": 1988,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "MNG",
+      "name": "MON",
+      "leaders": [
+        {
+          "name": "Bagabandi",
+          "start_year": 1997,
+          "end_year": 2005,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "MOZ",
+      "name": "MZM",
+      "leaders": [
+        {
+          "name": "Machel",
+          "start_year": 1975,
+          "end_year": 1986,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "MRT",
+      "name": "MAA",
+      "leaders": [
+        {
+          "name": "Ould Daddah",
+          "start_year": 1960,
+          "end_year": 1978,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "MUS",
+      "name": "MAS",
+      "leaders": [
+        {
+          "name": "Ramgoolam",
+          "start_year": 1968,
+          "end_year": 1982,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Anerood Jugnauth",
+          "start_year": 1982,
+          "end_year": 1995,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "Anerood Jugnauth",
+          "start_year": 2000,
+          "end_year": 2003,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 1
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "MWI",
+      "name": "MAW",
+      "leaders": [
+        {
+          "name": "Banda",
+          "start_year": 1964,
+          "end_year": 1994,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "MYS",
+      "name": "MAL",
+      "leaders": [
+        {
+          "name": "Rahman",
+          "start_year": 1957,
+          "end_year": 1959,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "Rahman",
+          "start_year": 1959,
+          "end_year": 1970,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "Hussein Bin Onn",
+          "start_year": 1976,
+          "end_year": 1981,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Ahmad Badawi",
+          "start_year": 2003,
+          "end_year": 2009,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 1
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "NAM",
+      "name": "NAM",
+      "leaders": [
+        {
+          "name": "Nujoma",
+          "start_year": 1990,
+          "end_year": 2005,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 1
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "NER",
+      "name": "NIR",
+      "leaders": [
+        {
+          "name": "Diori",
+          "start_year": 1960,
+          "end_year": 1974,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "NGA",
+      "name": "NIG",
+      "leaders": [
+        {
+          "name": "Balewa",
+          "start_year": 1960,
+          "end_year": 1966,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Gowon",
+          "start_year": 1966,
+          "end_year": 1975,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Obasanjo",
+          "start_year": 1976,
+          "end_year": 1979,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "Buhari",
+          "start_year": 1983,
+          "end_year": 1985,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "Babangida",
+          "start_year": 1985,
+          "end_year": 1993,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Abacha",
+          "start_year": 1993,
+          "end_year": 1998,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Abubakar",
+          "start_year": 1998,
+          "end_year": 1999,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Obasanjo",
+          "start_year": 1999,
+          "end_year": 2007,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 1
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "NIC",
+      "name": "NIC",
+      "leaders": [
+        {
+          "name": "Anastasio Somoza Debayle",
+          "start_year": 1967,
+          "end_year": 1979,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Daniel Ortega",
+          "start_year": 1979,
+          "end_year": 1990,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Violeta Chamorro",
+          "start_year": 1990,
+          "end_year": 1997,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "NLD",
+      "name": "NTH",
+      "leaders": [
+        {
+          "name": "Beel",
+          "start_year": 1946,
+          "end_year": 1948,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Drees",
+          "start_year": 1948,
+          "end_year": 1958,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Beel",
+          "start_year": 1958,
+          "end_year": 1959,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "de Quay",
+          "start_year": 1959,
+          "end_year": 1963,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Marijnen",
+          "start_year": 1963,
+          "end_year": 1965,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Cals",
+          "start_year": 1965,
+          "end_year": 1966,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Zijlstra",
+          "start_year": 1966,
+          "end_year": 1967,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "De Jong",
+          "start_year": 1967,
+          "end_year": 1971,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "Biesheuvel",
+          "start_year": 1971,
+          "end_year": 1973,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "den Uyl",
+          "start_year": 1973,
+          "end_year": 1977,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "van Agt",
+          "start_year": 1977,
+          "end_year": 1982,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Lubbers",
+          "start_year": 1982,
+          "end_year": 1994,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Kok",
+          "start_year": 1994,
+          "end_year": 2002,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Jan Peter Balkenende",
+          "start_year": 2002,
+          "end_year": 2010,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "NOR",
+      "name": "NOR",
+      "leaders": [
+        {
+          "name": "Gerhardsen",
+          "start_year": 1945,
+          "end_year": 1951,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Gerhardsen",
+          "start_year": 1955,
+          "end_year": 1963,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Gerhardsen",
+          "start_year": 1963,
+          "end_year": 1965,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Borten",
+          "start_year": 1965,
+          "end_year": 1971,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Korvald",
+          "start_year": 1972,
+          "end_year": 1973,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Nordli",
+          "start_year": 1976,
+          "end_year": 1981,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Brundtland",
+          "start_year": 1981,
+          "end_year": 1981,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Brundtland",
+          "start_year": 1986,
+          "end_year": 1989,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Syse",
+          "start_year": 1989,
+          "end_year": 1990,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Brundtland",
+          "start_year": 1990,
+          "end_year": 1996,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Bondevik",
+          "start_year": 1997,
+          "end_year": 1998,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Bondevik",
+          "start_year": 1998,
+          "end_year": 2000,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Bondevik",
+          "start_year": 2001,
+          "end_year": 2005,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "NPL",
+      "name": "NEP",
+      "leaders": [
+        {
+          "name": "Tribhuvan",
+          "start_year": 1951,
+          "end_year": 1955,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Mahendra",
+          "start_year": 1955,
+          "end_year": 1972,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Birendra",
+          "start_year": 1972,
+          "end_year": 1990,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "NZL",
+      "name": "NEW",
+      "leaders": [
+        {
+          "name": "Holland",
+          "start_year": 1949,
+          "end_year": 1957,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Holyoake",
+          "start_year": 1957,
+          "end_year": 1957,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Nash",
+          "start_year": 1957,
+          "end_year": 1960,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Holyoake",
+          "start_year": 1960,
+          "end_year": 1972,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Marshall",
+          "start_year": 1972,
+          "end_year": 1972,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "Kirk",
+          "start_year": 1972,
+          "end_year": 1974,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Rowling",
+          "start_year": 1974,
+          "end_year": 1975,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Muldoon",
+          "start_year": 1975,
+          "end_year": 1984,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Lange",
+          "start_year": 1984,
+          "end_year": 1989,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "Bolger",
+          "start_year": 1990,
+          "end_year": 1997,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "Helen Clark",
+          "start_year": 1999,
+          "end_year": 2008,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 1
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "PAK",
+      "name": "PAK",
+      "leaders": [
+        {
+          "name": "L. Khan",
+          "start_year": 1948,
+          "end_year": 1951,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Ayub Khan",
+          "start_year": 1958,
+          "end_year": 1969,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Yahya Khan",
+          "start_year": 1969,
+          "end_year": 1971,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Bhutto",
+          "start_year": 1971,
+          "end_year": 1977,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Ishaq Khan",
+          "start_year": 1988,
+          "end_year": 1988,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Benazir Bhutto",
+          "start_year": 1988,
+          "end_year": 1990,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Sharif",
+          "start_year": 1990,
+          "end_year": 1993,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Sharif",
+          "start_year": 1993,
+          "end_year": 1993,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Benazir Bhutto",
+          "start_year": 1993,
+          "end_year": 1996,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Khalid",
+          "start_year": 1996,
+          "end_year": 1997,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Sharif",
+          "start_year": 1997,
+          "end_year": 1999,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "PAN",
+      "name": "PAN",
+      "leaders": [
+        {
+          "name": "Mireya Moscoso",
+          "start_year": 1999,
+          "end_year": 2004,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "PER",
+      "name": "PER",
+      "leaders": [
+        {
+          "name": "Ugarteche",
+          "start_year": 1956,
+          "end_year": 1962,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Velasco Alvarado",
+          "start_year": 1968,
+          "end_year": 1975,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "PHL",
+      "name": "PHI",
+      "leaders": [
+        {
+          "name": "Roxas",
+          "start_year": 1946,
+          "end_year": 1948,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Quirrino",
+          "start_year": 1948,
+          "end_year": 1953,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Magsaysay",
+          "start_year": 1953,
+          "end_year": 1957,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Garcia",
+          "start_year": 1957,
+          "end_year": 1961,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Macapagal",
+          "start_year": 1961,
+          "end_year": 1965,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Marcos",
+          "start_year": 1965,
+          "end_year": 1986,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Aquino",
+          "start_year": 1986,
+          "end_year": 1992,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Estrada",
+          "start_year": 1998,
+          "end_year": 2001,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "PNG",
+      "name": "PNG",
+      "leaders": [
+        {
+          "name": "Somare",
+          "start_year": 1975,
+          "end_year": 1980,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Somare",
+          "start_year": 1982,
+          "end_year": 1985,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Somare",
+          "start_year": 2002,
+          "end_year": 2011,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "POL",
+      "name": "POL",
+      "leaders": [
+        {
+          "name": "Ochab",
+          "start_year": 1956,
+          "end_year": 1956,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Gierek",
+          "start_year": 1970,
+          "end_year": 1980,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Jaruzelski",
+          "start_year": 1981,
+          "end_year": 1990,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "PRT",
+      "name": "POR",
+      "leaders": [
+        {
+          "name": "Caetano",
+          "start_year": 1968,
+          "end_year": 1974,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "PRY",
+      "name": "PAR",
+      "leaders": [
+        {
+          "name": "Frutos",
+          "start_year": 1948,
+          "end_year": 1948,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Stroessner",
+          "start_year": 1954,
+          "end_year": 1989,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "RUS",
+      "name": "RUS",
+      "leaders": [
+        {
+          "name": "Chernenko",
+          "start_year": 1984,
+          "end_year": 1985,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Gorbachev",
+          "start_year": 1985,
+          "end_year": 1991,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "Yeltsin",
+          "start_year": 1991,
+          "end_year": 1999,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Putin",
+          "start_year": 2000,
+          "end_year": 2015,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "RWA",
+      "name": "RWA",
+      "leaders": [
+        {
+          "name": "Paul Kagame",
+          "start_year": 1994,
+          "end_year": 2015,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "SAU",
+      "name": "SAU",
+      "leaders": [
+        {
+          "name": "Fahd",
+          "start_year": 1982,
+          "end_year": 1996,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 1
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "SDN",
+      "name": "SUD",
+      "leaders": [
+        {
+          "name": "Abboud",
+          "start_year": 1958,
+          "end_year": 1964,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Nimeiri",
+          "start_year": 1969,
+          "end_year": 1971,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Nimeiri",
+          "start_year": 1971,
+          "end_year": 1985,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "SEN",
+      "name": "SEN",
+      "leaders": [
+        {
+          "name": "Diouf",
+          "start_year": 1981,
+          "end_year": 2000,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "SGP",
+      "name": "SIN",
+      "leaders": [
+        {
+          "name": "Lee Kuan Yew",
+          "start_year": 1959,
+          "end_year": 1990,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "Goh Chok Tong",
+          "start_year": 1990,
+          "end_year": 2004,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "SLE",
+      "name": "SIE",
+      "leaders": [
+        {
+          "name": "Margai,M",
+          "start_year": 1961,
+          "end_year": 1964,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "Margai, A",
+          "start_year": 1964,
+          "end_year": 1967,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Stevens",
+          "start_year": 1968,
+          "end_year": 1985,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Momoh",
+          "start_year": 1985,
+          "end_year": 1992,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Kabbah",
+          "start_year": 1996,
+          "end_year": 1997,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Koroma",
+          "start_year": 1997,
+          "end_year": 1998,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Kabbah",
+          "start_year": 1998,
+          "end_year": 2007,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "SOM",
+      "name": "SOM",
+      "leaders": [
+        {
+          "name": "Siad Barre",
+          "start_year": 1969,
+          "end_year": 1991,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "SRB",
+      "name": "YUG",
+      "leaders": [
+        {
+          "name": "Tito",
+          "start_year": 1945,
+          "end_year": 1980,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "SUR",
+      "name": "SUR",
+      "leaders": [
+        {
+          "name": "Ferrier",
+          "start_year": 1975,
+          "end_year": 1980,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "SVN",
+      "name": "SLV",
+      "leaders": [
+        {
+          "name": "Bajuk",
+          "start_year": 2000,
+          "end_year": 2000,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Anton Rop",
+          "start_year": 2002,
+          "end_year": 2004,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "SWE",
+      "name": "SWD",
+      "leaders": [
+        {
+          "name": "Erlander",
+          "start_year": 1946,
+          "end_year": 1969,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Palme",
+          "start_year": 1969,
+          "end_year": 1976,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Ullsten",
+          "start_year": 1978,
+          "end_year": 1979,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Palme",
+          "start_year": 1982,
+          "end_year": 1986,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Carlsson",
+          "start_year": 1986,
+          "end_year": 1991,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Bildt",
+          "start_year": 1991,
+          "end_year": 1994,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Carlsson",
+          "start_year": 1994,
+          "end_year": 1996,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "SYR",
+      "name": "SYR",
+      "leaders": [
+        {
+          "name": "Nasser (president of UAR)",
+          "start_year": 1958,
+          "end_year": 1961,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "TCD",
+      "name": "CHA",
+      "leaders": [
+        {
+          "name": "Oueddei",
+          "start_year": 1979,
+          "end_year": 1982,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "THA",
+      "name": "THI",
+      "leaders": [
+        {
+          "name": "Pote Sarasin",
+          "start_year": 1957,
+          "end_year": 1957,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Thanon Kittakachorn",
+          "start_year": 1957,
+          "end_year": 1958,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "Thanon Kittakachorn",
+          "start_year": 1963,
+          "end_year": 1973,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "Sanya",
+          "start_year": 1973,
+          "end_year": 1975,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Seni Pramoj",
+          "start_year": 1975,
+          "end_year": 1975,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Kukrot Pramoj",
+          "start_year": 1975,
+          "end_year": 1976,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Seni Pramoj",
+          "start_year": 1976,
+          "end_year": 1976,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Prem",
+          "start_year": 1980,
+          "end_year": 1988,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Choonhavan",
+          "start_year": 1988,
+          "end_year": 1991,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Panyarachun",
+          "start_year": 1991,
+          "end_year": 1992,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Kraprayoon",
+          "start_year": 1992,
+          "end_year": 1992,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Panyarachun",
+          "start_year": 1992,
+          "end_year": 1992,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Chavalit Yongchaiyudh",
+          "start_year": 1996,
+          "end_year": 1997,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "TKM",
+      "name": "TKM",
+      "leaders": [
+        {
+          "name": "Niyazov",
+          "start_year": 1990,
+          "end_year": 2006,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "TTO",
+      "name": "TRI",
+      "leaders": [
+        {
+          "name": "Williams",
+          "start_year": 1962,
+          "end_year": 1981,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "Robinson",
+          "start_year": 1986,
+          "end_year": 1991,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Manning",
+          "start_year": 1991,
+          "end_year": 1995,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "TUN",
+      "name": "TUN",
+      "leaders": [
+        {
+          "name": "Ben Ali Bourguiba",
+          "start_year": 1957,
+          "end_year": 1987,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Zine Al-Abidine Ben Ali",
+          "start_year": 1987,
+          "end_year": 2011,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "TUR",
+      "name": "TUR",
+      "leaders": [
+        {
+          "name": "Menderes",
+          "start_year": 1950,
+          "end_year": 1960,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Erbakan",
+          "start_year": 1996,
+          "end_year": 1997,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "TZA",
+      "name": "TAZ",
+      "leaders": [
+        {
+          "name": "Nyerere",
+          "start_year": 1961,
+          "end_year": 1985,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Mwinyi",
+          "start_year": 1985,
+          "end_year": 1995,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "UGA",
+      "name": "UGA",
+      "leaders": [
+        {
+          "name": "Obote",
+          "start_year": 1962,
+          "end_year": 1971,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Paulo Muwanga",
+          "start_year": 1980,
+          "end_year": 1980,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Obote",
+          "start_year": 1980,
+          "end_year": 1985,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "UKR",
+      "name": "UKR",
+      "leaders": [
+        {
+          "name": "Kravchuk",
+          "start_year": 1990,
+          "end_year": 1994,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "Kuchma",
+          "start_year": 1994,
+          "end_year": 2005,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "URY",
+      "name": "URU",
+      "leaders": [
+        {
+          "name": "Pacheco Areco",
+          "start_year": 1967,
+          "end_year": 1972,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "USA",
+      "name": "USA",
+      "leaders": [
+        {
+          "name": "Truman",
+          "start_year": 1945,
+          "end_year": 1953,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Eisenhower",
+          "start_year": 1953,
+          "end_year": 1961,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "Kennedy",
+          "start_year": 1961,
+          "end_year": 1963,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "Johnson",
+          "start_year": 1963,
+          "end_year": 1969,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "Nixon",
+          "start_year": 1969,
+          "end_year": 1974,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "Ford",
+          "start_year": 1974,
+          "end_year": 1977,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Reagan",
+          "start_year": 1981,
+          "end_year": 1989,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "Clinton",
+          "start_year": 1993,
+          "end_year": 2001,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "G.W. Bush",
+          "start_year": 2001,
+          "end_year": 2009,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "VEN",
+      "name": "VEN",
+      "leaders": [
+        {
+          "name": "Delgado Chalbaud",
+          "start_year": 1948,
+          "end_year": 1950,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Sanabria",
+          "start_year": 1958,
+          "end_year": 1959,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Campins",
+          "start_year": 1979,
+          "end_year": 1984,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "VNM",
+      "name": "DRV",
+      "leaders": [
+        {
+          "name": "Ho Chi Minh",
+          "start_year": 1945,
+          "end_year": 1969,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Ngo Dinh Diem",
+          "start_year": 1954,
+          "end_year": 1963,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "ZAF",
+      "name": "SAF",
+      "leaders": [
+        {
+          "name": "Heunis",
+          "start_year": 1989,
+          "end_year": 1989,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Mandela",
+          "start_year": 1994,
+          "end_year": 1999,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 1,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Mbeki",
+          "start_year": 1999,
+          "end_year": 2008,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "ZMB",
+      "name": "ZAM",
+      "leaders": [
+        {
+          "name": "Kaunda",
+          "start_year": 1964,
+          "end_year": 1991,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "Chiluba",
+          "start_year": 1991,
+          "end_year": 2002,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        },
+        {
+          "name": "Levy Mwanawasa",
+          "start_year": 2002,
+          "end_year": 2008,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
+      ]
+    },
+    {
+      "iso3": "ZWE",
+      "name": "ZIM",
+      "leaders": [
+        {
+          "name": "Smith",
+          "start_year": 1965,
+          "end_year": 1979,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 1
+          }
+        },
+        {
+          "name": "Mugabe",
+          "start_year": 1980,
+          "end_year": 2015,
+          "indicators": {
+            "family_in_govt": 0,
+            "places_named": 0,
+            "grandiose_titles": 0
+          }
+        }
       ]
     }
   ]
