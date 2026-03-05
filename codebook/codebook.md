@@ -1,6 +1,6 @@
 # Codebook: Manifest Indicators of Personalism in Dictatorships
 
-## Version 0.1 (Draft)
+## Version 0.2
 
 ## Conceptual Framework
 
@@ -189,21 +189,30 @@ When multiple sources conflict on the coding of an indicator:
 
 ## Variable Summary
 
-| Code | Name | Type | Source | Auto? |
-|------|------|------|--------|-------|
-| A1 | term_limits_removed | Binary | Constitute | Yes |
-| A2 | president_for_life | Binary | Constitute + Wikidata | Yes |
-| A3 | family_in_government | Count/Binary | Wikidata + manual | Partial |
-| A4 | appointment_monopoly | Binary | Constitute + reports | Partial |
-| A5 | purges_of_elites | Count/Binary | News + manual | No |
-| A6 | security_apparatus_control | Binary | Reports + manual | No |
-| B1 | currency_portrait | Binary | Numista | Yes |
-| B2 | stamps_portrait | Proportion/Binary | Colnect | Yes |
-| B3 | places_named_after_leader | Count/Binary | Wikidata + OSM | Yes |
-| B4 | grandiose_titles | Count/Binary | Wikidata | Yes |
-| B5 | national_holiday_birthday | Binary | Wikipedia | Yes |
-| B6 | mandatory_portraits | Binary | State Dept reports | Partial |
-| B7 | state_media_dominance | Continuous/Binary | GDELT + reports | Partial |
-| B8 | monuments_and_statues | Count/Binary | Wikipedia + manual | Partial |
-| B9 | loyalty_oath_personal | Binary | Constitute + reports | Partial |
-| B10 | state_hagiography | Binary | WorldCat + manual | Partial |
+The following 16 indicators are currently coded and included in the compiled dataset (`data/compiled/personalism_full.csv`). The IRT model retains a subset of these based on positive discrimination parameters.
+
+**Collected (16 indicators):**
+
+- `term_limits_absent` — Constitute Project (script 11)
+- `president_for_life` — Constitute + Wikipedia categories (scripts 10, 11)
+- `family_in_govt` — Wikidata SPARQL (scripts 03, 06, 14)
+- `political_killings` — V-Dem v2clkill (script 08)
+- `military_executive` — V-Dem v2x_ex_military (script 08)
+- `judicial_purges` — V-Dem v2jupurge (script 08)
+- `const_disregard` — V-Dem v2exrescon (script 08)
+- `no_leg_constraint` — V-Dem v2xlg_legcon (script 08)
+- `places_named` — Wikidata P138 "named after" (scripts 03, 14)
+- `grandiose_titles` — Wikidata honorific labels (scripts 03, 14)
+- `monuments` — Wikidata P180/P547 (script 09)
+- `birthday_holiday` — Wikidata P547 (script 09)
+- `hagiography` — Wikidata P50 (script 09)
+- `cult_of_personality` — Wikipedia categories (script 10)
+- `currency_portrait` — Wikipedia currency articles (script 12)
+- `oath_to_person` — Constitute Project (script 11)
+
+**Planned but not yet coded:**
+
+- `appointment_monopoly` — Requires qualitative text mining
+- `stamps_portrait` — Requires Colnect scraper
+- `mandatory_portraits` — Requires State Dept report text mining
+- `state_media_dominance` — Requires GDELT/BBC Monitoring

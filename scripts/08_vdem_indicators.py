@@ -137,8 +137,9 @@ def merge_leader_vdem(leaders: pd.DataFrame, vdem: pd.DataFrame) -> pd.DataFrame
     scores["military_executive"] = (scores["v2x_ex_military"] >= 0.5).astype(int)
     scores.loc[scores["v2x_ex_military"].isna(), "military_executive"] = None
 
-    # v2jupurge: BFM; higher = more purges. Score ≥ 2 → judicial_purges = 1
-    scores["judicial_purges"] = (scores["v2jupurge"] >= 2).astype(int)
+    # v2jupurge: BFM; higher = more judicial independence (fewer purges).
+    # Score ≤ 0 → judicial_purges = 1 (government frequently attacks judiciary)
+    scores["judicial_purges"] = (scores["v2jupurge"] <= 0).astype(int)
     scores.loc[scores["v2jupurge"].isna(), "judicial_purges"] = None
 
     # v2psbars: BFM; higher = more barriers. max=2.94. Score ≥ 2 → party_barriers = 1

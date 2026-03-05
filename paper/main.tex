@@ -1,0 +1,241 @@
+\documentclass[12pt]{article}
+
+% --- Packages ---
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{setspace}
+\usepackage{hyperref}
+\usepackage[round]{natbib}
+\usepackage{url}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{float}
+
+% --- Dynamic statistics ---
+\input{statistics.tex}
+
+% --- Metadata ---
+\title{Measuring Personalism in Dictatorships:\\A Latent Trait Approach with Observable Indicators}
+\author{
+  Lee Morgenbesser\thanks{[Affiliation TBD].} \and
+  Charles Crabtree\thanks{Senior Lecturer, School of Social Sciences, Monash University and K-Club Professor, University College, Korea University. Email: charles.crabtree@monash.edu.}
+}
+\date{\today}
+
+\begin{document}
+\doublespacing
+
+\maketitle
+
+\begin{abstract}
+\noindent How can we reliably measure the degree of personalism in dictatorships? Existing regime typologies classify personalist regimes categorically, yet personalism is better understood as a continuous, latent attribute that varies across leaders and over time. We introduce a new cross-national dataset covering \nLeaders{} authoritarian leader-spells in \nCountries{} countries (1946--present), coded on \nIndicators{} observable ``manifest'' indicators drawn from publicly available sources---constitutional texts, Wikidata, the Varieties of Democracy project, Wikipedia, and national currency records. We estimate a continuous personalism score for each leader-spell using a two-parameter Item Response Theory (IRT) model. The model achieves strong face validity: leaders widely regarded as highly personalist---including \topLeader{} (\topCountry{})---receive the highest scores, while leaders in institutionalised autocracies score near the bottom. We make the dataset, all code, and the interactive dashboard publicly available to facilitate future research on authoritarian politics.
+
+\bigskip
+\noindent\textbf{Keywords:} personalism, authoritarianism, measurement, Item Response Theory, dictatorships
+\end{abstract}
+
+\newpage
+
+% ==========================================================================
+\section{Introduction}
+% ==========================================================================
+
+How can we reliably measure the degree to which dictators have personalized political power? This question matters because personalist rule has profound consequences for governance, conflict, and regime survival \citep{geddes2014, weeks2014, svolik2012}. Despite its importance, existing measures of personalism suffer from weak measurement validity. Most influential datasets classify regimes into discrete categories---personalist, military, party, or monarchy---using expert judgments that are difficult to replicate and often disagree at the margins \citep{geddes2014, frantz2011}.
+
+We propose an alternative approach. Rather than classifying regimes categorically, we treat personalism as a continuous, latent trait that can be inferred from observable indicators. Drawing on \citet{treier2008}'s application of Item Response Theory to measuring democracy, we compile \nIndicators{} binary indicators of personalism from publicly accessible data sources and estimate a latent personalism score ($\theta$) for \nLeaders{} authoritarian leader-spells across \nCountries{} countries.
+
+% TODO: Add roadmap paragraph
+
+% ==========================================================================
+\section{Conceptualising and Measuring Personalism}
+% ==========================================================================
+
+% TODO: Morgenbesser's theoretical framework
+% - Personalism as latent trait
+% - Family resemblance structure: no single indicator necessary or sufficient
+% - Two dimensions: power concentration and personality cult
+% - Observable indicators as manifestations of the latent trait
+% - Critique of existing categorical approaches (GWF, etc.)
+
+\subsection{Existing Approaches}
+
+% TODO: Review GWF, Wahman et al., Magaloni, etc.
+
+\subsection{A Latent Trait Framework}
+
+% TODO: Formal statement of the measurement framework
+% - Why continuous > categorical
+% - Why IRT > factor analysis for binary indicators with missingness
+
+% ==========================================================================
+\section{Data}
+% ==========================================================================
+
+We assemble data from five primary sources, compiling \nIndicators{} binary indicators for \nLeaders{} authoritarian leader-spells in \nCountries{} countries from 1946 to the present. Leader identification and tenure dates follow Archigos 4.1 \citep{goemans2009}.
+
+\subsection{Indicators of Power Concentration}
+
+Our power concentration indicators capture the extent to which the leader has subverted institutional constraints and centralised authority. From the Varieties of Democracy (V-Dem) dataset \citep{coppedge2024}, we extract dichotomised versions of expert-coded measures: political killings attributed to the state, military domination of the executive, judicial purges, constitutional disregard, and absence of legislative constraints. From the Constitute Project \citep{constitute}, we code whether constitutional term limits are absent and whether the constitution designates the leader as president for life. From Wikidata, we identify leaders who have placed family members in senior government positions.
+
+\subsection{Indicators of Personality Cult}
+
+Personality cult indicators capture the symbolic elevation of the leader. From Wikidata, we identify places named after leaders, grandiose titles, commissioned monuments, state-mandated birthday holidays, and state hagiographies. From Wikipedia, we flag leaders with documented cults of personality. From national currency records, we code whether the leader's portrait appears on banknotes during their tenure. From the Constitute Project, we code whether oaths of loyalty are directed to the leader personally rather than to the constitution.
+
+% TODO: Coverage discussion, refer to Figure~\ref{fig:coverage}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{../figures/fig_coverage.pdf}
+  \caption{Coverage and prevalence of the \nIndicators{} manifest indicators. Dark bars indicate positive codings; light bars show total coded cases.}
+  \label{fig:coverage}
+\end{figure}
+
+% ==========================================================================
+\section{Methods}
+% ==========================================================================
+
+We estimate a unidimensional two-parameter logistic (2PL) Item Response Theory model \citep{deayala2009, embretson2000}. For leader-spell $i$ and indicator $j$:
+
+\begin{equation}
+  P(Y_{ij} = 1 \mid \theta_i) = \frac{1}{1 + \exp\bigl(-a_j(\theta_i - b_j)\bigr)}
+\end{equation}
+
+\noindent where $\theta_i$ is the latent personalism score, $a_j$ is the discrimination parameter (how strongly indicator $j$ relates to personalism), and $b_j$ is the difficulty parameter (the level of personalism at which the indicator becomes more likely than not). Parameters are estimated via marginal maximum likelihood with the EM algorithm using the \texttt{mirt} package in R \citep{chalmers2012}. Missing values are handled natively under the assumption that they are missing at random.
+
+Latent scores are estimated using Expected A Posteriori (EAP) estimation with associated standard errors, following \citet{treier2008}.
+
+% ==========================================================================
+\section{Results}
+% ==========================================================================
+
+\subsection{Item Parameters}
+
+Figure~\ref{fig:item_params} displays the estimated discrimination and difficulty parameters for all \nIndicators{} indicators.
+
+% TODO: Discuss which items are most discriminating and what this means substantively
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{../figures/fig_item_parameters.pdf}
+  \caption{Estimated item parameters from the 2PL IRT model. Discrimination ($a$) reflects how strongly each indicator relates to the latent personalism trait; difficulty ($b$) reflects the level of personalism required for the indicator to be more likely present than absent.}
+  \label{fig:item_params}
+\end{figure}
+
+\subsection{Personalism Scores}
+
+The distribution of estimated personalism scores ($\hat{\theta}$) is shown in Figure~\ref{fig:theta_dist}. Scores have a mean of \thetaMean{} (SD = \thetaSD{}), ranging from \thetaMin{} to \thetaMax{}.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{../figures/fig_theta_distribution.pdf}
+  \caption{Distribution of estimated personalism scores ($\hat{\theta}$) across \nLeaders{} leader-spells. The dashed line indicates the mean.}
+  \label{fig:theta_dist}
+\end{figure}
+
+\subsection{Face Validity}
+
+Figure~\ref{fig:top_leaders} presents the 25 leaders with the highest estimated personalism scores. The ranking provides strong face validity: leaders widely regarded as highly personalist---such as \topLeader{} (\topCountry{})---occupy the top positions.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{../figures/fig_top_leaders.pdf}
+  \caption{The 25 leaders with the highest estimated personalism scores, with 95\% confidence intervals.}
+  \label{fig:top_leaders}
+\end{figure}
+
+\subsection{Test Information}
+
+Figure~\ref{fig:test_info} displays the test information function. The measure provides the most information---and therefore the most precise estimates---in the range of $\theta$ where personalism transitions from moderate to high levels.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{../figures/fig_test_information.pdf}
+  \caption{Test information function. Higher values indicate greater measurement precision at that level of $\theta$.}
+  \label{fig:test_info}
+\end{figure}
+
+\subsection{Model Fit}
+
+% TODO: Discuss M2 fit statistic, RMSEA, CFI, TLI from statistics.tex macros
+% The model yields RMSEA = \fitRMSEA{} [90\% CI: \fitRMSEAlow{}, \fitRMSEAhigh{}], CFI = \fitCFI{}, TLI = \fitTLI{}.
+
+% ==========================================================================
+\section{Discussion}
+% ==========================================================================
+
+% TODO: Substantive discussion
+% - What do the item parameters tell us about the structure of personalism?
+% - Are power concentration and personality cult empirically separable?
+% - Comparison with GWF classifications
+% - Applications: personalism as IV/DV in conflict, governance, transition research
+
+\subsection{Limitations}
+
+% TODO:
+% - Survivorship bias in sources (prominent regimes better documented)
+% - Monarchies: some indicators (currency, holidays) are standard practice
+% - Temporal precision: indicators change infrequently
+% - Low-prevalence items (cult_of_personality, oath_to_person) have weak discrimination
+% - Unidimensional assumption may not hold
+
+\subsection{Extensions}
+
+% TODO:
+% - Multidimensional IRT separating power concentration from personality cult
+% - Dynamic IRT for time-varying personalism within leader-spells
+% - Additional indicators from text mining (State Dept reports, GDELT)
+
+% ==========================================================================
+\section{Conclusion}
+% ==========================================================================
+
+% TODO: Brief conclusion restating contributions
+
+% ==========================================================================
+% Data Availability
+% ==========================================================================
+\bigskip
+\noindent\textbf{Data Availability.} We will make all data and code used to generate our results available at a figshare repository at the time of publication.
+
+% ==========================================================================
+% Acknowledgments
+% ==========================================================================
+\bigskip
+\noindent\textbf{Acknowledgments.} [TBD]
+
+% ==========================================================================
+% References
+% ==========================================================================
+\newpage
+\bibliographystyle{apalike}
+\bibliography{references}
+
+% ==========================================================================
+% Appendix
+% ==========================================================================
+\newpage
+\appendix
+\section{Item Characteristic Curves}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{../figures/fig_icc_curves.pdf}
+  \caption{Item Characteristic Curves (ICCs) for all \nIndicators{} indicators, showing the probability of a positive coding as a function of the latent personalism score $\theta$.}
+  \label{fig:icc}
+\end{figure}
+
+\section{Bottom-Ranked Leaders}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{../figures/fig_bottom_leaders.pdf}
+  \caption{The 25 leaders with the lowest estimated personalism scores, with 95\% confidence intervals.}
+  \label{fig:bottom_leaders}
+\end{figure}
+
+% TODO: Add item fit statistics table
+% TODO: Add full indicator coding table in appendix
+
+\end{document}
