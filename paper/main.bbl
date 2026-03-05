@@ -1,0 +1,60 @@
+\begin{thebibliography}{}
+
+\bibitem[Chalmers, 2012]{chalmers2012}
+Chalmers, R.~P. (2012).
+\newblock \texttt{mirt}: A multidimensional item response theory package for
+  the \texttt{R} environment.
+\newblock {\em Journal of Statistical Software}, 48(6):1--29.
+
+\bibitem[Coppedge et~al., 2024]{coppedge2024}
+Coppedge, M., Gerring, J., Knutsen, C.~H., Lindberg, S.~I., Teorell, J., et~al.
+  (2024).
+\newblock V-dem codebook v14.
+\newblock Varieties of Democracy (V-Dem) Project.
+
+\bibitem[{de Ayala}, 2009]{deayala2009}
+{de Ayala}, R.~J. (2009).
+\newblock {\em The Theory and Practice of Item Response Theory}.
+\newblock Guilford Press.
+
+\bibitem[Elkins et~al., 2014]{constitute}
+Elkins, Z., Ginsburg, T., and Melton, J. (2014).
+\newblock The constitute project: A platform for constitutional comparison.
+\newblock Available at \url{https://www.constituteproject.org}.
+
+\bibitem[Embretson and Reise, 2000]{embretson2000}
+Embretson, S.~E. and Reise, S.~P. (2000).
+\newblock Item response theory for psychologists.
+
+\bibitem[Frantz and Ezrow, 2011]{frantz2011}
+Frantz, E. and Ezrow, N.~M. (2011).
+\newblock {\em Dictators and Dictatorships: Understanding Authoritarian Regimes
+  and Their Leaders}.
+\newblock Bloomsbury Academic.
+
+\bibitem[Geddes et~al., 2014]{geddes2014}
+Geddes, B., Wright, J., and Frantz, E. (2014).
+\newblock Autocratic breakdown and regime transitions: A new data set.
+\newblock {\em Perspectives on Politics}, 12(2):313--331.
+
+\bibitem[Goemans et~al., 2009]{goemans2009}
+Goemans, H.~E., Gleditsch, K.~S., and Chiozza, G. (2009).
+\newblock Introducing archigos: A dataset of political leaders.
+\newblock {\em Journal of Peace Research}, 46(2):269--283.
+
+\bibitem[Svolik, 2012]{svolik2012}
+Svolik, M.~W. (2012).
+\newblock {\em The Politics of Authoritarian Rule}.
+\newblock Cambridge University Press.
+
+\bibitem[Treier and Jackman, 2008]{treier2008}
+Treier, S. and Jackman, S. (2008).
+\newblock Democracy as a latent variable.
+\newblock {\em American Journal of Political Science}, 52(1):201--217.
+
+\bibitem[Weeks, 2014]{weeks2014}
+Weeks, J. L.~P. (2014).
+\newblock {\em Dictators at War and Peace}.
+\newblock Cornell University Press.
+
+\end{thebibliography}

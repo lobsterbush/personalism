@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codebook — Personalism in Dictatorships</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .codebook-container {
+            max-width: 820px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem 4rem;
+        }
+        .codebook-content h1 { font-size: 1.6rem; margin: 2rem 0 0.5rem; }
+        .codebook-content h2 { font-size: 1.3rem; margin: 2rem 0 0.5rem; border-bottom: 1px solid var(--border-light); padding-bottom: 0.25rem; }
+        .codebook-content h3 { font-size: 1.05rem; margin: 1.5rem 0 0.25rem; }
+        .codebook-content h4 { font-size: 0.95rem; font-weight: 600; margin: 1.25rem 0 0.25rem; color: var(--text-secondary); }
+        .codebook-content p { margin: 0.5rem 0; }
+        .codebook-content ul, .codebook-content ol { margin: 0.5rem 0 0.5rem 1.5rem; }
+        .codebook-content li { margin-bottom: 0.25rem; }
+        .codebook-content code {
+            font-family: var(--font-mono);
+            font-size: 0.85em;
+            background: var(--bg-secondary);
+            padding: 0.15em 0.4em;
+            border-radius: 3px;
+        }
+        .codebook-content hr { border: none; border-top: 1px solid var(--border-light); margin: 2rem 0; }
+        .codebook-content strong { font-weight: 600; }
+        .codebook-content table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: 0.85rem; }
+        .codebook-content th, .codebook-content td { border: 1px solid var(--border-light); padding: 0.4rem 0.6rem; text-align: left; }
+        .codebook-content th { background: var(--bg-secondary); font-weight: 600; }
+        .back-link { font-family: var(--font-mono); font-size: 0.85rem; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Personalism in Dictatorships</h1>
+        <p class="subtitle">Codebook</p>
+    </header>
+
+    <div class="codebook-container">
+        <p class="back-link"><a href="index.html">← Back to Dashboard</a></p>
+        <div class="codebook-content" id="codebook-content">
+            <p style="color: var(--text-muted);">Loading codebook…</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Morgenbesser & Crabtree · <a href="index.html">Dashboard</a> · <a href="https://github.com/lobsterbush/personalism">GitHub</a></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script>
+        fetch('codebook.md')
+            .then(r => { if (!r.ok) throw new Error(r.status); return r.text(); })
+            .then(md => {
+                document.getElementById('codebook-content').innerHTML = marked.parse(md);
+            })
+            .catch(() => {
+                document.getElementById('codebook-content').innerHTML =
+                    '<p>Could not load codebook. <a href="https://github.com/lobsterbush/personalism/blob/master/codebook/codebook.md">View on GitHub</a>.</p>';
+            });
+    </script>
+</body>
+</html>
