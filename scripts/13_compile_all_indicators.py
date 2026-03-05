@@ -276,18 +276,31 @@ def main():
             writer.writerow(flat)
     print(f"  Wrote {len(compiled)} rows to {csv_path}")
 
-    # Build dashboard JSON
+    # Build dashboard JSON — collapse multi-spell leaders per country
     print("\nBuilding dashboard JSON...")
-    countries_dict: dict[str, list] = {}
+    countries_dict: dict[str, dict] = {}
+    # Group by (iso3, qid) and collapse: keep earliest start / latest end,
+    # take max of each indicator across spells.
+    from collections import defaultdict
+    grouped: dict[tuple[str, str], list[dict]] = defaultdict(list)
     for rec in compiled:
-        iso3 = rec["iso3"]
+        grouped[(rec["iso3"], rec["qid"])].append(rec)
+
+    for (iso3, qid), spells in grouped.items():
         if iso3 not in countries_dict:
-            countries_dict[iso3] = {"iso3": iso3, "name": rec["country"], "leaders": []}
+            name = spells[0]["country"]
+            countries_dict[iso3] = {"iso3": iso3, "name": name, "leaders": []}
+        starts = [safe_int(s["start_year"]) for s in spells if safe_int(s["start_year"]) is not None]
+        ends   = [safe_int(s["end_year"])   for s in spells if safe_int(s["end_year"])   is not None]
+        merged_ind: dict[str, int | None] = {}
+        for k in indicator_keys:
+            vals = [s["indicators"][k] for s in spells if s["indicators"][k] is not None]
+            merged_ind[k] = max(vals) if vals else None
         countries_dict[iso3]["leaders"].append({
-            "name": rec["leader"],
-            "start_year": safe_int(rec["start_year"]),
-            "end_year": safe_int(rec["end_year"]),
-            "indicators": rec["indicators"],
+            "name": spells[0]["leader"],
+            "start_year": min(starts) if starts else None,
+            "end_year":   max(ends) if ends else None,
+            "indicators": merged_ind,
         })
 
     dashboard = {

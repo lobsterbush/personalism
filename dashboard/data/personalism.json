@@ -118,13 +118,13 @@
         {
           "name": "Sardar Mohammad Daud Khan",
           "start_year": 1953,
-          "end_year": 1963,
+          "end_year": 1978,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
             "family_in_govt": 0,
             "political_killings": 1,
-            "military_executive": 0,
+            "military_executive": 1,
             "judicial_purges": 1,
             "const_disregard": 1,
             "no_leg_constraint": 1,
@@ -227,29 +227,6 @@
             "hagiography": 0,
             "cult_of_personality": 0,
             "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Sardar Mohammad Daud Khan",
-          "start_year": 1973,
-          "end_year": 1978,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 1,
-            "military_executive": 1,
-            "judicial_purges": 1,
-            "const_disregard": 1,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 1,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 1,
             "oath_to_person": 0
           }
         },
@@ -452,7 +429,7 @@
         {
           "name": "Fatos Nano",
           "start_year": 1997,
-          "end_year": 1998,
+          "end_year": 2005,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -475,29 +452,6 @@
         {
           "name": "Majko",
           "start_year": 1998,
-          "end_year": 1999,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 1,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Majko",
-          "start_year": 2002,
           "end_year": 2002,
           "indicators": {
             "term_limits_absent": 0,
@@ -505,30 +459,7 @@
             "family_in_govt": 0,
             "political_killings": 0,
             "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Fatos Nano",
-          "start_year": 2002,
-          "end_year": 2005,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
+            "judicial_purges": 1,
             "const_disregard": 0,
             "no_leg_constraint": 0,
             "places_named": 0,
@@ -1546,7 +1477,7 @@
         {
           "name": "Buyoya",
           "start_year": 1987,
-          "end_year": 1993,
+          "end_year": 2003,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -1586,29 +1517,6 @@
             "hagiography": 0,
             "cult_of_personality": 0,
             "currency_portrait": 1,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Buyoya",
-          "start_year": 1996,
-          "end_year": 2003,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 1,
-            "military_executive": 1,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
             "oath_to_person": 0
           }
         },
@@ -1667,7 +1575,7 @@
         {
           "name": "Martens",
           "start_year": 1979,
-          "end_year": 1981,
+          "end_year": 1992,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -1711,29 +1619,6 @@
           }
         },
         {
-          "name": "Martens",
-          "start_year": 1981,
-          "end_year": 1992,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 1,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
           "name": "Charles Michel",
           "start_year": 2014,
           "end_year": 2015,
@@ -1765,7 +1650,7 @@
         {
           "name": "Maga",
           "start_year": 1960,
-          "end_year": 1963,
+          "end_year": 1972,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -1788,13 +1673,13 @@
         {
           "name": "Soglo",
           "start_year": 1963,
-          "end_year": 1964,
+          "end_year": 1967,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
             "family_in_govt": 1,
             "political_killings": 0,
-            "military_executive": 0,
+            "military_executive": 1,
             "judicial_purges": 1,
             "const_disregard": 0,
             "no_leg_constraint": 0,
@@ -1816,29 +1701,6 @@
             "term_limits_absent": 0,
             "president_for_life": 0,
             "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 1,
-            "judicial_purges": 1,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Soglo",
-          "start_year": 1965,
-          "end_year": 1967,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 1,
             "political_killings": 0,
             "military_executive": 1,
             "judicial_purges": 1,
@@ -1887,29 +1749,6 @@
             "family_in_govt": 0,
             "political_killings": 0,
             "military_executive": 1,
-            "judicial_purges": 1,
-            "const_disregard": 0,
-            "no_leg_constraint": null,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Maga",
-          "start_year": 1970,
-          "end_year": 1972,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
             "judicial_purges": 1,
             "const_disregard": 0,
             "no_leg_constraint": null,
@@ -1978,7 +1817,7 @@
         {
           "name": "Lamizana",
           "start_year": 1966,
-          "end_year": 1971,
+          "end_year": 1980,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -2010,29 +1849,6 @@
             "military_executive": 1,
             "judicial_purges": 0,
             "const_disregard": 0,
-            "no_leg_constraint": 1,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Lamizana",
-          "start_year": 1974,
-          "end_year": 1980,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 1,
-            "military_executive": 1,
-            "judicial_purges": 0,
-            "const_disregard": 1,
             "no_leg_constraint": 1,
             "places_named": 0,
             "grandiose_titles": 0,
@@ -2191,7 +2007,7 @@
         {
           "name": "Khaleda Zia",
           "start_year": 1991,
-          "end_year": 1996,
+          "end_year": 2006,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -2237,7 +2053,7 @@
         {
           "name": "Hasina Wazed",
           "start_year": 1996,
-          "end_year": 2001,
+          "end_year": 2015,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -2281,29 +2097,6 @@
           }
         },
         {
-          "name": "Khaleda Zia",
-          "start_year": 2001,
-          "end_year": 2006,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 1,
-            "political_killings": 1,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 1,
-            "no_leg_constraint": 1,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
           "name": "Iajuddin",
           "start_year": 2006,
           "end_year": 2007,
@@ -2317,29 +2110,6 @@
             "const_disregard": 1,
             "no_leg_constraint": 0,
             "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Hasina Wazed",
-          "start_year": 2009,
-          "end_year": 2015,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 1,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 1,
-            "no_leg_constraint": 1,
-            "places_named": 1,
             "grandiose_titles": 0,
             "monuments": 0,
             "birthday_holiday": 0,
@@ -2496,29 +2266,6 @@
         {
           "name": "Boyko Borisov",
           "start_year": 2009,
-          "end_year": 2013,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Boyko Borisov",
-          "start_year": 2014,
           "end_year": 2015,
           "indicators": {
             "term_limits_absent": 0,
@@ -2600,7 +2347,7 @@
         {
           "name": "Borislav Paravac",
           "start_year": 2003,
-          "end_year": 2003,
+          "end_year": 2005,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -2623,7 +2370,7 @@
         {
           "name": "Dragan Covic",
           "start_year": 2003,
-          "end_year": 2004,
+          "end_year": 2015,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -2646,52 +2393,6 @@
         {
           "name": "Sulejman Tihic",
           "start_year": 2004,
-          "end_year": 2004,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Borislav Paravac",
-          "start_year": 2004,
-          "end_year": 2005,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Sulejman Tihic",
-          "start_year": 2006,
           "end_year": 2006,
           "indicators": {
             "term_limits_absent": 0,
@@ -2715,7 +2416,7 @@
         {
           "name": "Zeljko Komsic",
           "start_year": 2007,
-          "end_year": 2008,
+          "end_year": 2014,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -2738,76 +2439,7 @@
         {
           "name": "Silajdzic",
           "start_year": 2008,
-          "end_year": 2008,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Zeljko Komsic",
-          "start_year": 2009,
           "end_year": 2010,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Silajdzic",
-          "start_year": 2010,
-          "end_year": 2010,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Zeljko Komsic",
-          "start_year": 2011,
-          "end_year": 2014,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -2831,29 +2463,6 @@
           "name": "Bakir Izetbegovic",
           "start_year": 2014,
           "end_year": 2014,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Dragan Covic",
-          "start_year": 2015,
-          "end_year": 2015,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -2911,52 +2520,6 @@
         {
           "name": "Price",
           "start_year": 1961,
-          "end_year": 1984,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": null,
-            "military_executive": null,
-            "judicial_purges": null,
-            "const_disregard": null,
-            "no_leg_constraint": null,
-            "places_named": 1,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 1,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Esquivel",
-          "start_year": 1984,
-          "end_year": 1989,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": null,
-            "military_executive": null,
-            "judicial_purges": null,
-            "const_disregard": null,
-            "no_leg_constraint": null,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Price",
-          "start_year": 1989,
           "end_year": 1993,
           "indicators": {
             "term_limits_absent": 0,
@@ -2979,7 +2542,7 @@
         },
         {
           "name": "Esquivel",
-          "start_year": 1993,
+          "start_year": 1984,
           "end_year": 1998,
           "indicators": {
             "term_limits_absent": 0,
@@ -3078,7 +2641,7 @@
         {
           "name": "Banzer Suarez",
           "start_year": 1971,
-          "end_year": 1978,
+          "end_year": 2001,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -3087,7 +2650,7 @@
             "military_executive": 1,
             "judicial_purges": 1,
             "const_disregard": 1,
-            "no_leg_constraint": null,
+            "no_leg_constraint": 0,
             "places_named": 0,
             "grandiose_titles": 0,
             "monuments": 0,
@@ -3193,30 +2756,7 @@
         {
           "name": "Gonzalo Sanchez de Lozada",
           "start_year": 1993,
-          "end_year": 1997,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 1,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Banzer Suarez",
-          "start_year": 1997,
-          "end_year": 2001,
+          "end_year": 2003,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -3240,29 +2780,6 @@
           "name": "Jorge Quiroga Ramirez",
           "start_year": 2001,
           "end_year": 2002,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 1,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Gonzalo Sanchez de Lozada",
-          "start_year": 2002,
-          "end_year": 2003,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -3383,29 +2900,6 @@
         {
           "name": "Ranieri Mazzilli",
           "start_year": 1961,
-          "end_year": 1961,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 1,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Ranieri Mazzilli",
-          "start_year": 1964,
           "end_year": 1964,
           "indicators": {
             "term_limits_absent": 0,
@@ -3573,7 +3067,7 @@
         {
           "name": "Barrow",
           "start_year": 1966,
-          "end_year": 1976,
+          "end_year": 1987,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -3597,29 +3091,6 @@
           "name": "St. John",
           "start_year": 1985,
           "end_year": 1986,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Barrow",
-          "start_year": 1986,
-          "end_year": 1987,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -3769,29 +3240,6 @@
         {
           "name": "Dacko",
           "start_year": 1960,
-          "end_year": 1966,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 1,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 1,
-            "no_leg_constraint": 1,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Dacko",
-          "start_year": 1979,
           "end_year": 1981,
           "indicators": {
             "term_limits_absent": 0,
@@ -3936,7 +3384,7 @@
         {
           "name": "Pierre Trudeau",
           "start_year": 1968,
-          "end_year": 1979,
+          "end_year": 1984,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -3976,29 +3424,6 @@
             "hagiography": 0,
             "cult_of_personality": 0,
             "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Pierre Trudeau",
-          "start_year": 1980,
-          "end_year": 1984,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 1,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 1,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 1,
             "oath_to_person": 0
           }
         },
@@ -4293,7 +3718,7 @@
         {
           "name": "Michelle Bachelet",
           "start_year": 2006,
-          "end_year": 2010,
+          "end_year": 2015,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -4321,29 +3746,6 @@
             "term_limits_absent": 0,
             "president_for_life": 0,
             "family_in_govt": 1,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Michelle Bachelet",
-          "start_year": 2014,
-          "end_year": 2015,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
             "political_killings": 0,
             "military_executive": 0,
             "judicial_purges": 0,
@@ -4639,7 +4041,7 @@
         {
           "name": "Mobutu",
           "start_year": 1960,
-          "end_year": 1960,
+          "end_year": 1997,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 1,
@@ -4648,7 +4050,7 @@
             "military_executive": 0,
             "judicial_purges": 1,
             "const_disregard": 1,
-            "no_leg_constraint": 0,
+            "no_leg_constraint": 1,
             "places_named": 0,
             "grandiose_titles": 1,
             "monuments": 0,
@@ -4674,29 +4076,6 @@
             "no_leg_constraint": 0,
             "places_named": 0,
             "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Mobutu",
-          "start_year": 1965,
-          "end_year": 1997,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 1,
-            "family_in_govt": 0,
-            "political_killings": 1,
-            "military_executive": 0,
-            "judicial_purges": 1,
-            "const_disregard": 1,
-            "no_leg_constraint": 1,
-            "places_named": 0,
-            "grandiose_titles": 1,
             "monuments": 0,
             "birthday_holiday": 0,
             "hagiography": 0,
@@ -4760,7 +4139,7 @@
         {
           "name": "Nguesso",
           "start_year": 1979,
-          "end_year": 1992,
+          "end_year": 2015,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -4802,29 +4181,6 @@
             "currency_portrait": 0,
             "oath_to_person": 0
           }
-        },
-        {
-          "name": "Nguesso",
-          "start_year": 1997,
-          "end_year": 2015,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 1,
-            "political_killings": 1,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 1,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
         }
       ]
     },
@@ -4835,7 +4191,7 @@
         {
           "name": "Lleras Camargo",
           "start_year": 1945,
-          "end_year": 1946,
+          "end_year": 1962,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -4869,29 +4225,6 @@
             "const_disregard": 1,
             "no_leg_constraint": 0,
             "places_named": 1,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Lleras Camargo",
-          "start_year": 1958,
-          "end_year": 1962,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 1,
-            "political_killings": 1,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
             "grandiose_titles": 0,
             "monuments": 0,
             "birthday_holiday": 0,
@@ -5250,29 +4583,6 @@
         {
           "name": "Makarios",
           "start_year": 1960,
-          "end_year": 1974,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 1,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 1,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Makarios",
-          "start_year": 1974,
           "end_year": 1977,
           "indicators": {
             "term_limits_absent": 0,
@@ -5280,7 +4590,7 @@
             "family_in_govt": 0,
             "political_killings": 0,
             "military_executive": 0,
-            "judicial_purges": 0,
+            "judicial_purges": 1,
             "const_disregard": 0,
             "no_leg_constraint": 0,
             "places_named": 1,
@@ -5803,7 +5113,7 @@
         {
           "name": "Hedtoft",
           "start_year": 1947,
-          "end_year": 1950,
+          "end_year": 1955,
           "indicators": {
             "term_limits_absent": 1,
             "president_for_life": 0,
@@ -5827,29 +5137,6 @@
           "name": "Eriksen",
           "start_year": 1950,
           "end_year": 1953,
-          "indicators": {
-            "term_limits_absent": 1,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Hedtoft",
-          "start_year": 1953,
-          "end_year": 1955,
           "indicators": {
             "term_limits_absent": 1,
             "president_for_life": 0,
@@ -5918,7 +5205,7 @@
         {
           "name": "Krag",
           "start_year": 1962,
-          "end_year": 1968,
+          "end_year": 1972,
           "indicators": {
             "term_limits_absent": 1,
             "president_for_life": 0,
@@ -5942,29 +5229,6 @@
           "name": "Baunsgaard",
           "start_year": 1968,
           "end_year": 1971,
-          "indicators": {
-            "term_limits_absent": 1,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Krag",
-          "start_year": 1971,
-          "end_year": 1972,
           "indicators": {
             "term_limits_absent": 1,
             "president_for_life": 0,
@@ -6056,7 +5320,7 @@
         {
           "name": "Lars L\u00f8kke Rasmussen",
           "start_year": 2009,
-          "end_year": 2011,
+          "end_year": 2015,
           "indicators": {
             "term_limits_absent": 1,
             "president_for_life": 0,
@@ -6079,29 +5343,6 @@
         {
           "name": "Thorning-Schmidt",
           "start_year": 2011,
-          "end_year": 2015,
-          "indicators": {
-            "term_limits_absent": 1,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Lars L\u00f8kke Rasmussen",
-          "start_year": 2015,
           "end_year": 2015,
           "indicators": {
             "term_limits_absent": 1,
@@ -6246,29 +5487,6 @@
         {
           "name": "Fernandez Reyna",
           "start_year": 1996,
-          "end_year": 2000,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 1,
-            "no_leg_constraint": 1,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Fernandez Reyna",
-          "start_year": 2004,
           "end_year": 2012,
           "indicators": {
             "term_limits_absent": 0,
@@ -6943,29 +6161,6 @@
         {
           "name": "Laar",
           "start_year": 1992,
-          "end_year": 1994,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Laar",
-          "start_year": 1999,
           "end_year": 2002,
           "indicators": {
             "term_limits_absent": 0,
@@ -7214,13 +6409,13 @@
         {
           "name": "Mara",
           "start_year": 1970,
-          "end_year": 1987,
+          "end_year": 1992,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
             "family_in_govt": 1,
             "political_killings": 0,
-            "military_executive": 0,
+            "military_executive": 1,
             "judicial_purges": 0,
             "const_disregard": 0,
             "no_leg_constraint": 0,
@@ -7260,7 +6455,7 @@
         {
           "name": "Rabuka",
           "start_year": 1987,
-          "end_year": 1987,
+          "end_year": 1999,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -7270,52 +6465,6 @@
             "judicial_purges": 0,
             "const_disregard": 1,
             "no_leg_constraint": 1,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Mara",
-          "start_year": 1987,
-          "end_year": 1992,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 1,
-            "political_killings": 0,
-            "military_executive": 1,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 1,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Rabuka",
-          "start_year": 1992,
-          "end_year": 1999,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
             "places_named": 0,
             "grandiose_titles": 0,
             "monuments": 0,
@@ -7427,7 +6576,7 @@
         {
           "name": "Bidault",
           "start_year": 1946,
-          "end_year": 1946,
+          "end_year": 1950,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -7494,100 +6643,8 @@
           }
         },
         {
-          "name": "Schuman",
-          "start_year": 1948,
-          "end_year": 1948,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 1,
-            "grandiose_titles": 1,
-            "monuments": 1,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
           "name": "Queuille",
           "start_year": 1948,
-          "end_year": 1949,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Bidault",
-          "start_year": 1949,
-          "end_year": 1950,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Queuille",
-          "start_year": 1950,
-          "end_year": 1950,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Queuille",
-          "start_year": 1951,
           "end_year": 1951,
           "indicators": {
             "term_limits_absent": 0,
@@ -7611,7 +6668,7 @@
         {
           "name": "Faure",
           "start_year": 1952,
-          "end_year": 1952,
+          "end_year": 1956,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -7668,29 +6725,6 @@
             "const_disregard": 0,
             "no_leg_constraint": 0,
             "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Faure",
-          "start_year": 1955,
-          "end_year": 1956,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 1,
             "grandiose_titles": 0,
             "monuments": 0,
             "birthday_holiday": 0,
@@ -7772,7 +6806,7 @@
         {
           "name": "Poher",
           "start_year": 1969,
-          "end_year": 1969,
+          "end_year": 1974,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -7810,29 +6844,6 @@
             "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 1,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Poher",
-          "start_year": 1974,
-          "end_year": 1974,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
             "cult_of_personality": 0,
             "currency_portrait": 0,
             "oath_to_person": 0
@@ -8060,7 +7071,7 @@
         {
           "name": "Wilson",
           "start_year": 1964,
-          "end_year": 1970,
+          "end_year": 1976,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -8100,29 +7111,6 @@
             "hagiography": 0,
             "cult_of_personality": 0,
             "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Wilson",
-          "start_year": 1974,
-          "end_year": 1976,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 1,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 1,
             "oath_to_person": 0
           }
         },
@@ -8463,14 +7451,14 @@
         {
           "name": "Rawlings",
           "start_year": 1979,
-          "end_year": 1979,
+          "end_year": 2001,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
             "family_in_govt": 0,
             "political_killings": 1,
-            "military_executive": 0,
-            "judicial_purges": 0,
+            "military_executive": 1,
+            "judicial_purges": 1,
             "const_disregard": 1,
             "no_leg_constraint": 0,
             "places_named": 0,
@@ -8498,29 +7486,6 @@
             "no_leg_constraint": 0,
             "places_named": 0,
             "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Rawlings",
-          "start_year": 1981,
-          "end_year": 2001,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 1,
-            "judicial_purges": 1,
-            "const_disregard": 1,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 1,
             "monuments": 0,
             "birthday_holiday": 0,
             "hagiography": 0,
@@ -8901,7 +7866,7 @@
         {
           "name": "Plastiras",
           "start_year": 1945,
-          "end_year": 1945,
+          "end_year": 1952,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -9037,52 +8002,6 @@
           }
         },
         {
-          "name": "Plastiras",
-          "start_year": 1950,
-          "end_year": 1950,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 1,
-            "military_executive": 0,
-            "judicial_purges": 1,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Plastiras",
-          "start_year": 1951,
-          "end_year": 1952,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 1,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
           "name": "Kiousopoulos",
           "start_year": 1952,
           "end_year": 1952,
@@ -9131,7 +8050,7 @@
         {
           "name": "Karamanlis",
           "start_year": 1955,
-          "end_year": 1958,
+          "end_year": 2009,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -9165,52 +8084,6 @@
             "const_disregard": 0,
             "no_leg_constraint": 0,
             "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Karamanlis",
-          "start_year": 1958,
-          "end_year": 1961,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 1,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Karamanlis",
-          "start_year": 1961,
-          "end_year": 1963,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 1,
             "grandiose_titles": 0,
             "monuments": 0,
             "birthday_holiday": 0,
@@ -9313,29 +8186,6 @@
           }
         },
         {
-          "name": "Karamanlis",
-          "start_year": 1974,
-          "end_year": 1980,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 1,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
           "name": "Georgios Rallis",
           "start_year": 1980,
           "end_year": 1981,
@@ -9361,7 +8211,7 @@
         {
           "name": "A. Papandreou",
           "start_year": 1981,
-          "end_year": 1989,
+          "end_year": 1995,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -9442,52 +8292,6 @@
             "no_leg_constraint": 0,
             "places_named": 0,
             "grandiose_titles": 1,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "A. Papandreou",
-          "start_year": 1993,
-          "end_year": 1995,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 1,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 1,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Konstantinos Karamanlis",
-          "start_year": 2004,
-          "end_year": 2009,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 1,
-            "grandiose_titles": 0,
             "monuments": 0,
             "birthday_holiday": 0,
             "hagiography": 0,
@@ -10309,29 +9113,6 @@
           }
         },
         {
-          "name": "Namphy",
-          "start_year": 1988,
-          "end_year": 1988,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 1,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 1,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
           "name": "Cedras",
           "start_year": 1991,
           "end_year": 1994,
@@ -10455,29 +9236,6 @@
         {
           "name": "Orban",
           "start_year": 1998,
-          "end_year": 2002,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 1,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Orban",
-          "start_year": 2010,
           "end_year": 2015,
           "indicators": {
             "term_limits_absent": 0,
@@ -10507,7 +9265,7 @@
         {
           "name": "Sukarno",
           "start_year": 1945,
-          "end_year": 1948,
+          "end_year": 1966,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 1,
@@ -10515,7 +9273,7 @@
             "political_killings": 1,
             "military_executive": 0,
             "judicial_purges": 0,
-            "const_disregard": 0,
+            "const_disregard": 1,
             "no_leg_constraint": 0,
             "places_named": 0,
             "grandiose_titles": 0,
@@ -10547,29 +9305,6 @@
             "hagiography": 0,
             "cult_of_personality": 0,
             "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Sukarno",
-          "start_year": 1949,
-          "end_year": 1966,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 1,
-            "family_in_govt": 1,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 1,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 1,
-            "cult_of_personality": 0,
-            "currency_portrait": 1,
             "oath_to_person": 0
           }
         },
@@ -10697,7 +9432,7 @@
         {
           "name": "Nanda",
           "start_year": 1964,
-          "end_year": 1964,
+          "end_year": 1966,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -10741,32 +9476,9 @@
           }
         },
         {
-          "name": "Nanda",
-          "start_year": 1966,
-          "end_year": 1966,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
           "name": "Gandhi, I.",
           "start_year": 1966,
-          "end_year": 1977,
+          "end_year": 1984,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -10829,29 +9541,6 @@
             "hagiography": 0,
             "cult_of_personality": 0,
             "currency_portrait": 1,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Gandhi, I.",
-          "start_year": 1980,
-          "end_year": 1984,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 1,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 1,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
             "oath_to_person": 0
           }
         },
@@ -10927,7 +9616,7 @@
         {
           "name": "Vajpayee",
           "start_year": 1996,
-          "end_year": 1996,
+          "end_year": 2004,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -10994,29 +9683,6 @@
           }
         },
         {
-          "name": "Vajpayee",
-          "start_year": 1998,
-          "end_year": 2004,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 1,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
           "name": "Narendra Modi",
           "start_year": 2014,
           "end_year": 2015,
@@ -11048,29 +9714,6 @@
         {
           "name": "Costello",
           "start_year": 1948,
-          "end_year": 1951,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Costello",
-          "start_year": 1954,
           "end_year": 1957,
           "indicators": {
             "term_limits_absent": 0,
@@ -11094,29 +9737,6 @@
         {
           "name": "Lynch",
           "start_year": 1966,
-          "end_year": 1973,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 1,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Lynch",
-          "start_year": 1977,
           "end_year": 1979,
           "indicators": {
             "term_limits_absent": 0,
@@ -11140,7 +9760,7 @@
         {
           "name": "Haughey",
           "start_year": 1979,
-          "end_year": 1981,
+          "end_year": 1992,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -11163,76 +9783,7 @@
         {
           "name": "Fitzgerald",
           "start_year": 1981,
-          "end_year": 1982,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 1,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Haughey",
-          "start_year": 1982,
-          "end_year": 1982,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 1,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Fitzgerald",
-          "start_year": 1982,
           "end_year": 1987,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 1,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Haughey",
-          "start_year": 1987,
-          "end_year": 1992,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -11693,7 +10244,7 @@
         {
           "name": "Ben Gurion",
           "start_year": 1948,
-          "end_year": 1953,
+          "end_year": 1963,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -11717,29 +10268,6 @@
           "name": "Sharett",
           "start_year": 1953,
           "end_year": 1955,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 1,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Ben Gurion",
-          "start_year": 1955,
-          "end_year": 1963,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -11808,7 +10336,7 @@
         {
           "name": "Rabin",
           "start_year": 1974,
-          "end_year": 1977,
+          "end_year": 1995,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -11831,7 +10359,7 @@
         {
           "name": "Peres",
           "start_year": 1977,
-          "end_year": 1977,
+          "end_year": 1996,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -11875,78 +10403,9 @@
           }
         },
         {
-          "name": "Peres",
-          "start_year": 1984,
-          "end_year": 1986,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 1,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Rabin",
-          "start_year": 1992,
-          "end_year": 1995,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 1,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Peres",
-          "start_year": 1995,
-          "end_year": 1996,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 1,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
           "name": "Netanyahu",
           "start_year": 1996,
-          "end_year": 1999,
+          "end_year": 2015,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -12034,29 +10493,6 @@
             "currency_portrait": 0,
             "oath_to_person": 0
           }
-        },
-        {
-          "name": "Netanyahu",
-          "start_year": 2009,
-          "end_year": 2015,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 1,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
         }
       ]
     },
@@ -12136,7 +10572,7 @@
         {
           "name": "Fanfani",
           "start_year": 1954,
-          "end_year": 1954,
+          "end_year": 1987,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -12182,7 +10618,7 @@
         {
           "name": "Segni",
           "start_year": 1955,
-          "end_year": 1957,
+          "end_year": 1960,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -12226,52 +10662,6 @@
           }
         },
         {
-          "name": "Fanfani",
-          "start_year": 1958,
-          "end_year": 1959,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Segni",
-          "start_year": 1959,
-          "end_year": 1960,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 1,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
           "name": "Tambroni",
           "start_year": 1960,
           "end_year": 1960,
@@ -12295,32 +10685,9 @@
           }
         },
         {
-          "name": "Fanfani",
-          "start_year": 1960,
-          "end_year": 1963,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
           "name": "Leone",
           "start_year": 1963,
-          "end_year": 1963,
+          "end_year": 1968,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -12343,7 +10710,7 @@
         {
           "name": "Moro",
           "start_year": 1963,
-          "end_year": 1968,
+          "end_year": 1976,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -12364,32 +10731,9 @@
           }
         },
         {
-          "name": "Leone",
-          "start_year": 1968,
-          "end_year": 1968,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 1,
-            "oath_to_person": 0
-          }
-        },
-        {
           "name": "Rumor",
           "start_year": 1968,
-          "end_year": 1970,
+          "end_year": 1974,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -12435,76 +10779,7 @@
         {
           "name": "Andreotti",
           "start_year": 1972,
-          "end_year": 1973,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Rumor",
-          "start_year": 1973,
-          "end_year": 1974,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Moro",
-          "start_year": 1974,
-          "end_year": 1976,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 1,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Andreotti",
-          "start_year": 1976,
-          "end_year": 1979,
+          "end_year": 1992,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -12594,29 +10869,6 @@
           }
         },
         {
-          "name": "Fanfani",
-          "start_year": 1982,
-          "end_year": 1983,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
           "name": "Craxi",
           "start_year": 1983,
           "end_year": 1987,
@@ -12631,29 +10883,6 @@
             "no_leg_constraint": 0,
             "places_named": 1,
             "grandiose_titles": 1,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Fanfani",
-          "start_year": 1987,
-          "end_year": 1987,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
             "monuments": 0,
             "birthday_holiday": 0,
             "hagiography": 0,
@@ -12709,32 +10938,9 @@
           }
         },
         {
-          "name": "Andreotti",
-          "start_year": 1989,
-          "end_year": 1992,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
           "name": "Amato",
           "start_year": 1992,
-          "end_year": 1993,
+          "end_year": 2001,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -12780,7 +10986,7 @@
         {
           "name": "Berlusconi",
           "start_year": 1994,
-          "end_year": 1995,
+          "end_year": 2006,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -12845,52 +11051,6 @@
             "currency_portrait": 0,
             "oath_to_person": 0
           }
-        },
-        {
-          "name": "Amato",
-          "start_year": 2000,
-          "end_year": 2001,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Berlusconi",
-          "start_year": 2001,
-          "end_year": 2006,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 1,
-            "grandiose_titles": 1,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
         }
       ]
     },
@@ -12947,29 +11107,6 @@
         {
           "name": "Manley",
           "start_year": 1972,
-          "end_year": 1980,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 1,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 1,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Manley",
-          "start_year": 1989,
           "end_year": 1992,
           "indicators": {
             "term_limits_absent": 0,
@@ -13488,7 +11625,7 @@
         {
           "name": "Shinzo Abe",
           "start_year": 2006,
-          "end_year": 2007,
+          "end_year": 2015,
           "indicators": {
             "term_limits_absent": 1,
             "president_for_life": 0,
@@ -13618,29 +11755,6 @@
             "monuments": 0,
             "birthday_holiday": 0,
             "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Shinzo Abe",
-          "start_year": 2012,
-          "end_year": 2015,
-          "indicators": {
-            "term_limits_absent": 1,
-            "president_for_life": 0,
-            "family_in_govt": 1,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 1,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 0,
             "oath_to_person": 0
@@ -13926,7 +12040,7 @@
         {
           "name": "Hun Sen",
           "start_year": 1985,
-          "end_year": 1993,
+          "end_year": 2015,
           "indicators": {
             "term_limits_absent": 1,
             "president_for_life": 1,
@@ -13966,29 +12080,6 @@
             "hagiography": 0,
             "cult_of_personality": 0,
             "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Hun Sen",
-          "start_year": 1997,
-          "end_year": 2015,
-          "indicators": {
-            "term_limits_absent": 1,
-            "president_for_life": 1,
-            "family_in_govt": 1,
-            "political_killings": 1,
-            "military_executive": 0,
-            "judicial_purges": 1,
-            "const_disregard": 1,
-            "no_leg_constraint": 1,
-            "places_named": 1,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 1,
             "oath_to_person": 0
           }
         }
@@ -14220,13 +12311,13 @@
         {
           "name": "Souvanna Phouma",
           "start_year": 1951,
-          "end_year": 1954,
+          "end_year": 1975,
           "indicators": {
             "term_limits_absent": null,
             "president_for_life": null,
             "family_in_govt": 0,
             "political_killings": 1,
-            "military_executive": 0,
+            "military_executive": 1,
             "judicial_purges": 1,
             "const_disregard": 1,
             "no_leg_constraint": 0,
@@ -14264,29 +12355,6 @@
           }
         },
         {
-          "name": "Souvanna Phouma",
-          "start_year": 1956,
-          "end_year": 1958,
-          "indicators": {
-            "term_limits_absent": null,
-            "president_for_life": null,
-            "family_in_govt": 0,
-            "political_killings": 1,
-            "military_executive": 0,
-            "judicial_purges": 1,
-            "const_disregard": 1,
-            "no_leg_constraint": 0,
-            "places_named": 1,
-            "grandiose_titles": 1,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 1,
-            "oath_to_person": null
-          }
-        },
-        {
           "name": "Somsanith",
           "start_year": 1960,
           "end_year": 1960,
@@ -14310,29 +12378,6 @@
           }
         },
         {
-          "name": "Souvanna Phouma",
-          "start_year": 1960,
-          "end_year": 1960,
-          "indicators": {
-            "term_limits_absent": null,
-            "president_for_life": null,
-            "family_in_govt": 0,
-            "political_killings": 1,
-            "military_executive": 1,
-            "judicial_purges": 1,
-            "const_disregard": 1,
-            "no_leg_constraint": 0,
-            "places_named": 1,
-            "grandiose_titles": 1,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 1,
-            "oath_to_person": null
-          }
-        },
-        {
           "name": "Boun Oum",
           "start_year": 1960,
           "end_year": 1962,
@@ -14347,29 +12392,6 @@
             "no_leg_constraint": 0,
             "places_named": 0,
             "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 1,
-            "oath_to_person": null
-          }
-        },
-        {
-          "name": "Souvanna Phouma",
-          "start_year": 1962,
-          "end_year": 1964,
-          "indicators": {
-            "term_limits_absent": null,
-            "president_for_life": null,
-            "family_in_govt": 0,
-            "political_killings": 1,
-            "military_executive": 0,
-            "judicial_purges": 1,
-            "const_disregard": 1,
-            "no_leg_constraint": 0,
-            "places_named": 1,
-            "grandiose_titles": 1,
             "monuments": 0,
             "birthday_holiday": 0,
             "hagiography": 0,
@@ -14398,29 +12420,6 @@
             "hagiography": 0,
             "cult_of_personality": 0,
             "currency_portrait": 0,
-            "oath_to_person": null
-          }
-        },
-        {
-          "name": "Souvanna Phouma",
-          "start_year": 1964,
-          "end_year": 1975,
-          "indicators": {
-            "term_limits_absent": null,
-            "president_for_life": null,
-            "family_in_govt": 0,
-            "political_killings": 1,
-            "military_executive": 0,
-            "judicial_purges": 1,
-            "const_disregard": 1,
-            "no_leg_constraint": 0,
-            "places_named": 1,
-            "grandiose_titles": 1,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 1,
             "oath_to_person": null
           }
         },
@@ -14865,7 +12864,7 @@
         {
           "name": "Senanayake, Dudley",
           "start_year": 1952,
-          "end_year": 1953,
+          "end_year": 1970,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -14932,77 +12931,8 @@
           }
         },
         {
-          "name": "Senanayake, Dudley",
-          "start_year": 1960,
-          "end_year": 1960,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
           "name": "Bandaranaike, S",
           "start_year": 1960,
-          "end_year": 1965,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 1,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Senanayake, Dudley",
-          "start_year": 1965,
-          "end_year": 1970,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Bandaranaike, S",
-          "start_year": 1970,
           "end_year": 1977,
           "indicators": {
             "term_limits_absent": 0,
@@ -15458,7 +13388,7 @@
         {
           "name": "Werner",
           "start_year": 1959,
-          "end_year": 1974,
+          "end_year": 1984,
           "indicators": {
             "term_limits_absent": 1,
             "president_for_life": 0,
@@ -15492,29 +13422,6 @@
             "const_disregard": 0,
             "no_leg_constraint": 0,
             "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Werner",
-          "start_year": 1979,
-          "end_year": 1984,
-          "indicators": {
-            "term_limits_absent": 1,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 1,
             "grandiose_titles": 0,
             "monuments": 0,
             "birthday_holiday": 0,
@@ -15988,7 +13895,7 @@
         {
           "name": "Ratsiraka",
           "start_year": 1975,
-          "end_year": 1993,
+          "end_year": 2002,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -16023,29 +13930,6 @@
             "no_leg_constraint": 0,
             "places_named": 0,
             "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Ratsiraka",
-          "start_year": 1997,
-          "end_year": 2002,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 1,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 1,
             "monuments": 0,
             "birthday_holiday": 0,
             "hagiography": 0,
@@ -16297,29 +14181,6 @@
           }
         },
         {
-          "name": "Radmila Sekerinska",
-          "start_year": 2004,
-          "end_year": 2004,
-          "indicators": {
-            "term_limits_absent": null,
-            "president_for_life": null,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": null
-          }
-        },
-        {
           "name": "Gruevski",
           "start_year": 2006,
           "end_year": 2014,
@@ -16495,29 +14356,6 @@
         {
           "name": "Adami",
           "start_year": 1987,
-          "end_year": 1996,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Adami",
-          "start_year": 1998,
           "end_year": 2004,
           "indicators": {
             "term_limits_absent": 0,
@@ -16547,7 +14385,7 @@
         {
           "name": "U Nu",
           "start_year": 1948,
-          "end_year": 1956,
+          "end_year": 1962,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -16555,7 +14393,7 @@
             "political_killings": 0,
             "military_executive": 0,
             "judicial_purges": 0,
-            "const_disregard": 0,
+            "const_disregard": 1,
             "no_leg_constraint": 0,
             "places_named": 0,
             "grandiose_titles": 0,
@@ -16591,77 +14429,8 @@
           }
         },
         {
-          "name": "U Nu",
-          "start_year": 1957,
-          "end_year": 1958,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
           "name": "Ne Win",
           "start_year": 1958,
-          "end_year": 1960,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 1,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "U Nu",
-          "start_year": 1960,
-          "end_year": 1962,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 1,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Ne Win",
-          "start_year": 1962,
           "end_year": 1988,
           "indicators": {
             "term_limits_absent": 0,
@@ -17077,29 +14846,6 @@
         {
           "name": "Anerood Jugnauth",
           "start_year": 1982,
-          "end_year": 1995,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 1,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Anerood Jugnauth",
-          "start_year": 2000,
           "end_year": 2003,
           "indicators": {
             "term_limits_absent": 0,
@@ -17273,52 +15019,6 @@
         {
           "name": "Rahman",
           "start_year": 1957,
-          "end_year": 1959,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 1,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 1,
-            "grandiose_titles": 1,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Razak",
-          "start_year": 1959,
-          "end_year": 1959,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Rahman",
-          "start_year": 1959,
           "end_year": 1970,
           "indicators": {
             "term_limits_absent": 0,
@@ -17341,7 +15041,7 @@
         },
         {
           "name": "Razak",
-          "start_year": 1970,
+          "start_year": 1959,
           "end_year": 1976,
           "indicators": {
             "term_limits_absent": 0,
@@ -17682,7 +15382,7 @@
         {
           "name": "Obasanjo",
           "start_year": 1976,
-          "end_year": 1979,
+          "end_year": 2007,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -17809,29 +15509,6 @@
             "no_leg_constraint": 0,
             "places_named": 0,
             "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Obasanjo",
-          "start_year": 1999,
-          "end_year": 2007,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 1,
-            "political_killings": 1,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 1,
-            "grandiose_titles": 1,
             "monuments": 0,
             "birthday_holiday": 0,
             "hagiography": 0,
@@ -18039,7 +15716,7 @@
         {
           "name": "Beel",
           "start_year": 1946,
-          "end_year": 1948,
+          "end_year": 1959,
           "indicators": {
             "term_limits_absent": 1,
             "president_for_life": 0,
@@ -18073,29 +15750,6 @@
             "const_disregard": 0,
             "no_leg_constraint": 0,
             "places_named": 1,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Beel",
-          "start_year": 1958,
-          "end_year": 1959,
-          "indicators": {
-            "term_limits_absent": 1,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
             "grandiose_titles": 0,
             "monuments": 0,
             "birthday_holiday": 0,
@@ -18413,52 +16067,6 @@
         {
           "name": "Gerhardsen",
           "start_year": 1945,
-          "end_year": 1951,
-          "indicators": {
-            "term_limits_absent": 1,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 1,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Gerhardsen",
-          "start_year": 1955,
-          "end_year": 1963,
-          "indicators": {
-            "term_limits_absent": 1,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 1,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Gerhardsen",
-          "start_year": 1963,
           "end_year": 1965,
           "indicators": {
             "term_limits_absent": 1,
@@ -18551,30 +16159,7 @@
         {
           "name": "Brundtland",
           "start_year": 1981,
-          "end_year": 1981,
-          "indicators": {
-            "term_limits_absent": 1,
-            "president_for_life": 0,
-            "family_in_govt": 1,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Brundtland",
-          "start_year": 1986,
-          "end_year": 1989,
+          "end_year": 1996,
           "indicators": {
             "term_limits_absent": 1,
             "president_for_life": 0,
@@ -18618,100 +16203,8 @@
           }
         },
         {
-          "name": "Brundtland",
-          "start_year": 1990,
-          "end_year": 1996,
-          "indicators": {
-            "term_limits_absent": 1,
-            "president_for_life": 0,
-            "family_in_govt": 1,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
           "name": "Bondevik",
           "start_year": 1997,
-          "end_year": 1998,
-          "indicators": {
-            "term_limits_absent": 1,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Bondevik",
-          "start_year": 1998,
-          "end_year": 2000,
-          "indicators": {
-            "term_limits_absent": 1,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Stoltenberg",
-          "start_year": 2000,
-          "end_year": 2001,
-          "indicators": {
-            "term_limits_absent": 1,
-            "president_for_life": 0,
-            "family_in_govt": 1,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 1,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Bondevik",
-          "start_year": 2001,
           "end_year": 2005,
           "indicators": {
             "term_limits_absent": 1,
@@ -18734,7 +16227,7 @@
         },
         {
           "name": "Stoltenberg",
-          "start_year": 2005,
+          "start_year": 2000,
           "end_year": 2013,
           "indicators": {
             "term_limits_absent": 1,
@@ -18833,7 +16326,7 @@
         {
           "name": "Girija Prasad Koirala",
           "start_year": 1991,
-          "end_year": 1994,
+          "end_year": 2008,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -18879,75 +16372,6 @@
         {
           "name": "Lokendra Bahadur Chand",
           "start_year": 1997,
-          "end_year": 1997,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Girija Prasad Koirala",
-          "start_year": 1998,
-          "end_year": 1999,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 1,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Girija Prasad Koirala",
-          "start_year": 2000,
-          "end_year": 2001,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 1,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Lokendra Bahadur Chand",
-          "start_year": 2002,
           "end_year": 2003,
           "indicators": {
             "term_limits_absent": 0,
@@ -19011,29 +16435,6 @@
             "hagiography": 0,
             "cult_of_personality": 0,
             "currency_portrait": 1,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Girija Prasad Koirala",
-          "start_year": 2006,
-          "end_year": 2008,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 1,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
             "oath_to_person": 0
           }
         },
@@ -19184,7 +16585,7 @@
         {
           "name": "Holyoake",
           "start_year": 1957,
-          "end_year": 1957,
+          "end_year": 1972,
           "indicators": {
             "term_limits_absent": 1,
             "president_for_life": 0,
@@ -19208,29 +16609,6 @@
           "name": "Nash",
           "start_year": 1957,
           "end_year": 1960,
-          "indicators": {
-            "term_limits_absent": 1,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 1,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Holyoake",
-          "start_year": 1960,
-          "end_year": 1972,
           "indicators": {
             "term_limits_absent": 1,
             "president_for_life": 0,
@@ -19725,7 +17103,7 @@
         {
           "name": "Benazir Bhutto",
           "start_year": 1988,
-          "end_year": 1990,
+          "end_year": 1996,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -19748,7 +17126,7 @@
         {
           "name": "Sharif",
           "start_year": 1990,
-          "end_year": 1993,
+          "end_year": 1999,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -19763,52 +17141,6 @@
             "monuments": 0,
             "birthday_holiday": 0,
             "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Sharif",
-          "start_year": 1993,
-          "end_year": 1993,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 1,
-            "political_killings": 1,
-            "military_executive": 0,
-            "judicial_purges": 1,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Benazir Bhutto",
-          "start_year": 1993,
-          "end_year": 1996,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 1,
-            "political_killings": 1,
-            "military_executive": 0,
-            "judicial_purges": 1,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 1,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 0,
             "oath_to_person": 0
@@ -19822,29 +17154,6 @@
             "term_limits_absent": 0,
             "president_for_life": 0,
             "family_in_govt": 0,
-            "political_killings": 1,
-            "military_executive": 0,
-            "judicial_purges": 1,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Sharif",
-          "start_year": 1997,
-          "end_year": 1999,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 1,
             "political_killings": 1,
             "military_executive": 0,
             "judicial_purges": 1,
@@ -20347,30 +17656,7 @@
         {
           "name": "Somare",
           "start_year": 1975,
-          "end_year": 1980,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Somare",
-          "start_year": 1982,
-          "end_year": 1985,
+          "end_year": 2011,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -20417,29 +17703,6 @@
           "name": "Morauta",
           "start_year": 1999,
           "end_year": 2002,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Somare",
-          "start_year": 2002,
-          "end_year": 2011,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -21229,7 +18492,7 @@
         {
           "name": "Sadiq al-Mahdi",
           "start_year": 1966,
-          "end_year": 1967,
+          "end_year": 1989,
           "indicators": {
             "term_limits_absent": 1,
             "president_for_life": 0,
@@ -21252,7 +18515,7 @@
         {
           "name": "Nimeiri",
           "start_year": 1969,
-          "end_year": 1971,
+          "end_year": 1985,
           "indicators": {
             "term_limits_absent": 1,
             "president_for_life": 0,
@@ -21262,52 +18525,6 @@
             "judicial_purges": 1,
             "const_disregard": 0,
             "no_leg_constraint": 1,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Nimeiri",
-          "start_year": 1971,
-          "end_year": 1985,
-          "indicators": {
-            "term_limits_absent": 1,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 1,
-            "military_executive": 0,
-            "judicial_purges": 1,
-            "const_disregard": 0,
-            "no_leg_constraint": 1,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Sadiq al-Mahdi",
-          "start_year": 1986,
-          "end_year": 1989,
-          "indicators": {
-            "term_limits_absent": 1,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 1,
-            "military_executive": 0,
-            "judicial_purges": 1,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
             "places_named": 0,
             "grandiose_titles": 0,
             "monuments": 0,
@@ -21546,7 +18763,7 @@
         {
           "name": "Kabbah",
           "start_year": 1996,
-          "end_year": 1997,
+          "end_year": 2007,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -21577,29 +18794,6 @@
             "political_killings": 1,
             "military_executive": 0,
             "judicial_purges": 1,
-            "const_disregard": 1,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 1,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Kabbah",
-          "start_year": 1998,
-          "end_year": 2007,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
             "const_disregard": 1,
             "no_leg_constraint": 0,
             "places_named": 0,
@@ -22117,7 +19311,7 @@
         {
           "name": "Palme",
           "start_year": 1969,
-          "end_year": 1976,
+          "end_year": 1986,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -22161,32 +19355,9 @@
           }
         },
         {
-          "name": "Palme",
-          "start_year": 1982,
-          "end_year": 1986,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 1,
-            "grandiose_titles": 0,
-            "monuments": 1,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
           "name": "Carlsson",
           "start_year": 1986,
-          "end_year": 1991,
+          "end_year": 1996,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -22224,29 +19395,6 @@
             "monuments": 0,
             "birthday_holiday": 0,
             "hagiography": 1,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Carlsson",
-          "start_year": 1994,
-          "end_year": 1996,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
             "cult_of_personality": 0,
             "currency_portrait": 0,
             "oath_to_person": 0
@@ -22509,7 +19657,7 @@
         {
           "name": "Faure Gnassingbe",
           "start_year": 2005,
-          "end_year": 2005,
+          "end_year": 2015,
           "indicators": {
             "term_limits_absent": 1,
             "president_for_life": 0,
@@ -22542,29 +19690,6 @@
             "judicial_purges": 1,
             "const_disregard": 1,
             "no_leg_constraint": 1,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Faure Gnassingbe",
-          "start_year": 2005,
-          "end_year": 2015,
-          "indicators": {
-            "term_limits_absent": 1,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 1,
-            "no_leg_constraint": 0,
             "places_named": 0,
             "grandiose_titles": 0,
             "monuments": 0,
@@ -22653,7 +19778,7 @@
         {
           "name": "Thanon Kittakachorn",
           "start_year": 1957,
-          "end_year": 1958,
+          "end_year": 1973,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -22677,29 +19802,6 @@
           "name": "Sarit",
           "start_year": 1958,
           "end_year": 1963,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 1,
-            "military_executive": 1,
-            "judicial_purges": 1,
-            "const_disregard": 1,
-            "no_leg_constraint": 1,
-            "places_named": 0,
-            "grandiose_titles": 1,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Thanon Kittakachorn",
-          "start_year": 1963,
-          "end_year": 1973,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -22745,7 +19847,7 @@
         {
           "name": "Seni Pramoj",
           "start_year": 1975,
-          "end_year": 1975,
+          "end_year": 1976,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -22754,7 +19856,7 @@
             "military_executive": 0,
             "judicial_purges": 1,
             "const_disregard": 1,
-            "no_leg_constraint": 0,
+            "no_leg_constraint": 1,
             "places_named": 0,
             "grandiose_titles": 0,
             "monuments": 0,
@@ -22778,29 +19880,6 @@
             "judicial_purges": 1,
             "const_disregard": 1,
             "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Seni Pramoj",
-          "start_year": 1976,
-          "end_year": 1976,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 1,
-            "military_executive": 0,
-            "judicial_purges": 1,
-            "const_disregard": 1,
-            "no_leg_constraint": 1,
             "places_named": 0,
             "grandiose_titles": 0,
             "monuments": 0,
@@ -22950,32 +20029,9 @@
           }
         },
         {
-          "name": "Panyarachun",
-          "start_year": 1992,
-          "end_year": 1992,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 1,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
           "name": "Leekpai",
           "start_year": 1992,
-          "end_year": 1995,
+          "end_year": 2001,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -22999,29 +20055,6 @@
           "name": "Chavalit Yongchaiyudh",
           "start_year": 1996,
           "end_year": 1997,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Leekpai",
-          "start_year": 1997,
-          "end_year": 2001,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -23713,7 +20746,7 @@
         {
           "name": "Obote",
           "start_year": 1962,
-          "end_year": 1971,
+          "end_year": 1985,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -23760,29 +20793,6 @@
           "name": "Paulo Muwanga",
           "start_year": 1980,
           "end_year": 1980,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 1,
-            "military_executive": 0,
-            "judicial_purges": 1,
-            "const_disregard": 1,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Obote",
-          "start_year": 1980,
-          "end_year": 1985,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -24122,29 +21132,6 @@
         {
           "name": "Batlle Berres",
           "start_year": 1947,
-          "end_year": 1951,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 1,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 1,
-            "grandiose_titles": 0,
-            "monuments": 1,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Batlle Berres",
-          "start_year": 1955,
           "end_year": 1956,
           "indicators": {
             "term_limits_absent": 0,
@@ -24237,7 +21224,7 @@
         {
           "name": "Tabare Vazquez",
           "start_year": 2005,
-          "end_year": 2010,
+          "end_year": 2015,
           "indicators": {
             "term_limits_absent": 0,
             "president_for_life": 0,
@@ -24260,29 +21247,6 @@
         {
           "name": "Jose Mujica",
           "start_year": 2010,
-          "end_year": 2015,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 0,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Tabare Vasquez",
-          "start_year": 2015,
           "end_year": 2015,
           "indicators": {
             "term_limits_absent": 0,
@@ -24807,7 +21771,7 @@
         {
           "name": "Minh",
           "start_year": 1963,
-          "end_year": 1964,
+          "end_year": 1975,
           "indicators": {
             "term_limits_absent": null,
             "president_for_life": null,
@@ -24830,29 +21794,6 @@
         {
           "name": "Khanh",
           "start_year": 1964,
-          "end_year": 1964,
-          "indicators": {
-            "term_limits_absent": null,
-            "president_for_life": null,
-            "family_in_govt": 0,
-            "political_killings": 1,
-            "military_executive": 1,
-            "judicial_purges": 1,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": null
-          }
-        },
-        {
-          "name": "Khahn",
-          "start_year": 1965,
           "end_year": 1965,
           "indicators": {
             "term_limits_absent": null,
@@ -24893,29 +21834,6 @@
             "hagiography": 0,
             "cult_of_personality": 0,
             "currency_portrait": 0,
-            "oath_to_person": null
-          }
-        },
-        {
-          "name": "Minh",
-          "start_year": 1975,
-          "end_year": 1975,
-          "indicators": {
-            "term_limits_absent": null,
-            "president_for_life": null,
-            "family_in_govt": 0,
-            "political_killings": 1,
-            "military_executive": 1,
-            "judicial_purges": 1,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 1,
             "oath_to_person": null
           }
         }
@@ -25071,29 +21989,6 @@
         },
         {
           "name": "Heunis",
-          "start_year": 1989,
-          "end_year": 1989,
-          "indicators": {
-            "term_limits_absent": 0,
-            "president_for_life": 0,
-            "family_in_govt": 0,
-            "political_killings": 1,
-            "military_executive": 0,
-            "judicial_purges": 0,
-            "const_disregard": 0,
-            "no_leg_constraint": 0,
-            "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
-            "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
-            "oath_to_person": 0
-          }
-        },
-        {
-          "name": "Botha",
           "start_year": 1989,
           "end_year": 1989,
           "indicators": {

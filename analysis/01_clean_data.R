@@ -20,6 +20,38 @@ indicators <- c(
   "oath_to_person"
 )
 
+# --- Collapse multi-spell leaders to one row per leader -------------------
+# Archigos records non-consecutive terms as separate spells. For IRT the unit
+# should be the *leader*, not the spell, because Wikidata indicators are
+# time-invariant and V-Dem indicators vary only slightly across terms.
+# Strategy: per leader (QID), take max of each indicator across spells.
+
+cat(sprintf("  Raw spells:   %d\n", nrow(dat)))
+cat(sprintf("  Unique QIDs:  %d\n", n_distinct(dat$qid)))
+
+# Keep metadata for the longest spell per leader
+dat <- dat |>
+  mutate(spell_length = end_year - start_year) |>
+  arrange(qid, desc(spell_length))
+
+meta_cols <- c("qid", "leader", "ccode", "iso3", "country",
+               "start_year", "end_year")
+meta_first <- dat |>
+  group_by(qid) |>
+  slice(1) |>
+  ungroup() |>
+  select(all_of(meta_cols))
+
+# Collapse indicators: max per leader (1 if EVER present, 0 if always 0, NA only if always NA)
+collapsed <- dat |>
+  group_by(qid) |>
+  summarise(across(all_of(indicators), ~ {
+    vals <- na.omit(.x)
+    if (length(vals) == 0) NA_real_ else max(vals)
+  }), .groups = "drop")
+
+dat <- left_join(meta_first, collapsed, by = "qid")
+
 # --- Construct binary response matrix -------------------------------------
 resp <- dat[, indicators]
 resp <- as.data.frame(lapply(resp, function(x) {
@@ -27,13 +59,12 @@ resp <- as.data.frame(lapply(resp, function(x) {
   x[!x %in% c(0L, 1L)] <- NA_integer_
   x
 }))
-rn <- paste(dat$leader, dat$country, dat$start_year, sep = "_")
-rn <- make.unique(rn, sep = "_")
-rownames(resp) <- rn
+rownames(resp) <- paste(dat$leader, dat$country, sep = "_")
+rownames(resp) <- make.unique(rownames(resp), sep = "_")
 
 # --- Descriptive statistics -----------------------------------------------
 cat("\n========================================\n")
-cat("DATA SUMMARY\n")
+cat("DATA SUMMARY (after collapsing spells)\n")
 cat("========================================\n")
 cat(sprintf("  Leaders:    %d\n", nrow(resp)))
 cat(sprintf("  Indicators: %d\n", ncol(resp)))
