@@ -15,11 +15,15 @@ let allLeaders = [];        // flattened leader records with scores
 let indicatorMeta = [];     // indicator metadata from JSON
 let irtResult = null;       // IRT estimation output
 
-const POWER_INDICATORS = ['term_limits_removed', 'president_for_life', 'appointment_monopoly', 'family_in_govt', 'family_in_govt_binary'];
-const CULT_INDICATORS = ['currency_portrait', 'oath_to_person', 'places_named', 'places_named_binary', 'grandiose_titles', 'grandiose_titles_binary'];
+const POWER_INDICATORS = ['term_limits_absent', 'president_for_life', 'family_in_govt', 'political_killings', 'military_executive', 'judicial_purges', 'const_disregard', 'no_leg_constraint'];
+const CULT_INDICATORS = ['places_named', 'grandiose_titles', 'monuments', 'birthday_holiday', 'hagiography', 'cult_of_personality', 'currency_portrait', 'oath_to_person'];
 
 // Colors for indicators in IRT plots
-const ITEM_COLORS = ['#2563EB', '#DC2626', '#D97706'];
+const ITEM_COLORS = [
+    '#2563EB', '#DC2626', '#D97706', '#059669', '#7C3AED', '#DB2777',
+    '#0891B2', '#CA8A04', '#4F46E5', '#16A34A', '#E11D48', '#0D9488',
+    '#9333EA', '#EA580C', '#2563EB', '#64748B',
+];
 const TEST_COLOR  = '#374151';
 
 // ============================================================================
