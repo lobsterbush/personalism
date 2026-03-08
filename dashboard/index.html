@@ -19,6 +19,7 @@
         <button class="tab" data-tab="indicators" role="tab">Indicators</button>
         <button class="tab" data-tab="irt" role="tab">IRT Analysis</button>
         <button class="tab" data-tab="data" role="tab">Data Table</button>
+        <button class="tab" data-tab="codebook" role="tab">Codebook</button>
     </nav>
 
     <main>
@@ -163,6 +164,105 @@
                 </table>
             </div>
         </section>
+        <!-- Codebook Tab -->
+        <section id="tab-codebook" class="tab-content">
+            <div class="codebook-intro">
+                <h2>Indicator Codebook</h2>
+                <p>Each leader-spell is coded on 11 binary indicators drawn from four public sources. Indicators are grouped into two dimensions: <strong class="dim-power">Institutional Power Concentration</strong> and <strong class="dim-cult">Personality Cult</strong>. Where multiple sources cover the same indicator, they are combined with OR logic: a leader is coded 1 if <em>any</em> source returns a positive match. The IRT model treats unmatched leaders as missing (not zero).</p>
+                <p>All coding is automated and reproducible. Source scripts are in the <a href="https://github.com/lobsterbush/personalism/tree/master/scripts">GitHub repository</a>.</p>
+            </div>
+
+            <div class="codebook-section">
+                <h3 class="dim-power">Institutional Power Concentration</h3>
+
+                <div class="codebook-entry">
+                    <h4>Term Limits Absent</h4>
+                    <p class="cb-source">Source: Constitute Project</p>
+                    <p>Coded 1 if the national constitution in force during the leader's tenure contains <strong>no mention</strong> of executive term limits. The script fetches the full text of each constitution from the Constitute Project API, then searches for keywords indicating term limits (e.g., &ldquo;two terms,&rdquo; &ldquo;not be re-elected,&rdquo; &ldquo;renewable once&rdquo;). If no such language is found, the indicator is coded 1. Missing for ~5% of leaders whose countries lack digitised constitutions.</p>
+                </div>
+
+                <div class="codebook-entry">
+                    <h4>President for Life</h4>
+                    <p class="cb-source">Source: Constitute Project + Wikipedia</p>
+                    <p>Coded 1 if <strong>either</strong> of the following is true (OR logic):</p>
+                    <ul>
+                        <li>The constitution contains language such as &ldquo;president for life,&rdquo; &ldquo;elected for life,&rdquo; or &ldquo;unlimited number of terms.&rdquo;</li>
+                        <li>The leader's Wikipedia page is categorised under <code>Category:Presidents for life</code> or its subcategories.</li>
+                    </ul>
+                </div>
+
+                <div class="codebook-entry">
+                    <h4>Family in Government</h4>
+                    <p class="cb-source">Source: Wikidata (SPARQL)</p>
+                    <p>Coded 1 if <strong>&ge;2 family members</strong> held government positions. The script queries Wikidata for the leader's relatives (P26 spouse, P40 child, P3373 sibling, P22/P25 parents) and checks whether any hold positions (P39) in government. Threshold is &ge;2 distinct family members to avoid false positives from a single ceremonial appointment.</p>
+                </div>
+
+                <div class="codebook-entry">
+                    <h4>Loyalty Oath to Person</h4>
+                    <p class="cb-source">Source: Constitute Project</p>
+                    <p>Coded 1 if the constitutional text contains language directing oaths of allegiance or loyalty <strong>to the president or leader personally</strong> rather than to the constitution or the state. Matched via keywords such as &ldquo;oath to the president,&rdquo; &ldquo;allegiance to the president,&rdquo; &ldquo;loyalty to the leader.&rdquo;</p>
+                </div>
+            </div>
+
+            <div class="codebook-section">
+                <h3 class="dim-cult">Personality Cult</h3>
+
+                <div class="codebook-entry">
+                    <h4>Places Named After</h4>
+                    <p class="cb-source">Source: Wikidata (SPARQL) + Wikipedia text</p>
+                    <p>Coded 1 if <strong>&ge;2 places</strong> (cities, streets, institutions, etc.) are named after the leader (Wikidata P138 &ldquo;named after&rdquo;), <strong>or</strong> if the leader's Wikipedia article text mentions places named in their honour. Threshold is &ge;2 from Wikidata to avoid false positives from a single university or airport.</p>
+                </div>
+
+                <div class="codebook-entry">
+                    <h4>Grandiose Titles</h4>
+                    <p class="cb-source">Source: Wikidata (SPARQL) + Wikipedia text</p>
+                    <p>Coded 1 if the leader holds <strong>&ge;1 honorific title</strong> in Wikidata (P511 honorific prefix, P1035 honorific suffix, P97 noble title, P1813 short name, P1449 nickname), <strong>or</strong> if their Wikipedia article mentions non-standard titles such as &ldquo;Father of the Nation,&rdquo; &ldquo;Eternal Leader,&rdquo; &ldquo;Generalissimo,&rdquo; or &ldquo;Turkmenbashi.&rdquo;</p>
+                </div>
+
+                <div class="codebook-entry">
+                    <h4>Monuments / Statues</h4>
+                    <p class="cb-source">Source: Wikidata (SPARQL) + Wikipedia text</p>
+                    <p>Coded 1 if <strong>&ge;1 statue, monument, or sculpture</strong> named after the leader exists in Wikidata (P138 &ldquo;named after,&rdquo; instance of statue/monument/sculpture), <strong>or</strong> if their Wikipedia article describes statues or monuments erected in their honour.</p>
+                </div>
+
+                <div class="codebook-entry">
+                    <h4>Birthday as Holiday</h4>
+                    <p class="cb-source">Source: Wikidata (SPARQL) + Wikipedia text</p>
+                    <p>Coded 1 if a <strong>public holiday named after or commemorating the leader</strong> exists in Wikidata (P138 named after or P547 commemorates, instance of public holiday), <strong>or</strong> if their Wikipedia article describes their birthday being celebrated as a national or public holiday.</p>
+                </div>
+
+                <div class="codebook-entry">
+                    <h4>State Hagiography</h4>
+                    <p class="cb-source">Source: Wikidata (SPARQL) + Wikipedia text</p>
+                    <p>Coded 1 if <strong>&ge;2 books or written works</strong> authored by or named after the leader exist in Wikidata (P50 author or P138 named after, instance of book/written work), <strong>or</strong> if their Wikipedia article mentions state-sponsored biographies, propaganda publications, mandatory ideological works (e.g., the &ldquo;Little Red Book,&rdquo; &ldquo;Ruhnama&rdquo;), or hagiography. Threshold is &ge;2 from Wikidata to filter out routine memoirs.</p>
+                </div>
+
+                <div class="codebook-entry">
+                    <h4>Cult of Personality</h4>
+                    <p class="cb-source">Source: Wikipedia (categories + article text)</p>
+                    <p>Coded 1 if <strong>either</strong>:</p>
+                    <ul>
+                        <li>The leader's Wikipedia page belongs to <code>Category:Cults of personality</code> or any subcategory.</li>
+                        <li>The Wikipedia article text contains phrases such as &ldquo;cult of personality,&rdquo; &ldquo;personality cult,&rdquo; &ldquo;leader cult,&rdquo; &ldquo;cult-like status,&rdquo; &ldquo;state worship/veneration,&rdquo; or &ldquo;deification.&rdquo;</li>
+                    </ul>
+                </div>
+
+                <div class="codebook-entry">
+                    <h4>Currency Portrait</h4>
+                    <p class="cb-source">Source: Wikipedia (currency articles)</p>
+                    <p>Coded 1 if the leader's surname appears <strong>within 300 characters of banknote-related keywords</strong> (e.g., &ldquo;banknote,&rdquo; &ldquo;portrait,&rdquo; &ldquo;obverse,&rdquo; &ldquo;denomination&rdquo;) in Wikipedia articles about the country's currency. The script searches up to 3 Wikipedia articles per country (found via search for &ldquo;[country] currency&rdquo; and &ldquo;[country] banknotes&rdquo;).</p>
+                </div>
+            </div>
+
+            <div class="codebook-section">
+                <h3>Merging Rules</h3>
+                <div class="codebook-entry">
+                    <p>Several indicators have <strong>two independent sources</strong> (Wikidata structured data + Wikipedia unstructured text). These are combined with <strong>OR logic</strong>: if either source codes 1, the final indicator is 1. If both sources code 0, it is 0. If one source is missing and the other codes 0, it remains 0 (conservative). This maximises recall without inflating false positives, since both sources draw from the same underlying Wikipedia/Wikidata ecosystem but use different extraction methods.</p>
+                    <p>For leaders with <strong>multiple spells</strong> (e.g., returned to power), indicators are collapsed by taking the <strong>maximum</strong> across spells: if any spell is coded 1, the leader is coded 1.</p>
+                </div>
+            </div>
+        </section>
+
     </main>
 
     <footer>

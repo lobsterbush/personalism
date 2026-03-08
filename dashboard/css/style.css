@@ -743,6 +743,79 @@ main {
     margin-top: 0.75rem;
 }
 
+/* Codebook */
+.codebook-intro {
+    margin-bottom: 2rem;
+}
+.codebook-intro h2 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.codebook-intro p {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    margin-bottom: 0.5rem;
+}
+.codebook-section {
+    background: var(--bg-card);
+    border: 1px solid var(--border-light);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 1px 3px var(--shadow);
+}
+.codebook-section h3 {
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--border-light);
+}
+.codebook-entry {
+    margin-bottom: 1.25rem;
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid var(--border-light);
+}
+.codebook-entry:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+.codebook-entry h4 {
+    font-size: 0.95rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+}
+.codebook-entry p {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    line-height: 1.65;
+    margin-bottom: 0.4rem;
+}
+.codebook-entry ul {
+    margin: 0.3rem 0 0.5rem 1.25rem;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    line-height: 1.65;
+}
+.codebook-entry code {
+    font-family: var(--font-mono);
+    font-size: 0.78rem;
+    background: var(--bg-secondary);
+    padding: 0.1rem 0.35rem;
+    border-radius: 3px;
+}
+.cb-source {
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin-bottom: 0.4rem;
+}
+
 /* Footer */
 footer {
     max-width: var(--max-width);
