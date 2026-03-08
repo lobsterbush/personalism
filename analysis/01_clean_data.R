@@ -13,8 +13,7 @@ dat <- read_csv(here("data", "compiled", "personalism_full.csv"),
 # --- Define indicator columns ---------------------------------------------
 indicators <- c(
   "term_limits_absent", "president_for_life", "family_in_govt",
-  "political_killings", "military_executive", "judicial_purges",
-  "const_disregard", "no_leg_constraint", "places_named",
+  "places_named",
   "grandiose_titles", "monuments", "birthday_holiday",
   "hagiography", "cult_of_personality", "currency_portrait",
   "oath_to_person"
