@@ -15,8 +15,8 @@ let allLeaders = [];        // flattened leader records with scores
 let indicatorMeta = [];     // indicator metadata from JSON
 let irtResult = null;       // IRT estimation output
 
-const POWER_INDICATORS = ['term_limits_absent', 'president_for_life', 'family_in_govt', 'political_killings', 'military_executive', 'judicial_purges', 'const_disregard', 'no_leg_constraint'];
-const CULT_INDICATORS = ['places_named', 'grandiose_titles', 'monuments', 'birthday_holiday', 'hagiography', 'cult_of_personality', 'currency_portrait', 'oath_to_person'];
+const POWER_INDICATORS = ['term_limits_absent', 'president_for_life', 'family_in_govt', 'oath_to_person'];
+const CULT_INDICATORS = ['places_named', 'grandiose_titles', 'monuments', 'birthday_holiday', 'hagiography', 'cult_of_personality', 'currency_portrait'];
 
 // Colors for indicators in IRT plots
 const ITEM_COLORS = [
@@ -85,6 +85,10 @@ async function loadData() {
                 score,
                 powerScore,
                 cultScore,
+                rTheta: leader.theta != null ? leader.theta : null,
+                rThetaSE: leader.theta_se != null ? leader.theta_se : null,
+                rThetaInst: leader.theta_inst != null ? leader.theta_inst : null,
+                rThetaCult: leader.theta_cult != null ? leader.theta_cult : null,
             });
         }
     }
@@ -405,49 +409,125 @@ function renderDataTable(filter = '') {
 // ============================================================================
 
 function runIRT() {
-    const indicatorKeys = indicatorMeta.map(m => m.key);
-    // Build N × J binary matrix
-    const dataMatrix = allLeaders.map(l =>
-        indicatorKeys.map(k => {
-            const v = l.indicators[k];
-            return (v === 0 || v === 1) ? v : null;
-        })
-    );
+    // Use R-estimated bifactor theta scores from JSON if available
+    const hasRTheta = allLeaders.some(l => l.rTheta != null);
 
-    const model = new IRT2PL();
-    irtResult = model.fit(dataMatrix);
-
-    // Attach theta to each leader
-    for (let i = 0; i < allLeaders.length; i++) {
-        allLeaders[i].theta   = irtResult.persons[i].theta;
-        allLeaders[i].thetaSE = irtResult.persons[i].se;
+    if (hasRTheta) {
+        // Use pre-computed R scores
+        for (const l of allLeaders) {
+            l.theta   = l.rTheta || 0;
+            l.thetaSE = l.rThetaSE || 0;
+        }
+    } else {
+        // Fallback: client-side unidimensional 2PL
+        const indicatorKeys = indicatorMeta.map(m => m.key);
+        const dataMatrix = allLeaders.map(l =>
+            indicatorKeys.map(k => {
+                const v = l.indicators[k];
+                return (v === 0 || v === 1) ? v : null;
+            })
+        );
+        const model = new IRT2PL();
+        irtResult = model.fit(dataMatrix);
+        for (let i = 0; i < allLeaders.length; i++) {
+            allLeaders[i].theta   = irtResult.persons[i].theta;
+            allLeaders[i].thetaSE = irtResult.persons[i].se;
+        }
     }
 
     renderIRTFitCards();
-    renderICCPlot();
-    renderInfoPlot();
-    renderItemParamsTable();
-    renderPatternTable();
+    if (!hasRTheta && irtResult) {
+        renderICCPlot();
+        renderInfoPlot();
+        renderItemParamsTable();
+        renderPatternTable();
+    } else {
+        // Show static info for bifactor model
+        const fitContainer = document.getElementById('icc-plot');
+        if (fitContainer) fitContainer.innerHTML = '<p class="chart-note">ICC curves estimated by the bifactor model in R. See the paper figures for details.</p>';
+        const infoContainer = document.getElementById('info-plot');
+        if (infoContainer) infoContainer.innerHTML = '<p class="chart-note">Test information computed along the general factor. See the paper figures for details.</p>';
+        renderItemParamsTableFromMeta();
+        // Skip pattern table for bifactor
+        const patternContainer = document.getElementById('pattern-table');
+        if (patternContainer) patternContainer.innerHTML = '';
+    }
     renderRanking();
 }
 
 function renderIRTFitCards() {
     const container = document.getElementById('irt-fit-cards');
-    if (!container || !irtResult) return;
-    const f = irtResult.fit;
-    container.innerHTML = [
-        { label: 'Log-likelihood', value: f.logLik.toFixed(1) },
-        { label: 'AIC', value: f.aic.toFixed(1) },
-        { label: 'BIC', value: f.bic.toFixed(1) },
-        { label: 'Marginal reliability', value: f.reliability.toFixed(3) },
-        { label: 'EM iterations', value: f.iterations },
-        { label: 'Items × Persons', value: `${f.nItems} × ${f.nObs}` },
-    ].map(c => `
-        <div class="stat-card">
-            <span class="stat-number">${c.value}</span>
-            <span class="stat-label">${c.label}</span>
-        </div>
-    `).join('');
+    if (!container) return;
+
+    const hasRTheta = allLeaders.some(l => l.rTheta != null);
+    const nWithTheta = allLeaders.filter(l => l.rTheta != null).length;
+    const meta = DATA?.metadata || {};
+
+    if (hasRTheta) {
+        // Show R-estimated bifactor model summary
+        container.innerHTML = [
+            { label: 'Model', value: 'Bifactor 2PL' },
+            { label: 'Leaders (autocracies)', value: nWithTheta },
+            { label: 'Items', value: indicatorMeta.length },
+            { label: 'Factors', value: '1 General + 2 Specific' },
+            { label: 'Sample', value: meta.sample || 'Autocracies' },
+            { label: 'Estimated in', value: 'R (mirt)' },
+        ].map(c => `
+            <div class="stat-card">
+                <span class="stat-number">${c.value}</span>
+                <span class="stat-label">${c.label}</span>
+            </div>
+        `).join('');
+    } else if (irtResult) {
+        const f = irtResult.fit;
+        container.innerHTML = [
+            { label: 'Log-likelihood', value: f.logLik.toFixed(1) },
+            { label: 'AIC', value: f.aic.toFixed(1) },
+            { label: 'BIC', value: f.bic.toFixed(1) },
+            { label: 'Marginal reliability', value: f.reliability.toFixed(3) },
+            { label: 'EM iterations', value: f.iterations },
+            { label: 'Items × Persons', value: `${f.nItems} × ${f.nObs}` },
+        ].map(c => `
+            <div class="stat-card">
+                <span class="stat-number">${c.value}</span>
+                <span class="stat-label">${c.label}</span>
+            </div>
+        `).join('');
+    }
+}
+
+function renderItemParamsTableFromMeta() {
+    const container = document.getElementById('item-params-table');
+    if (!container) return;
+
+    // Load item parameters from compiled CSV if available via metadata
+    const nWithTheta = allLeaders.filter(l => l.rTheta != null).length;
+
+    let html = `<table class="irt-table">
+        <thead><tr>
+            <th>Indicator</th><th>Factor</th>
+            <th>Prevalence</th>
+        </tr></thead><tbody>`;
+
+    for (const meta of indicatorMeta) {
+        const dimLabel = meta.dimension === 'power' ? 'Institutional' : 'Cult/Symbolic';
+        const dimClass = meta.dimension || '';
+        let coded = 0, present = 0;
+        for (const l of allLeaders) {
+            if (l.rTheta == null) continue;  // Only count autocracies
+            const v = l.indicators[meta.key];
+            if (v === 0 || v === 1) { coded++; if (v === 1) present++; }
+        }
+        const prev = coded > 0 ? (present / coded * 100).toFixed(1) : '\u2014';
+        html += `<tr>
+            <td>${esc(meta.label || '')}</td>
+            <td><span class="indicator-dimension ${dimClass}">${dimLabel}</span></td>
+            <td>${present}/${coded} (${prev}%)</td>
+        </tr>`;
+    }
+
+    html += '</tbody></table>';
+    container.innerHTML = html;
 }
 
 // --- SVG helpers ---

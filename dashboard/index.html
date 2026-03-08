@@ -10,7 +10,7 @@
 <body>
     <header>
         <h1>Personalism in Dictatorships</h1>
-        <p class="subtitle">Interactive Data Explorer — Archigos + Wikidata (v0.2)</p>
+        <p class="subtitle">Interactive Data Explorer — Bifactor IRT, Autocracies Only (v0.4)</p>
     </header>
 
     <nav class="tabs" role="tablist">
@@ -45,10 +45,10 @@
                 </div>
 
                 <div class="chart-container missingness-note">
-                    <h2>A Note on Missingness</h2>
-                    <p>The most consequential source of missingness is <strong>leader coverage</strong>. Archigos 4.1 identifies 2,090 leader-spells worldwide since 1946, but our dataset covers only ~920 of these (44%). The missing 56% are leaders we could not match to Wikidata entities &mdash; typically short-tenure leaders, leaders of very small states, or those with minimal digital footprints. Because documentation is correlated with regime prominence, <strong>this missingness is not random</strong>: obscure autocrats are more likely to be absent from our data than well-known ones.</p>
-                    <p>Among the leaders we do cover, missingness varies by indicator source. Wikidata-sourced indicators (e.g., family in government, places named, monuments) have near-complete coverage because they default to 0 when no Wikidata claims exist &mdash; but this conflates &ldquo;absent&rdquo; with &ldquo;undocumented.&rdquo; Better-documented dictators are more likely to have claims coded as present, creating a systematic upward bias for prominent regimes. V-Dem indicators cover ~97% of included leaders but are unavailable for very small states. Constitute Project indicators are missing for ~5% of leaders whose countries lack digitised constitutions.</p>
-                    <p>The IRT model handles within-leader missing indicators under a missing-at-random assumption, but it cannot account for leaders absent from the dataset entirely. Users should treat coverage gaps seriously when drawing inferences about the full population of authoritarian leaders.</p>
+                    <h2>A Note on Coverage</h2>
+                    <p>This dataset restricts to <strong>autocratic leaders</strong> classified as closed or electoral autocracies by V-Dem&rsquo;s Regimes of the World (v2x_regime &le; 1). Of the 2,090 leader-spells in Archigos 4.1 (post-1946), approximately 1,075 are matched to Wikidata entities, and 497 unique leaders pass the autocracy filter &mdash; covering 123 countries. The excluded leaders are either democrats or could not be linked to Wikidata.</p>
+                    <p>Because documentation is correlated with regime prominence, <strong>missingness is not random</strong>: obscure autocrats are more likely to be absent than well-known ones. Among covered leaders, Wikidata-sourced indicators default to 0 when no claims exist, conflating &ldquo;absent&rdquo; with &ldquo;undocumented.&rdquo; Constitute Project indicators are missing for ~5% of leaders whose countries lack digitised constitutions.</p>
+                    <p>Personalism is estimated using a <strong>bifactor 2PL IRT model</strong> with a general personalism factor and two specific factors (institutional power and personality cult). The general factor score (&theta;) is reported as the primary measure. The model handles within-leader missing indicators under a missing-at-random assumption.</p>
                 </div>
 
                 <div class="chart-container">
@@ -106,7 +106,7 @@
         <!-- IRT Analysis Tab -->
         <section id="tab-irt" class="tab-content">
             <div class="irt-intro">
-                <p>Two-parameter logistic (2PL) IRT model estimated via marginal maximum likelihood (Bock–Aitkin EM). The latent trait <strong>θ</strong> represents personalism as measured by the three Wikidata indicators.</p>
+                <p><strong>Bifactor 2PL IRT model</strong> estimated via marginal maximum likelihood (<code>mirt</code> in R). The model has a <strong>general personalism factor</strong> (&theta;) plus two specific factors: <strong>Institutional</strong> (term limits, president-for-life, family in government, loyalty oath) and <strong>Cult/Symbolic</strong> (places named, titles, monuments, birthday, hagiography, cult of personality, currency portrait). Scores below are the general factor (&theta;) from the R-estimated model.</p>
             </div>
 
             <div class="irt-fit-cards" id="irt-fit-cards"></div>
@@ -127,7 +127,7 @@
 
             <div class="chart-container">
                 <h2>Item Parameters</h2>
-                <p class="chart-note">Discrimination (a) reflects how well the item separates high/low personalism. Difficulty (b) is the θ where P = 0.5.</p>
+                <p class="chart-note">a<sub>G</sub> = general factor loading; a<sub>S</sub> = specific factor loading. Higher general loading = item better measures overall personalism.</p>
                 <div id="item-params-table"></div>
             </div>
 
@@ -166,7 +166,7 @@
     </main>
 
     <footer>
-        <p>Morgenbesser & Crabtree · <a href="codebook.html">Codebook</a> · <a href="https://github.com/lobsterbush/personalism">GitHub</a></p>
+        <p>Morgenbesser &amp; Crabtree · <a href="codebook.html">Codebook</a> · <a href="https://github.com/lobsterbush/personalism">GitHub</a></p>
     </footer>
 
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>

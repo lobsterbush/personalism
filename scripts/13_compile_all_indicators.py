@@ -316,6 +316,16 @@ def main():
             writer.writerow(flat)
     print(f"  Wrote {len(compiled)} rows to {csv_path}")
 
+    # Load R-estimated theta scores if available
+    theta_path = COMPILED_DIR / "personalism_theta.csv"
+    theta_idx: dict[str, dict] = {}
+    if theta_path.exists():
+        for r in load_csv(theta_path):
+            qid = r.get("qid", "")
+            if qid:
+                theta_idx[qid] = r
+        print(f"  Theta scores: {len(theta_idx)}")
+
     # Build dashboard JSON — collapse multi-spell leaders per country
     print("\nBuilding dashboard JSON...")
     countries_dict: dict[str, dict] = {}
@@ -336,25 +346,51 @@ def main():
         for k in indicator_keys:
             vals = [s["indicators"][k] for s in spells if s["indicators"][k] is not None]
             merged_ind[k] = max(vals) if vals else None
-        countries_dict[iso3]["leaders"].append({
+
+        # Attach R-estimated theta if available
+        theta_data = {}
+        t_row = theta_idx.get(qid, {})
+        if t_row:
+            try:
+                theta_data = {
+                    "theta": round(float(t_row["theta"]), 4),
+                    "theta_se": round(float(t_row["theta_se"]), 4),
+                    "theta_inst": round(float(t_row.get("theta_inst", 0)), 4),
+                    "theta_cult": round(float(t_row.get("theta_cult", 0)), 4),
+                }
+            except (ValueError, TypeError):
+                pass
+
+        leader_entry: dict = {
             "name": spells[0]["leader"],
+            "qid": qid,
             "start_year": min(starts) if starts else None,
             "end_year":   max(ends) if ends else None,
             "indicators": merged_ind,
-        })
+        }
+        leader_entry.update(theta_data)
+        countries_dict[iso3]["leaders"].append(leader_entry)
+
+    n_with_theta = sum(
+        1 for c in countries_dict.values()
+        for l in c["leaders"] if "theta" in l
+    )
 
     dashboard = {
         "metadata": {
-            "version": "0.3",
-            "description": "Personalism indicators for Archigos leaders (post-1945)",
+            "version": "0.4",
+            "description": "Personalism in dictatorships — bifactor IRT model (autocracies only)",
             "last_updated": str(date.today()),
-            "source": "Wikidata + V-Dem + Constitute Project + Wikipedia + Archigos 4.1",
+            "source": "Wikidata + Constitute Project + Wikipedia + Archigos 4.1",
+            "model": "Bifactor 2PL IRT (General + Institutional + Cult/Symbolic)",
+            "sample": "Autocracies only (V-Dem Regimes of the World <= 1)",
             "n_leaders": len(compiled),
+            "n_with_theta": n_with_theta,
             "indicators": INDICATORS,
             "universe": {
                 "total_archigos": 2090,
-                "with_wikipedia": 861,
-                "with_wikidata": 918,
+                "with_wikidata": 936,
+                "autocracies": n_with_theta,
                 "with_any_indicator": len(compiled),
             },
         },
