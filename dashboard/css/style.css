@@ -178,6 +178,16 @@ main {
 }
 .chart { min-height: 300px; }
 
+/* Missingness note */
+.missingness-note {
+    border-left: 3px solid var(--accent);
+}
+.missingness-note p {
+    font-size: 0.88rem;
+    line-height: 1.65;
+    color: var(--text-secondary);
+}
+
 /* Bar chart (CSS-based) */
 .bar-row {
     display: flex;
