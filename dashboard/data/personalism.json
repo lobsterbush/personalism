@@ -2,9 +2,9 @@
   "metadata": {
     "version": "0.3",
     "description": "Personalism indicators for Archigos leaders (post-1945)",
-    "last_updated": "2026-03-05",
+    "last_updated": "2026-03-08",
     "source": "Wikidata + V-Dem + Constitute Project + Wikipedia + Archigos 4.1",
-    "n_leaders": 1057,
+    "n_leaders": 1075,
     "indicators": [
       {
         "key": "term_limits_absent",
@@ -86,9 +86,9 @@
       },
       {
         "key": "cult_of_personality",
-        "label": "Cult of Personality (cat)",
+        "label": "Cult of Personality",
         "dimension": "cult",
-        "source": "Wikipedia categories"
+        "source": "Wikipedia categories + text"
       },
       {
         "key": "currency_portrait",
@@ -107,7 +107,7 @@
       "total_archigos": 2090,
       "with_wikipedia": 861,
       "with_wikidata": 918,
-      "with_any_indicator": 1057
+      "with_any_indicator": 1075
     }
   },
   "countries": [
@@ -244,11 +244,11 @@
             "const_disregard": 1,
             "no_leg_constraint": 1,
             "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
+            "grandiose_titles": 1,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 0,
-            "cult_of_personality": 0,
+            "cult_of_personality": 1,
             "currency_portrait": 0,
             "oath_to_person": 0
           }
@@ -267,12 +267,12 @@
             "const_disregard": 1,
             "no_leg_constraint": 1,
             "places_named": 0,
-            "grandiose_titles": 0,
+            "grandiose_titles": 1,
             "monuments": 0,
             "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 1,
+            "hagiography": 1,
+            "cult_of_personality": 1,
+            "currency_portrait": 0,
             "oath_to_person": 0
           }
         },
@@ -365,7 +365,7 @@
             "const_disregard": 1,
             "no_leg_constraint": 1,
             "places_named": 1,
-            "grandiose_titles": 0,
+            "grandiose_titles": 1,
             "monuments": 0,
             "birthday_holiday": 1,
             "hagiography": 0,
@@ -468,6 +468,29 @@
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
+            "currency_portrait": 0,
+            "oath_to_person": 0
+          }
+        },
+        {
+          "name": "Hoxha",
+          "start_year": 1946,
+          "end_year": 1985,
+          "indicators": {
+            "term_limits_absent": 0,
+            "president_for_life": 0,
+            "family_in_govt": null,
+            "political_killings": 1,
+            "military_executive": 0,
+            "judicial_purges": 1,
+            "const_disregard": 1,
+            "no_leg_constraint": 1,
+            "places_named": null,
+            "grandiose_titles": 1,
+            "monuments": 1,
+            "birthday_holiday": 0,
+            "hagiography": 1,
+            "cult_of_personality": 1,
             "currency_portrait": 0,
             "oath_to_person": 0
           }
@@ -654,7 +677,7 @@
             "no_leg_constraint": null,
             "places_named": 0,
             "grandiose_titles": 0,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
@@ -699,12 +722,12 @@
             "const_disregard": 0,
             "no_leg_constraint": 0,
             "places_named": 0,
-            "grandiose_titles": 0,
+            "grandiose_titles": 1,
             "monuments": 0,
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
-            "currency_portrait": 0,
+            "currency_portrait": 1,
             "oath_to_person": 0
           }
         },
@@ -745,7 +768,7 @@
             "const_disregard": 0,
             "no_leg_constraint": 0,
             "places_named": 0,
-            "grandiose_titles": 0,
+            "grandiose_titles": 1,
             "monuments": 0,
             "birthday_holiday": 0,
             "hagiography": 0,
@@ -795,7 +818,7 @@
             "monuments": 0,
             "birthday_holiday": 0,
             "hagiography": 0,
-            "cult_of_personality": 0,
+            "cult_of_personality": 1,
             "currency_portrait": 0,
             "oath_to_person": 0
           }
@@ -842,7 +865,7 @@
             "birthday_holiday": 0,
             "hagiography": 1,
             "cult_of_personality": 0,
-            "currency_portrait": 0,
+            "currency_portrait": 1,
             "oath_to_person": 0
           }
         }
@@ -942,7 +965,7 @@
             "no_leg_constraint": 0,
             "places_named": 1,
             "grandiose_titles": 0,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
@@ -965,11 +988,11 @@
             "no_leg_constraint": 0,
             "places_named": 1,
             "grandiose_titles": 1,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
-            "currency_portrait": 0,
+            "currency_portrait": 1,
             "oath_to_person": 0
           }
         },
@@ -992,7 +1015,7 @@
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
-            "currency_portrait": 0,
+            "currency_portrait": 1,
             "oath_to_person": 0
           }
         },
@@ -1153,7 +1176,7 @@
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
-            "currency_portrait": 0,
+            "currency_portrait": 1,
             "oath_to_person": 0
           }
         },
@@ -1226,7 +1249,7 @@
             "grandiose_titles": 0,
             "monuments": 0,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 0,
             "oath_to_person": 0
@@ -1370,8 +1393,8 @@
             "grandiose_titles": 0,
             "monuments": 0,
             "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
+            "hagiography": 1,
+            "cult_of_personality": 1,
             "currency_portrait": 1,
             "oath_to_person": 0
           }
@@ -1512,7 +1535,7 @@
             "no_leg_constraint": 0,
             "places_named": 0,
             "grandiose_titles": 0,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 1,
             "hagiography": 0,
             "cult_of_personality": 0,
@@ -1664,7 +1687,7 @@
             "grandiose_titles": 0,
             "monuments": 0,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 0,
             "oath_to_person": 0
@@ -1689,7 +1712,7 @@
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
-            "currency_portrait": 0,
+            "currency_portrait": 1,
             "oath_to_person": 0
           }
         },
@@ -1851,12 +1874,12 @@
             "const_disregard": 0,
             "no_leg_constraint": 1,
             "places_named": 0,
-            "grandiose_titles": 0,
+            "grandiose_titles": 1,
             "monuments": 0,
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
-            "currency_portrait": 0,
+            "currency_portrait": 1,
             "oath_to_person": 0
           }
         },
@@ -1874,12 +1897,12 @@
             "const_disregard": 1,
             "no_leg_constraint": 1,
             "places_named": 1,
-            "grandiose_titles": 0,
-            "monuments": 0,
+            "grandiose_titles": 1,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
+            "cult_of_personality": 1,
+            "currency_portrait": 1,
             "oath_to_person": 0
           }
         },
@@ -1902,7 +1925,7 @@
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
-            "currency_portrait": 0,
+            "currency_portrait": 1,
             "oath_to_person": 0
           }
         }
@@ -1953,7 +1976,7 @@
             "monuments": 0,
             "birthday_holiday": 1,
             "hagiography": 1,
-            "cult_of_personality": 0,
+            "cult_of_personality": 1,
             "currency_portrait": 1,
             "oath_to_person": 0
           }
@@ -1972,7 +1995,7 @@
             "const_disregard": 1,
             "no_leg_constraint": 1,
             "places_named": 0,
-            "grandiose_titles": 0,
+            "grandiose_titles": 1,
             "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 0,
@@ -2067,7 +2090,7 @@
             "grandiose_titles": 0,
             "monuments": 0,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 0,
             "oath_to_person": 0
@@ -2140,11 +2163,11 @@
             "no_leg_constraint": 1,
             "places_named": 1,
             "grandiose_titles": 0,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 1,
-            "currency_portrait": 1,
+            "currency_portrait": 0,
             "oath_to_person": 0
           }
         },
@@ -2163,10 +2186,10 @@
             "no_leg_constraint": 1,
             "places_named": 0,
             "grandiose_titles": 1,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 0,
-            "cult_of_personality": 0,
+            "cult_of_personality": 1,
             "currency_portrait": 0,
             "oath_to_person": 0
           }
@@ -2213,7 +2236,7 @@
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
-            "currency_portrait": 1,
+            "currency_portrait": 0,
             "oath_to_person": 0
           }
         },
@@ -2282,7 +2305,7 @@
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
-            "currency_portrait": 0,
+            "currency_portrait": 1,
             "oath_to_person": 0
           }
         }
@@ -2506,7 +2529,7 @@
             "monuments": 0,
             "birthday_holiday": 0,
             "hagiography": 0,
-            "cult_of_personality": 0,
+            "cult_of_personality": 1,
             "currency_portrait": 1,
             "oath_to_person": 0
           }
@@ -2531,12 +2554,12 @@
             "const_disregard": null,
             "no_leg_constraint": null,
             "places_named": 1,
-            "grandiose_titles": 0,
+            "grandiose_titles": 1,
             "monuments": 0,
             "birthday_holiday": 1,
             "hagiography": 0,
             "cult_of_personality": 0,
-            "currency_portrait": 0,
+            "currency_portrait": 1,
             "oath_to_person": 0
           }
         },
@@ -2653,7 +2676,7 @@
             "no_leg_constraint": 0,
             "places_named": 0,
             "grandiose_titles": 0,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
@@ -2676,7 +2699,7 @@
             "no_leg_constraint": null,
             "places_named": 0,
             "grandiose_titles": 0,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
@@ -2981,7 +3004,7 @@
             "no_leg_constraint": 0,
             "places_named": 0,
             "grandiose_titles": 0,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
@@ -3008,7 +3031,7 @@
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
-            "currency_portrait": 1,
+            "currency_portrait": 0,
             "oath_to_person": 0
           }
         },
@@ -3029,7 +3052,7 @@
             "grandiose_titles": 0,
             "monuments": 0,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 0,
             "oath_to_person": 0
@@ -3052,7 +3075,7 @@
             "grandiose_titles": 0,
             "monuments": 0,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 0,
             "oath_to_person": 0
@@ -3078,7 +3101,7 @@
             "const_disregard": 0,
             "no_leg_constraint": 0,
             "places_named": 0,
-            "grandiose_titles": 0,
+            "grandiose_titles": 1,
             "monuments": 0,
             "birthday_holiday": 0,
             "hagiography": 0,
@@ -3305,6 +3328,29 @@
             "currency_portrait": 0,
             "oath_to_person": 0
           }
+        },
+        {
+          "name": "Bokassa",
+          "start_year": 1966,
+          "end_year": 1979,
+          "indicators": {
+            "term_limits_absent": 0,
+            "president_for_life": 0,
+            "family_in_govt": null,
+            "political_killings": 1,
+            "military_executive": 1,
+            "judicial_purges": 0,
+            "const_disregard": 1,
+            "no_leg_constraint": 1,
+            "places_named": null,
+            "grandiose_titles": 1,
+            "monuments": 0,
+            "birthday_holiday": 0,
+            "hagiography": 1,
+            "cult_of_personality": 0,
+            "currency_portrait": 0,
+            "oath_to_person": 0
+          }
         }
       ]
     },
@@ -3349,12 +3395,12 @@
             "const_disregard": 0,
             "no_leg_constraint": 0,
             "places_named": 1,
-            "grandiose_titles": 0,
+            "grandiose_titles": 1,
             "monuments": 0,
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
-            "currency_portrait": 1,
+            "currency_portrait": 0,
             "oath_to_person": 0
           }
         },
@@ -3396,9 +3442,9 @@
             "no_leg_constraint": 0,
             "places_named": 1,
             "grandiose_titles": 0,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 1,
             "oath_to_person": 0
@@ -3487,7 +3533,7 @@
             "const_disregard": 0,
             "no_leg_constraint": 0,
             "places_named": 0,
-            "grandiose_titles": 0,
+            "grandiose_titles": 1,
             "monuments": 0,
             "birthday_holiday": 0,
             "hagiography": 0,
@@ -3594,7 +3640,7 @@
             "grandiose_titles": 0,
             "monuments": 0,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 0,
             "oath_to_person": 0
@@ -3642,7 +3688,7 @@
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
-            "currency_portrait": 1,
+            "currency_portrait": 0,
             "oath_to_person": 0
           }
         },
@@ -3661,11 +3707,11 @@
             "no_leg_constraint": 0,
             "places_named": 1,
             "grandiose_titles": 0,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
-            "currency_portrait": 1,
+            "currency_portrait": 0,
             "oath_to_person": 0
           }
         },
@@ -3686,7 +3732,7 @@
             "grandiose_titles": 0,
             "monuments": 0,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 0,
             "oath_to_person": 0
@@ -3755,7 +3801,7 @@
             "grandiose_titles": 0,
             "monuments": 0,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 0,
             "oath_to_person": 0
@@ -3781,11 +3827,11 @@
             "const_disregard": 0,
             "no_leg_constraint": 1,
             "places_named": 1,
-            "grandiose_titles": 0,
-            "monuments": 0,
+            "grandiose_titles": 1,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 1,
-            "cult_of_personality": 0,
+            "cult_of_personality": 1,
             "currency_portrait": 0,
             "oath_to_person": 0
           }
@@ -3805,10 +3851,10 @@
             "no_leg_constraint": 1,
             "places_named": 0,
             "grandiose_titles": 0,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
+            "hagiography": 1,
+            "cult_of_personality": 1,
             "currency_portrait": 0,
             "oath_to_person": 0
           }
@@ -3828,9 +3874,9 @@
             "no_leg_constraint": 1,
             "places_named": 1,
             "grandiose_titles": 0,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 0,
             "oath_to_person": 0
@@ -3854,7 +3900,7 @@
             "monuments": 0,
             "birthday_holiday": 0,
             "hagiography": 1,
-            "cult_of_personality": 0,
+            "cult_of_personality": 1,
             "currency_portrait": 0,
             "oath_to_person": 0
           }
@@ -3977,7 +4023,7 @@
             "const_disregard": 1,
             "no_leg_constraint": 1,
             "places_named": 0,
-            "grandiose_titles": 0,
+            "grandiose_titles": 1,
             "monuments": 0,
             "birthday_holiday": 0,
             "hagiography": 0,
@@ -4030,7 +4076,7 @@
             "no_leg_constraint": 0,
             "places_named": 1,
             "grandiose_titles": 0,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
@@ -4053,10 +4099,10 @@
             "no_leg_constraint": 1,
             "places_named": 0,
             "grandiose_titles": 1,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
+            "hagiography": 1,
+            "cult_of_personality": 1,
             "currency_portrait": 0,
             "oath_to_person": 0
           }
@@ -4076,7 +4122,7 @@
             "no_leg_constraint": 0,
             "places_named": 0,
             "grandiose_titles": 0,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
@@ -4490,7 +4536,7 @@
             "const_disregard": 0,
             "no_leg_constraint": 0,
             "places_named": 0,
-            "grandiose_titles": 0,
+            "grandiose_titles": 1,
             "monuments": 0,
             "birthday_holiday": 0,
             "hagiography": 0,
@@ -4565,6 +4611,52 @@
             "const_disregard": 1,
             "no_leg_constraint": 0,
             "places_named": 0,
+            "grandiose_titles": 0,
+            "monuments": 0,
+            "birthday_holiday": 0,
+            "hagiography": 0,
+            "cult_of_personality": 0,
+            "currency_portrait": 1,
+            "oath_to_person": 0
+          }
+        },
+        {
+          "name": "Fidel Castro",
+          "start_year": 1959,
+          "end_year": 2008,
+          "indicators": {
+            "term_limits_absent": 0,
+            "president_for_life": 0,
+            "family_in_govt": null,
+            "political_killings": 0,
+            "military_executive": 0,
+            "judicial_purges": 1,
+            "const_disregard": 1,
+            "no_leg_constraint": 1,
+            "places_named": null,
+            "grandiose_titles": 1,
+            "monuments": 0,
+            "birthday_holiday": 0,
+            "hagiography": 1,
+            "cult_of_personality": 0,
+            "currency_portrait": 1,
+            "oath_to_person": 0
+          }
+        },
+        {
+          "name": "Raul Castro",
+          "start_year": 2008,
+          "end_year": 2015,
+          "indicators": {
+            "term_limits_absent": 0,
+            "president_for_life": 0,
+            "family_in_govt": null,
+            "political_killings": 0,
+            "military_executive": 0,
+            "judicial_purges": 0,
+            "const_disregard": 1,
+            "no_leg_constraint": 1,
+            "places_named": null,
             "grandiose_titles": 0,
             "monuments": 0,
             "birthday_holiday": 0,
@@ -4693,11 +4785,11 @@
             "no_leg_constraint": 1,
             "places_named": 1,
             "grandiose_titles": 0,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 1,
-            "currency_portrait": 0,
+            "currency_portrait": 1,
             "oath_to_person": 0
           }
         },
@@ -4741,7 +4833,7 @@
             "grandiose_titles": 0,
             "monuments": 0,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 0,
             "oath_to_person": 0
@@ -4862,7 +4954,7 @@
             "grandiose_titles": 0,
             "monuments": 0,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 0,
             "oath_to_person": 0
@@ -4952,10 +5044,10 @@
             "no_leg_constraint": 1,
             "places_named": 1,
             "grandiose_titles": 0,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
+            "hagiography": 1,
+            "cult_of_personality": 1,
             "currency_portrait": 0,
             "oath_to_person": 0
           }
@@ -5054,7 +5146,7 @@
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
-            "currency_portrait": 1,
+            "currency_portrait": 0,
             "oath_to_person": 0
           }
         }
@@ -5288,7 +5380,7 @@
             "grandiose_titles": 0,
             "monuments": 0,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 0,
             "oath_to_person": 0
@@ -5452,12 +5544,12 @@
             "const_disregard": 1,
             "no_leg_constraint": 1,
             "places_named": 0,
-            "grandiose_titles": 0,
+            "grandiose_titles": 1,
             "monuments": 0,
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
-            "currency_portrait": 0,
+            "currency_portrait": 1,
             "oath_to_person": 0
           }
         },
@@ -5503,6 +5595,29 @@
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
+            "currency_portrait": 0,
+            "oath_to_person": 0
+          }
+        },
+        {
+          "name": "Trujillo",
+          "start_year": 1946,
+          "end_year": 1961,
+          "indicators": {
+            "term_limits_absent": 0,
+            "president_for_life": 0,
+            "family_in_govt": null,
+            "political_killings": 1,
+            "military_executive": 0,
+            "judicial_purges": 1,
+            "const_disregard": 1,
+            "no_leg_constraint": 1,
+            "places_named": null,
+            "grandiose_titles": 1,
+            "monuments": 1,
+            "birthday_holiday": 0,
+            "hagiography": 0,
+            "cult_of_personality": 1,
             "currency_portrait": 0,
             "oath_to_person": 0
           }
@@ -5553,7 +5668,7 @@
             "grandiose_titles": 0,
             "monuments": 0,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 0,
             "oath_to_person": 0
@@ -5668,7 +5783,7 @@
             "grandiose_titles": 0,
             "monuments": 0,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 1,
             "oath_to_person": 0
@@ -5722,7 +5837,7 @@
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
-            "currency_portrait": 1,
+            "currency_portrait": 0,
             "oath_to_person": 0
           }
         },
@@ -5812,7 +5927,7 @@
             "grandiose_titles": 0,
             "monuments": 0,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 0,
             "oath_to_person": 0
@@ -5947,10 +6062,10 @@
             "const_disregard": 1,
             "no_leg_constraint": 1,
             "places_named": 0,
-            "grandiose_titles": 0,
+            "grandiose_titles": 1,
             "monuments": 0,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 1,
             "oath_to_person": 0
@@ -5977,7 +6092,7 @@
             "no_leg_constraint": 0,
             "places_named": 0,
             "grandiose_titles": 0,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
@@ -5999,12 +6114,12 @@
             "const_disregard": 0,
             "no_leg_constraint": 0,
             "places_named": 1,
-            "grandiose_titles": 0,
+            "grandiose_titles": 1,
             "monuments": 0,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
-            "currency_portrait": 1,
+            "currency_portrait": 0,
             "oath_to_person": 0
           }
         },
@@ -6025,8 +6140,8 @@
             "grandiose_titles": 0,
             "monuments": 0,
             "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
+            "hagiography": 1,
+            "cult_of_personality": 1,
             "currency_portrait": 0,
             "oath_to_person": 0
           }
@@ -6091,11 +6206,11 @@
             "const_disregard": 0,
             "no_leg_constraint": 0,
             "places_named": 0,
-            "grandiose_titles": 0,
+            "grandiose_titles": 1,
             "monuments": 0,
             "birthday_holiday": 0,
             "hagiography": 0,
-            "cult_of_personality": 0,
+            "cult_of_personality": 1,
             "currency_portrait": 0,
             "oath_to_person": 0
           }
@@ -6125,7 +6240,7 @@
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
-            "currency_portrait": 0,
+            "currency_portrait": 1,
             "oath_to_person": 0
           }
         },
@@ -6148,6 +6263,29 @@
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
+            "currency_portrait": 0,
+            "oath_to_person": 0
+          }
+        },
+        {
+          "name": "Franco",
+          "start_year": 1946,
+          "end_year": 1975,
+          "indicators": {
+            "term_limits_absent": 1,
+            "president_for_life": 0,
+            "family_in_govt": null,
+            "political_killings": 1,
+            "military_executive": 1,
+            "judicial_purges": 0,
+            "const_disregard": 0,
+            "no_leg_constraint": 1,
+            "places_named": null,
+            "grandiose_titles": 1,
+            "monuments": 1,
+            "birthday_holiday": 0,
+            "hagiography": 1,
+            "cult_of_personality": 1,
             "currency_portrait": 0,
             "oath_to_person": 0
           }
@@ -6224,7 +6362,7 @@
             "const_disregard": 1,
             "no_leg_constraint": 1,
             "places_named": 0,
-            "grandiose_titles": 0,
+            "grandiose_titles": 1,
             "monuments": 0,
             "birthday_holiday": 0,
             "hagiography": 0,
@@ -6247,6 +6385,29 @@
             "const_disregard": 1,
             "no_leg_constraint": 1,
             "places_named": 0,
+            "grandiose_titles": 1,
+            "monuments": 0,
+            "birthday_holiday": 0,
+            "hagiography": 0,
+            "cult_of_personality": 1,
+            "currency_portrait": 0,
+            "oath_to_person": 0
+          }
+        },
+        {
+          "name": "Mengistu",
+          "start_year": 1977,
+          "end_year": 1991,
+          "indicators": {
+            "term_limits_absent": 0,
+            "president_for_life": 0,
+            "family_in_govt": null,
+            "political_killings": 1,
+            "military_executive": 1,
+            "judicial_purges": 1,
+            "const_disregard": 1,
+            "no_leg_constraint": 1,
+            "places_named": null,
             "grandiose_titles": 0,
             "monuments": 0,
             "birthday_holiday": 0,
@@ -6303,7 +6464,7 @@
             "monuments": 0,
             "birthday_holiday": 0,
             "hagiography": 1,
-            "cult_of_personality": 0,
+            "cult_of_personality": 1,
             "currency_portrait": 1,
             "oath_to_person": 0
           }
@@ -6391,7 +6552,7 @@
             "const_disregard": 0,
             "no_leg_constraint": 0,
             "places_named": 0,
-            "grandiose_titles": 0,
+            "grandiose_titles": 1,
             "monuments": 0,
             "birthday_holiday": 0,
             "hagiography": 1,
@@ -6420,12 +6581,12 @@
             "const_disregard": 0,
             "no_leg_constraint": 0,
             "places_named": 0,
-            "grandiose_titles": 0,
+            "grandiose_titles": 1,
             "monuments": 0,
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
-            "currency_portrait": 1,
+            "currency_portrait": 0,
             "oath_to_person": 0
           }
         },
@@ -6494,7 +6655,7 @@
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
-            "currency_portrait": 1,
+            "currency_portrait": 0,
             "oath_to_person": 0
           }
         },
@@ -6517,7 +6678,7 @@
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
-            "currency_portrait": 1,
+            "currency_portrait": 0,
             "oath_to_person": 0
           }
         },
@@ -6540,7 +6701,7 @@
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
-            "currency_portrait": 1,
+            "currency_portrait": 0,
             "oath_to_person": 0
           }
         },
@@ -6563,7 +6724,7 @@
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
-            "currency_portrait": 1,
+            "currency_portrait": 0,
             "oath_to_person": 0
           }
         }
@@ -6636,7 +6797,7 @@
             "grandiose_titles": 1,
             "monuments": 1,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 0,
             "oath_to_person": 0
@@ -6794,12 +6955,12 @@
             "const_disregard": 0,
             "no_leg_constraint": 0,
             "places_named": 1,
-            "grandiose_titles": 0,
+            "grandiose_titles": 1,
             "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 1,
             "cult_of_personality": 0,
-            "currency_portrait": 1,
+            "currency_portrait": 0,
             "oath_to_person": 0
           }
         },
@@ -6919,7 +7080,7 @@
             "monuments": 0,
             "birthday_holiday": 0,
             "hagiography": 0,
-            "cult_of_personality": 0,
+            "cult_of_personality": 1,
             "currency_portrait": 0,
             "oath_to_person": 0
           }
@@ -6993,7 +7154,7 @@
             "grandiose_titles": 1,
             "monuments": 0,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 0,
             "oath_to_person": 0
@@ -7037,7 +7198,7 @@
             "no_leg_constraint": 0,
             "places_named": 1,
             "grandiose_titles": 1,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
@@ -7060,9 +7221,9 @@
             "no_leg_constraint": 0,
             "places_named": 0,
             "grandiose_titles": 1,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 0,
             "oath_to_person": 0
@@ -7083,9 +7244,9 @@
             "no_leg_constraint": 0,
             "places_named": 0,
             "grandiose_titles": 1,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 1,
             "oath_to_person": 0
@@ -7131,7 +7292,7 @@
             "grandiose_titles": 1,
             "monuments": 0,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 0,
             "oath_to_person": 0
@@ -7200,7 +7361,7 @@
             "grandiose_titles": 1,
             "monuments": 0,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 1,
             "oath_to_person": 0
@@ -7229,7 +7390,7 @@
             "grandiose_titles": 0,
             "monuments": 0,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 0,
             "oath_to_person": 0
@@ -7298,7 +7459,7 @@
             "grandiose_titles": 0,
             "monuments": 0,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 0,
             "oath_to_person": 0
@@ -7348,10 +7509,10 @@
             "no_leg_constraint": 0,
             "places_named": 1,
             "grandiose_titles": 1,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 1,
             "hagiography": 1,
-            "cult_of_personality": 0,
+            "cult_of_personality": 1,
             "currency_portrait": 1,
             "oath_to_person": 0
           }
@@ -7393,7 +7554,7 @@
             "const_disregard": 1,
             "no_leg_constraint": 0,
             "places_named": 0,
-            "grandiose_titles": 0,
+            "grandiose_titles": 1,
             "monuments": 0,
             "birthday_holiday": 0,
             "hagiography": 0,
@@ -7584,10 +7745,10 @@
             "no_leg_constraint": 1,
             "places_named": 0,
             "grandiose_titles": 0,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 1,
             "hagiography": 0,
-            "cult_of_personality": 0,
+            "cult_of_personality": 1,
             "currency_portrait": 0,
             "oath_to_person": 0
           }
@@ -7709,7 +7870,7 @@
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
-            "currency_portrait": 0,
+            "currency_portrait": 1,
             "oath_to_person": 0
           }
         },
@@ -8039,7 +8200,7 @@
             "no_leg_constraint": 0,
             "places_named": 0,
             "grandiose_titles": 0,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
@@ -8223,7 +8384,7 @@
             "no_leg_constraint": 0,
             "places_named": 1,
             "grandiose_titles": 0,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
@@ -8317,7 +8478,7 @@
             "grandiose_titles": 0,
             "monuments": 0,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 0,
             "oath_to_person": 0
@@ -8363,7 +8524,7 @@
             "grandiose_titles": 0,
             "monuments": 0,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 0,
             "oath_to_person": 0
@@ -8392,7 +8553,7 @@
             "grandiose_titles": 0,
             "monuments": 0,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 0,
             "oath_to_person": 0
@@ -8415,7 +8576,7 @@
             "grandiose_titles": 0,
             "monuments": 0,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 0,
             "oath_to_person": 0
@@ -8647,7 +8808,7 @@
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
-            "currency_portrait": 1,
+            "currency_portrait": 0,
             "oath_to_person": 0
           }
         }
@@ -8671,10 +8832,10 @@
             "const_disregard": 1,
             "no_leg_constraint": 1,
             "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
+            "grandiose_titles": 1,
+            "monuments": 1,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 0,
             "oath_to_person": 0
@@ -8717,10 +8878,10 @@
             "const_disregard": 0,
             "no_leg_constraint": 0,
             "places_named": 0,
-            "grandiose_titles": 0,
+            "grandiose_titles": 1,
             "monuments": 0,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 0,
             "oath_to_person": 0
@@ -9016,7 +9177,7 @@
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
-            "currency_portrait": 1,
+            "currency_portrait": 0,
             "oath_to_person": 0
           }
         },
@@ -9177,6 +9338,52 @@
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
+            "currency_portrait": 0,
+            "oath_to_person": 0
+          }
+        },
+        {
+          "name": "Francois Duvalier",
+          "start_year": 1957,
+          "end_year": 1971,
+          "indicators": {
+            "term_limits_absent": 0,
+            "president_for_life": 0,
+            "family_in_govt": null,
+            "political_killings": 1,
+            "military_executive": 0,
+            "judicial_purges": 1,
+            "const_disregard": 1,
+            "no_leg_constraint": 1,
+            "places_named": null,
+            "grandiose_titles": 1,
+            "monuments": 1,
+            "birthday_holiday": 0,
+            "hagiography": 0,
+            "cult_of_personality": 1,
+            "currency_portrait": 1,
+            "oath_to_person": 0
+          }
+        },
+        {
+          "name": "Jean-Claude Duvalier",
+          "start_year": 1971,
+          "end_year": 1986,
+          "indicators": {
+            "term_limits_absent": 0,
+            "president_for_life": 0,
+            "family_in_govt": null,
+            "political_killings": 1,
+            "military_executive": 0,
+            "judicial_purges": 1,
+            "const_disregard": 1,
+            "no_leg_constraint": 1,
+            "places_named": null,
+            "grandiose_titles": 0,
+            "monuments": 0,
+            "birthday_holiday": 0,
+            "hagiography": 0,
+            "cult_of_personality": 0,
             "currency_portrait": 1,
             "oath_to_person": 0
           }
@@ -9250,7 +9457,7 @@
             "grandiose_titles": 0,
             "monuments": 0,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 0,
             "oath_to_person": 0
@@ -9276,11 +9483,11 @@
             "const_disregard": 1,
             "no_leg_constraint": 0,
             "places_named": 0,
-            "grandiose_titles": 0,
+            "grandiose_titles": 1,
             "monuments": 0,
             "birthday_holiday": 0,
             "hagiography": 1,
-            "cult_of_personality": 0,
+            "cult_of_personality": 1,
             "currency_portrait": 1,
             "oath_to_person": 0
           }
@@ -9322,11 +9529,11 @@
             "const_disregard": 1,
             "no_leg_constraint": 1,
             "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
+            "grandiose_titles": 1,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 0,
-            "cult_of_personality": 0,
+            "cult_of_personality": 1,
             "currency_portrait": 1,
             "oath_to_person": 0
           }
@@ -9349,7 +9556,7 @@
             "monuments": 0,
             "birthday_holiday": 0,
             "hagiography": 0,
-            "cult_of_personality": 0,
+            "cult_of_personality": 1,
             "currency_portrait": 0,
             "oath_to_person": 0
           }
@@ -9371,7 +9578,7 @@
             "grandiose_titles": 0,
             "monuments": 0,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 0,
             "oath_to_person": 0
@@ -9391,7 +9598,7 @@
             "const_disregard": 0,
             "no_leg_constraint": 0,
             "places_named": 0,
-            "grandiose_titles": 0,
+            "grandiose_titles": 1,
             "monuments": 0,
             "birthday_holiday": 0,
             "hagiography": 0,
@@ -9421,7 +9628,7 @@
             "no_leg_constraint": 0,
             "places_named": 1,
             "grandiose_titles": 1,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 1,
             "cult_of_personality": 0,
@@ -9489,11 +9696,11 @@
             "const_disregard": 0,
             "no_leg_constraint": 0,
             "places_named": 1,
-            "grandiose_titles": 0,
+            "grandiose_titles": 1,
             "monuments": 0,
             "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
+            "hagiography": 1,
+            "cult_of_personality": 1,
             "currency_portrait": 0,
             "oath_to_person": 0
           }
@@ -9536,7 +9743,7 @@
             "no_leg_constraint": 0,
             "places_named": 1,
             "grandiose_titles": 0,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
@@ -9559,9 +9766,9 @@
             "no_leg_constraint": 0,
             "places_named": 1,
             "grandiose_titles": 0,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 0,
             "oath_to_person": 0
@@ -9605,11 +9812,11 @@
             "no_leg_constraint": 0,
             "places_named": 0,
             "grandiose_titles": 0,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 1,
             "cult_of_personality": 0,
-            "currency_portrait": 1,
+            "currency_portrait": 0,
             "oath_to_person": 0
           }
         },
@@ -9630,7 +9837,7 @@
             "grandiose_titles": 0,
             "monuments": 0,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 0,
             "oath_to_person": 0
@@ -9697,9 +9904,9 @@
             "no_leg_constraint": 0,
             "places_named": 1,
             "grandiose_titles": 0,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 1,
             "oath_to_person": 0
@@ -9749,7 +9956,7 @@
             "no_leg_constraint": 0,
             "places_named": 0,
             "grandiose_titles": 0,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 1,
             "cult_of_personality": 0,
@@ -9772,7 +9979,7 @@
             "no_leg_constraint": 0,
             "places_named": 0,
             "grandiose_titles": 0,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 1,
             "cult_of_personality": 0,
@@ -9851,7 +10058,7 @@
             "birthday_holiday": 0,
             "hagiography": 1,
             "cult_of_personality": 0,
-            "currency_portrait": 1,
+            "currency_portrait": 0,
             "oath_to_person": 0
           }
         },
@@ -9870,11 +10077,11 @@
             "no_leg_constraint": 0,
             "places_named": 1,
             "grandiose_titles": 1,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 1,
-            "cult_of_personality": 0,
-            "currency_portrait": 1,
+            "cult_of_personality": 1,
+            "currency_portrait": 0,
             "oath_to_person": 0
           }
         },
@@ -9896,8 +10103,8 @@
             "monuments": 0,
             "birthday_holiday": 0,
             "hagiography": 1,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
+            "cult_of_personality": 1,
+            "currency_portrait": 1,
             "oath_to_person": 0
           }
         },
@@ -9915,12 +10122,12 @@
             "const_disregard": 1,
             "no_leg_constraint": 0,
             "places_named": 1,
-            "grandiose_titles": 0,
-            "monuments": 0,
+            "grandiose_titles": 1,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
-            "currency_portrait": 0,
+            "currency_portrait": 1,
             "oath_to_person": 0
           }
         },
@@ -9943,7 +10150,7 @@
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
-            "currency_portrait": 1,
+            "currency_portrait": 0,
             "oath_to_person": 0
           }
         },
@@ -9961,7 +10168,7 @@
             "const_disregard": 1,
             "no_leg_constraint": 0,
             "places_named": 0,
-            "grandiose_titles": 0,
+            "grandiose_titles": 1,
             "monuments": 0,
             "birthday_holiday": 0,
             "hagiography": 1,
@@ -10037,10 +10244,10 @@
             "no_leg_constraint": 1,
             "places_named": 1,
             "grandiose_titles": 1,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 1,
-            "cult_of_personality": 0,
+            "cult_of_personality": 1,
             "currency_portrait": 1,
             "oath_to_person": 0
           }
@@ -10256,9 +10463,9 @@
             "no_leg_constraint": 0,
             "places_named": 1,
             "grandiose_titles": 0,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 0,
             "oath_to_person": 0
@@ -10301,8 +10508,8 @@
             "const_disregard": 0,
             "no_leg_constraint": 0,
             "places_named": 1,
-            "grandiose_titles": 0,
-            "monuments": 0,
+            "grandiose_titles": 1,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
@@ -10327,7 +10534,7 @@
             "grandiose_titles": 0,
             "monuments": 0,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 0,
             "oath_to_person": 0
@@ -10352,7 +10559,7 @@
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
-            "currency_portrait": 0,
+            "currency_portrait": 1,
             "oath_to_person": 0
           }
         },
@@ -10370,7 +10577,7 @@
             "const_disregard": 0,
             "no_leg_constraint": 0,
             "places_named": 1,
-            "grandiose_titles": 0,
+            "grandiose_titles": 1,
             "monuments": 0,
             "birthday_holiday": 0,
             "hagiography": 0,
@@ -10394,7 +10601,7 @@
             "no_leg_constraint": 0,
             "places_named": 1,
             "grandiose_titles": 0,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 1,
             "cult_of_personality": 0,
@@ -10586,7 +10793,7 @@
             "grandiose_titles": 0,
             "monuments": 0,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 0,
             "oath_to_person": 0
@@ -10634,7 +10841,7 @@
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
-            "currency_portrait": 0,
+            "currency_portrait": 1,
             "oath_to_person": 0
           }
         },
@@ -10703,7 +10910,7 @@
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
-            "currency_portrait": 1,
+            "currency_portrait": 0,
             "oath_to_person": 0
           }
         },
@@ -10747,7 +10954,7 @@
             "grandiose_titles": 0,
             "monuments": 0,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 0,
             "oath_to_person": 0
@@ -10791,10 +10998,10 @@
             "no_leg_constraint": 0,
             "places_named": 0,
             "grandiose_titles": 0,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
+            "hagiography": 1,
+            "cult_of_personality": 1,
             "currency_portrait": 0,
             "oath_to_person": 0
           }
@@ -10813,7 +11020,7 @@
             "const_disregard": 0,
             "no_leg_constraint": 0,
             "places_named": 0,
-            "grandiose_titles": 0,
+            "grandiose_titles": 1,
             "monuments": 0,
             "birthday_holiday": 0,
             "hagiography": 0,
@@ -10885,7 +11092,7 @@
             "grandiose_titles": 1,
             "monuments": 0,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 0,
             "oath_to_person": 0
@@ -11000,7 +11207,7 @@
             "grandiose_titles": 1,
             "monuments": 0,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 0,
             "oath_to_person": 0
@@ -11077,7 +11284,7 @@
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
-            "currency_portrait": 1,
+            "currency_portrait": 0,
             "oath_to_person": 0
           }
         },
@@ -11100,7 +11307,7 @@
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
-            "currency_portrait": 1,
+            "currency_portrait": 0,
             "oath_to_person": 0
           }
         },
@@ -11123,7 +11330,7 @@
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
-            "currency_portrait": 1,
+            "currency_portrait": 0,
             "oath_to_person": 0
           }
         }
@@ -11148,7 +11355,7 @@
             "no_leg_constraint": 0,
             "places_named": 1,
             "grandiose_titles": 1,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 1,
             "hagiography": 0,
             "cult_of_personality": 0,
@@ -11176,7 +11383,7 @@
             "const_disregard": 0,
             "no_leg_constraint": 0,
             "places_named": 0,
-            "grandiose_titles": 0,
+            "grandiose_titles": 1,
             "monuments": 0,
             "birthday_holiday": 0,
             "hagiography": 0,
@@ -11199,7 +11406,7 @@
             "const_disregard": 0,
             "no_leg_constraint": 0,
             "places_named": 1,
-            "grandiose_titles": 0,
+            "grandiose_titles": 1,
             "monuments": 0,
             "birthday_holiday": 0,
             "hagiography": 1,
@@ -11225,7 +11432,7 @@
             "grandiose_titles": 0,
             "monuments": 0,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 0,
             "oath_to_person": 0
@@ -11245,7 +11452,7 @@
             "const_disregard": 0,
             "no_leg_constraint": 0,
             "places_named": 0,
-            "grandiose_titles": 0,
+            "grandiose_titles": 1,
             "monuments": 0,
             "birthday_holiday": 0,
             "hagiography": 0,
@@ -11294,7 +11501,7 @@
             "grandiose_titles": 0,
             "monuments": 0,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 0,
             "oath_to_person": 0
@@ -11595,7 +11802,7 @@
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
-            "currency_portrait": 1,
+            "currency_portrait": 0,
             "oath_to_person": 0
           }
         },
@@ -11637,7 +11844,7 @@
             "no_leg_constraint": 0,
             "places_named": 1,
             "grandiose_titles": 0,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 1,
             "cult_of_personality": 0,
@@ -11729,7 +11936,7 @@
             "no_leg_constraint": 0,
             "places_named": 0,
             "grandiose_titles": 0,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
@@ -11781,10 +11988,10 @@
             "no_leg_constraint": 1,
             "places_named": 1,
             "grandiose_titles": 0,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
+            "hagiography": 1,
+            "cult_of_personality": 1,
             "currency_portrait": 1,
             "oath_to_person": 0
           }
@@ -11809,11 +12016,11 @@
             "const_disregard": 1,
             "no_leg_constraint": 0,
             "places_named": 1,
-            "grandiose_titles": 0,
-            "monuments": 0,
+            "grandiose_titles": 1,
+            "monuments": 1,
             "birthday_holiday": 1,
-            "hagiography": 0,
-            "cult_of_personality": 0,
+            "hagiography": 1,
+            "cult_of_personality": 1,
             "currency_portrait": 0,
             "oath_to_person": 0
           }
@@ -11856,10 +12063,10 @@
             "no_leg_constraint": 0,
             "places_named": 0,
             "grandiose_titles": 0,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 1,
             "hagiography": 0,
-            "cult_of_personality": 0,
+            "cult_of_personality": 1,
             "currency_portrait": 0,
             "oath_to_person": 0
           }
@@ -11881,7 +12088,7 @@
             "grandiose_titles": 0,
             "monuments": 0,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 0,
             "oath_to_person": 0
@@ -11912,7 +12119,7 @@
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
-            "currency_portrait": 1,
+            "currency_portrait": 0,
             "oath_to_person": 0
           }
         },
@@ -11987,7 +12194,7 @@
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
-            "currency_portrait": 1,
+            "currency_portrait": 0,
             "oath_to_person": 0
           }
         },
@@ -12008,8 +12215,8 @@
             "grandiose_titles": 0,
             "monuments": 0,
             "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
+            "hagiography": 1,
+            "cult_of_personality": 1,
             "currency_portrait": 1,
             "oath_to_person": 0
           }
@@ -12103,7 +12310,7 @@
             "const_disregard": 1,
             "no_leg_constraint": 1,
             "places_named": 1,
-            "grandiose_titles": 0,
+            "grandiose_titles": 1,
             "monuments": 0,
             "birthday_holiday": 0,
             "hagiography": 0,
@@ -12154,7 +12361,7 @@
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
-            "currency_portrait": 1,
+            "currency_portrait": 0,
             "oath_to_person": 0
           }
         },
@@ -12264,7 +12471,7 @@
             "const_disregard": 0,
             "no_leg_constraint": 0,
             "places_named": 1,
-            "grandiose_titles": 0,
+            "grandiose_titles": 1,
             "monuments": 0,
             "birthday_holiday": 0,
             "hagiography": 0,
@@ -12294,10 +12501,10 @@
             "no_leg_constraint": 0,
             "places_named": 1,
             "grandiose_titles": 1,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 1,
-            "cult_of_personality": 0,
+            "cult_of_personality": 1,
             "currency_portrait": 0,
             "oath_to_person": 0
           }
@@ -12437,7 +12644,7 @@
             "const_disregard": 0,
             "no_leg_constraint": 1,
             "places_named": 0,
-            "grandiose_titles": 0,
+            "grandiose_titles": 1,
             "monuments": 0,
             "birthday_holiday": 0,
             "hagiography": 0,
@@ -12709,11 +12916,11 @@
             "no_leg_constraint": 0,
             "places_named": 0,
             "grandiose_titles": 1,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
-            "currency_portrait": 1,
+            "currency_portrait": 0,
             "oath_to_person": 0
           }
         },
@@ -12731,11 +12938,11 @@
             "const_disregard": 1,
             "no_leg_constraint": 1,
             "places_named": 1,
-            "grandiose_titles": 0,
+            "grandiose_titles": 1,
             "monuments": 0,
             "birthday_holiday": 0,
             "hagiography": 1,
-            "cult_of_personality": 0,
+            "cult_of_personality": 1,
             "currency_portrait": 0,
             "oath_to_person": 0
           }
@@ -12852,12 +13059,12 @@
             "const_disregard": 0,
             "no_leg_constraint": 0,
             "places_named": 0,
-            "grandiose_titles": 0,
+            "grandiose_titles": 1,
             "monuments": 0,
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
-            "currency_portrait": 1,
+            "currency_portrait": 0,
             "oath_to_person": 0
           }
         },
@@ -12945,7 +13152,7 @@
             "no_leg_constraint": 0,
             "places_named": 0,
             "grandiose_titles": 0,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
@@ -13018,7 +13225,7 @@
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
-            "currency_portrait": 1,
+            "currency_portrait": 0,
             "oath_to_person": 0
           }
         },
@@ -13062,7 +13269,7 @@
             "grandiose_titles": 0,
             "monuments": 0,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 0,
             "oath_to_person": 0
@@ -13137,9 +13344,9 @@
             "grandiose_titles": 1,
             "monuments": 0,
             "birthday_holiday": 1,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
-            "currency_portrait": 1,
+            "currency_portrait": 0,
             "oath_to_person": 0
           }
         },
@@ -13237,7 +13444,7 @@
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
-            "currency_portrait": 1,
+            "currency_portrait": 0,
             "oath_to_person": 0
           }
         },
@@ -13471,7 +13678,7 @@
             "grandiose_titles": 0,
             "monuments": 0,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 0,
             "oath_to_person": 0
@@ -13642,7 +13849,7 @@
             "no_leg_constraint": 0,
             "places_named": 1,
             "grandiose_titles": 1,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 1,
             "hagiography": 0,
             "cult_of_personality": 0,
@@ -13907,7 +14114,7 @@
             "no_leg_constraint": 1,
             "places_named": 0,
             "grandiose_titles": 1,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
@@ -13953,7 +14160,7 @@
             "no_leg_constraint": 0,
             "places_named": 0,
             "grandiose_titles": 0,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
@@ -14032,7 +14239,7 @@
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
-            "currency_portrait": 1,
+            "currency_portrait": 0,
             "oath_to_person": 0
           }
         },
@@ -14074,11 +14281,11 @@
             "no_leg_constraint": 0,
             "places_named": 0,
             "grandiose_titles": 0,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
-            "currency_portrait": 1,
+            "currency_portrait": 0,
             "oath_to_person": 0
           }
         },
@@ -14097,7 +14304,7 @@
             "no_leg_constraint": 0,
             "places_named": 0,
             "grandiose_titles": 1,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
@@ -14348,7 +14555,7 @@
             "monuments": 0,
             "birthday_holiday": 0,
             "hagiography": 0,
-            "cult_of_personality": 0,
+            "cult_of_personality": 1,
             "currency_portrait": 0,
             "oath_to_person": 0
           }
@@ -14443,7 +14650,7 @@
             "no_leg_constraint": 1,
             "places_named": 0,
             "grandiose_titles": 0,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
@@ -14489,7 +14696,7 @@
             "no_leg_constraint": 0,
             "places_named": 0,
             "grandiose_titles": 0,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
@@ -14545,7 +14752,7 @@
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
-            "currency_portrait": 1,
+            "currency_portrait": 0,
             "oath_to_person": 0
           }
         },
@@ -14589,7 +14796,7 @@
             "grandiose_titles": 0,
             "monuments": 0,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 0,
             "oath_to_person": 0
@@ -14810,7 +15017,7 @@
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
-            "currency_portrait": 1,
+            "currency_portrait": 0,
             "oath_to_person": 0
           }
         }
@@ -14858,9 +15065,9 @@
             "no_leg_constraint": 0,
             "places_named": 0,
             "grandiose_titles": 1,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 0,
             "oath_to_person": 0
@@ -14909,11 +15116,11 @@
             "const_disregard": 1,
             "no_leg_constraint": 1,
             "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
+            "grandiose_titles": 1,
+            "monuments": 1,
             "birthday_holiday": 1,
-            "hagiography": 0,
-            "cult_of_personality": 0,
+            "hagiography": 1,
+            "cult_of_personality": 1,
             "currency_portrait": 1,
             "oath_to_person": 0
           }
@@ -15004,7 +15211,7 @@
             "grandiose_titles": 0,
             "monuments": 0,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 1,
             "oath_to_person": 0
@@ -15031,7 +15238,7 @@
             "no_leg_constraint": 0,
             "places_named": 1,
             "grandiose_titles": 1,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
@@ -15101,7 +15308,7 @@
             "places_named": 0,
             "grandiose_titles": 1,
             "monuments": 0,
-            "birthday_holiday": 0,
+            "birthday_holiday": 1,
             "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 0,
@@ -15123,7 +15330,7 @@
             "no_leg_constraint": 0,
             "places_named": 0,
             "grandiose_titles": 1,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
@@ -15175,7 +15382,7 @@
             "no_leg_constraint": 0,
             "places_named": 0,
             "grandiose_titles": 1,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
@@ -15370,11 +15577,11 @@
             "const_disregard": 1,
             "no_leg_constraint": 1,
             "places_named": 1,
-            "grandiose_titles": 0,
+            "grandiose_titles": 1,
             "monuments": 0,
             "birthday_holiday": 0,
             "hagiography": 0,
-            "cult_of_personality": 0,
+            "cult_of_personality": 1,
             "currency_portrait": 0,
             "oath_to_person": 0
           }
@@ -15417,7 +15624,7 @@
             "no_leg_constraint": 0,
             "places_named": 1,
             "grandiose_titles": 1,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
@@ -15536,7 +15743,7 @@
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
-            "currency_portrait": 0,
+            "currency_portrait": 1,
             "oath_to_person": 0
           }
         },
@@ -15584,7 +15791,7 @@
             "no_leg_constraint": 1,
             "places_named": 0,
             "grandiose_titles": 0,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
@@ -15607,7 +15814,7 @@
             "no_leg_constraint": 1,
             "places_named": 0,
             "grandiose_titles": 0,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
@@ -15653,7 +15860,7 @@
             "no_leg_constraint": 1,
             "places_named": 0,
             "grandiose_titles": 0,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
@@ -15680,7 +15887,7 @@
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
-            "currency_portrait": 0,
+            "currency_portrait": 1,
             "oath_to_person": 0
           }
         },
@@ -15699,7 +15906,7 @@
             "no_leg_constraint": 0,
             "places_named": 0,
             "grandiose_titles": 0,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
@@ -16078,7 +16285,7 @@
             "const_disregard": 0,
             "no_leg_constraint": 0,
             "places_named": 1,
-            "grandiose_titles": 0,
+            "grandiose_titles": 1,
             "monuments": 0,
             "birthday_holiday": 0,
             "hagiography": 0,
@@ -16150,7 +16357,7 @@
             "grandiose_titles": 0,
             "monuments": 0,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 0,
             "oath_to_person": 0
@@ -16273,7 +16480,7 @@
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
-            "currency_portrait": 1,
+            "currency_portrait": 0,
             "oath_to_person": 0
           }
         },
@@ -16291,12 +16498,12 @@
             "const_disregard": 1,
             "no_leg_constraint": 0,
             "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
+            "grandiose_titles": 1,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
-            "currency_portrait": 1,
+            "currency_portrait": 0,
             "oath_to_person": 0
           }
         },
@@ -16620,7 +16827,7 @@
             "no_leg_constraint": 0,
             "places_named": 1,
             "grandiose_titles": 0,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
@@ -16645,7 +16852,7 @@
             "grandiose_titles": 1,
             "monuments": 0,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 0,
             "oath_to_person": 0
@@ -16712,11 +16919,11 @@
             "no_leg_constraint": 0,
             "places_named": 0,
             "grandiose_titles": 0,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
-            "currency_portrait": 0,
+            "currency_portrait": 1,
             "oath_to_person": 0
           }
         },
@@ -16735,9 +16942,9 @@
             "no_leg_constraint": 0,
             "places_named": 0,
             "grandiose_titles": 1,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 0,
             "oath_to_person": 0
@@ -16781,7 +16988,7 @@
             "no_leg_constraint": 0,
             "places_named": 0,
             "grandiose_titles": 1,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
@@ -16831,7 +17038,7 @@
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
-            "currency_portrait": 0,
+            "currency_portrait": 1,
             "oath_to_person": 0
           }
         },
@@ -16849,7 +17056,7 @@
             "const_disregard": 0,
             "no_leg_constraint": 0,
             "places_named": 0,
-            "grandiose_titles": 0,
+            "grandiose_titles": 1,
             "monuments": 0,
             "birthday_holiday": 0,
             "hagiography": 0,
@@ -16908,9 +17115,9 @@
             "no_leg_constraint": 0,
             "places_named": 0,
             "grandiose_titles": 0,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 1,
             "oath_to_person": 0
@@ -16931,7 +17138,7 @@
             "no_leg_constraint": 0,
             "places_named": 0,
             "grandiose_titles": 0,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
@@ -16956,7 +17163,7 @@
             "grandiose_titles": 0,
             "monuments": 0,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 1,
             "oath_to_person": 0
@@ -17069,9 +17276,9 @@
             "no_leg_constraint": 0,
             "places_named": 0,
             "grandiose_titles": 0,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 0,
             "oath_to_person": 0
@@ -17115,7 +17322,7 @@
             "no_leg_constraint": 0,
             "places_named": 1,
             "grandiose_titles": 0,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 1,
             "cult_of_personality": 0,
@@ -17232,7 +17439,7 @@
             "grandiose_titles": 0,
             "monuments": 0,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 0,
             "oath_to_person": 0
@@ -17382,7 +17589,7 @@
             "grandiose_titles": 0,
             "monuments": 0,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 0,
             "oath_to_person": 0
@@ -17459,7 +17666,7 @@
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
-            "currency_portrait": 1,
+            "currency_portrait": 0,
             "oath_to_person": 0
           }
         },
@@ -17477,8 +17684,8 @@
             "const_disregard": 0,
             "no_leg_constraint": 0,
             "places_named": 1,
-            "grandiose_titles": 0,
-            "monuments": 0,
+            "grandiose_titles": 1,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
@@ -17551,7 +17758,7 @@
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
-            "currency_portrait": 1,
+            "currency_portrait": 0,
             "oath_to_person": 0
           }
         },
@@ -17570,11 +17777,11 @@
             "no_leg_constraint": 0,
             "places_named": 0,
             "grandiose_titles": 0,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 1,
+            "cult_of_personality": 1,
+            "currency_portrait": 0,
             "oath_to_person": 0
           }
         },
@@ -17592,12 +17799,12 @@
             "const_disregard": 0,
             "no_leg_constraint": 0,
             "places_named": 1,
-            "grandiose_titles": 0,
-            "monuments": 0,
+            "grandiose_titles": 1,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
-            "currency_portrait": 1,
+            "currency_portrait": 0,
             "oath_to_person": 0
           }
         },
@@ -17618,9 +17825,9 @@
             "grandiose_titles": 0,
             "monuments": 0,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
-            "currency_portrait": 1,
+            "currency_portrait": 0,
             "oath_to_person": 0
           }
         },
@@ -17667,8 +17874,8 @@
             "const_disregard": 0,
             "no_leg_constraint": 0,
             "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
+            "grandiose_titles": 1,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
@@ -17788,7 +17995,7 @@
             "const_disregard": 1,
             "no_leg_constraint": 1,
             "places_named": 0,
-            "grandiose_titles": 0,
+            "grandiose_titles": 1,
             "monuments": 0,
             "birthday_holiday": 0,
             "hagiography": 0,
@@ -17817,11 +18024,57 @@
             "const_disregard": 1,
             "no_leg_constraint": 1,
             "places_named": 1,
-            "grandiose_titles": 0,
+            "grandiose_titles": 1,
             "monuments": 0,
             "birthday_holiday": 0,
             "hagiography": 1,
-            "cult_of_personality": 0,
+            "cult_of_personality": 1,
+            "currency_portrait": 0,
+            "oath_to_person": null
+          }
+        },
+        {
+          "name": "Kim Il-sung",
+          "start_year": 1948,
+          "end_year": 1994,
+          "indicators": {
+            "term_limits_absent": null,
+            "president_for_life": null,
+            "family_in_govt": null,
+            "political_killings": 1,
+            "military_executive": 0,
+            "judicial_purges": 1,
+            "const_disregard": 1,
+            "no_leg_constraint": 1,
+            "places_named": null,
+            "grandiose_titles": 1,
+            "monuments": 1,
+            "birthday_holiday": 1,
+            "hagiography": 1,
+            "cult_of_personality": 1,
+            "currency_portrait": 1,
+            "oath_to_person": null
+          }
+        },
+        {
+          "name": "Kim Jong-il",
+          "start_year": 1994,
+          "end_year": 2011,
+          "indicators": {
+            "term_limits_absent": null,
+            "president_for_life": null,
+            "family_in_govt": null,
+            "political_killings": 1,
+            "military_executive": 0,
+            "judicial_purges": 1,
+            "const_disregard": 1,
+            "no_leg_constraint": 1,
+            "places_named": null,
+            "grandiose_titles": 1,
+            "monuments": 1,
+            "birthday_holiday": 1,
+            "hagiography": 1,
+            "cult_of_personality": 1,
             "currency_portrait": 0,
             "oath_to_person": null
           }
@@ -17875,6 +18128,29 @@
             "hagiography": 0,
             "cult_of_personality": 0,
             "currency_portrait": 1,
+            "oath_to_person": 0
+          }
+        },
+        {
+          "name": "Salazar",
+          "start_year": 1946,
+          "end_year": 1968,
+          "indicators": {
+            "term_limits_absent": 0,
+            "president_for_life": 0,
+            "family_in_govt": null,
+            "political_killings": 1,
+            "military_executive": 0,
+            "judicial_purges": 1,
+            "const_disregard": 0,
+            "no_leg_constraint": 1,
+            "places_named": null,
+            "grandiose_titles": 0,
+            "monuments": 1,
+            "birthday_holiday": 0,
+            "hagiography": 1,
+            "cult_of_personality": 1,
+            "currency_portrait": 0,
             "oath_to_person": 0
           }
         }
@@ -17945,11 +18221,11 @@
             "no_leg_constraint": 1,
             "places_named": 0,
             "grandiose_titles": 0,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
-            "currency_portrait": 0,
+            "currency_portrait": 1,
             "oath_to_person": 0
           }
         },
@@ -18013,7 +18289,7 @@
             "const_disregard": 0,
             "no_leg_constraint": 0,
             "places_named": 0,
-            "grandiose_titles": 0,
+            "grandiose_titles": 1,
             "monuments": 0,
             "birthday_holiday": 0,
             "hagiography": 0,
@@ -18211,6 +18487,29 @@
             "currency_portrait": 0,
             "oath_to_person": 0
           }
+        },
+        {
+          "name": "Ceausescu",
+          "start_year": 1967,
+          "end_year": 1989,
+          "indicators": {
+            "term_limits_absent": 0,
+            "president_for_life": 0,
+            "family_in_govt": null,
+            "political_killings": 1,
+            "military_executive": 0,
+            "judicial_purges": 1,
+            "const_disregard": 0,
+            "no_leg_constraint": 1,
+            "places_named": null,
+            "grandiose_titles": 1,
+            "monuments": 1,
+            "birthday_holiday": 0,
+            "hagiography": 1,
+            "cult_of_personality": 1,
+            "currency_portrait": 1,
+            "oath_to_person": 0
+          }
         }
       ]
     },
@@ -18223,8 +18522,8 @@
           "start_year": 1984,
           "end_year": 1985,
           "indicators": {
-            "term_limits_absent": null,
-            "president_for_life": null,
+            "term_limits_absent": 0,
+            "president_for_life": 0,
             "family_in_govt": 0,
             "political_killings": 1,
             "military_executive": 0,
@@ -18233,12 +18532,12 @@
             "no_leg_constraint": 1,
             "places_named": 0,
             "grandiose_titles": 0,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
             "currency_portrait": 0,
-            "oath_to_person": null
+            "oath_to_person": 0
           }
         },
         {
@@ -18246,8 +18545,8 @@
           "start_year": 1985,
           "end_year": 1991,
           "indicators": {
-            "term_limits_absent": null,
-            "president_for_life": null,
+            "term_limits_absent": 0,
+            "president_for_life": 0,
             "family_in_govt": 0,
             "political_killings": 0,
             "military_executive": 0,
@@ -18259,9 +18558,9 @@
             "monuments": 0,
             "birthday_holiday": 0,
             "hagiography": 1,
-            "cult_of_personality": 0,
+            "cult_of_personality": 1,
             "currency_portrait": 0,
-            "oath_to_person": null
+            "oath_to_person": 0
           }
         },
         {
@@ -18269,8 +18568,8 @@
           "start_year": 1991,
           "end_year": 1999,
           "indicators": {
-            "term_limits_absent": null,
-            "president_for_life": null,
+            "term_limits_absent": 0,
+            "president_for_life": 0,
             "family_in_govt": 0,
             "political_killings": 0,
             "military_executive": 0,
@@ -18282,9 +18581,9 @@
             "monuments": 0,
             "birthday_holiday": 0,
             "hagiography": 1,
-            "cult_of_personality": 0,
+            "cult_of_personality": 1,
             "currency_portrait": 0,
-            "oath_to_person": null
+            "oath_to_person": 0
           }
         },
         {
@@ -18292,8 +18591,8 @@
           "start_year": 2000,
           "end_year": 2015,
           "indicators": {
-            "term_limits_absent": null,
-            "president_for_life": null,
+            "term_limits_absent": 0,
+            "president_for_life": 0,
             "family_in_govt": 0,
             "political_killings": 1,
             "military_executive": 0,
@@ -18301,13 +18600,82 @@
             "const_disregard": 1,
             "no_leg_constraint": 1,
             "places_named": 1,
-            "grandiose_titles": 0,
-            "monuments": 0,
+            "grandiose_titles": 1,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 1,
-            "cult_of_personality": 0,
+            "cult_of_personality": 1,
             "currency_portrait": 0,
-            "oath_to_person": null
+            "oath_to_person": 0
+          }
+        },
+        {
+          "name": "Stalin",
+          "start_year": 1946,
+          "end_year": 1953,
+          "indicators": {
+            "term_limits_absent": 0,
+            "president_for_life": 0,
+            "family_in_govt": null,
+            "political_killings": 1,
+            "military_executive": 0,
+            "judicial_purges": 1,
+            "const_disregard": 1,
+            "no_leg_constraint": 1,
+            "places_named": null,
+            "grandiose_titles": 1,
+            "monuments": 1,
+            "birthday_holiday": 0,
+            "hagiography": 1,
+            "cult_of_personality": 1,
+            "currency_portrait": 0,
+            "oath_to_person": 0
+          }
+        },
+        {
+          "name": "Khrushchev",
+          "start_year": 1953,
+          "end_year": 1964,
+          "indicators": {
+            "term_limits_absent": 0,
+            "president_for_life": 0,
+            "family_in_govt": null,
+            "political_killings": 1,
+            "military_executive": 0,
+            "judicial_purges": 1,
+            "const_disregard": 1,
+            "no_leg_constraint": 1,
+            "places_named": null,
+            "grandiose_titles": 0,
+            "monuments": 1,
+            "birthday_holiday": 0,
+            "hagiography": 0,
+            "cult_of_personality": 1,
+            "currency_portrait": 0,
+            "oath_to_person": 0
+          }
+        },
+        {
+          "name": "Brezhnev",
+          "start_year": 1964,
+          "end_year": 1982,
+          "indicators": {
+            "term_limits_absent": 0,
+            "president_for_life": 0,
+            "family_in_govt": null,
+            "political_killings": 1,
+            "military_executive": 0,
+            "judicial_purges": 1,
+            "const_disregard": 1,
+            "no_leg_constraint": 1,
+            "places_named": null,
+            "grandiose_titles": 1,
+            "monuments": 1,
+            "birthday_holiday": 0,
+            "hagiography": 0,
+            "cult_of_personality": 1,
+            "currency_portrait": 0,
+            "oath_to_person": 0
           }
         }
       ]
@@ -18333,9 +18701,9 @@
             "grandiose_titles": 0,
             "monuments": 0,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
-            "currency_portrait": 0,
+            "currency_portrait": 1,
             "oath_to_person": 0
           }
         },
@@ -18583,7 +18951,7 @@
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
-            "currency_portrait": 1,
+            "currency_portrait": 0,
             "oath_to_person": 0
           }
         }
@@ -18608,11 +18976,11 @@
             "no_leg_constraint": 0,
             "places_named": 0,
             "grandiose_titles": 1,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
-            "currency_portrait": 1,
+            "currency_portrait": 0,
             "oath_to_person": 0
           }
         },
@@ -18631,7 +18999,7 @@
             "no_leg_constraint": 0,
             "places_named": 0,
             "grandiose_titles": 0,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
@@ -18657,7 +19025,7 @@
             "monuments": 0,
             "birthday_holiday": 0,
             "hagiography": 0,
-            "cult_of_personality": 0,
+            "cult_of_personality": 1,
             "currency_portrait": 1,
             "oath_to_person": 0
           }
@@ -18733,7 +19101,7 @@
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
-            "currency_portrait": 1,
+            "currency_portrait": 0,
             "oath_to_person": 0
           }
         },
@@ -18751,7 +19119,7 @@
             "const_disregard": 1,
             "no_leg_constraint": 1,
             "places_named": 0,
-            "grandiose_titles": 0,
+            "grandiose_titles": 1,
             "monuments": 0,
             "birthday_holiday": 0,
             "hagiography": 0,
@@ -18900,7 +19268,7 @@
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
-            "currency_portrait": 0,
+            "currency_portrait": 1,
             "oath_to_person": 0
           }
         },
@@ -18950,7 +19318,7 @@
             "grandiose_titles": 0,
             "monuments": 0,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 0,
             "oath_to_person": 0
@@ -18996,8 +19364,8 @@
             "grandiose_titles": 0,
             "monuments": 0,
             "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
+            "hagiography": 1,
+            "cult_of_personality": 1,
             "currency_portrait": 1,
             "oath_to_person": 0
           }
@@ -19045,12 +19413,12 @@
             "const_disregard": 0,
             "no_leg_constraint": 1,
             "places_named": 1,
-            "grandiose_titles": 0,
-            "monuments": 0,
+            "grandiose_titles": 1,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
+            "cult_of_personality": 1,
+            "currency_portrait": 1,
             "oath_to_person": 0
           }
         },
@@ -19299,8 +19667,8 @@
             "const_disregard": 0,
             "no_leg_constraint": 0,
             "places_named": 1,
-            "grandiose_titles": 0,
-            "monuments": 0,
+            "grandiose_titles": 1,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
@@ -19417,9 +19785,9 @@
             "grandiose_titles": 0,
             "monuments": 0,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
-            "currency_portrait": 0,
+            "currency_portrait": 1,
             "oath_to_person": 0
           }
         },
@@ -19519,10 +19887,10 @@
             "no_leg_constraint": 0,
             "places_named": 0,
             "grandiose_titles": 0,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 0,
-            "cult_of_personality": 0,
+            "cult_of_personality": 1,
             "currency_portrait": 0,
             "oath_to_person": 0
           }
@@ -19564,10 +19932,10 @@
             "const_disregard": 1,
             "no_leg_constraint": 0,
             "places_named": 1,
-            "grandiose_titles": 0,
+            "grandiose_titles": 1,
             "monuments": 0,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 0,
             "oath_to_person": 0
@@ -19588,11 +19956,34 @@
             "no_leg_constraint": 1,
             "places_named": 0,
             "grandiose_titles": 0,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 0,
+            "cult_of_personality": 1,
+            "currency_portrait": 1,
+            "oath_to_person": 0
+          }
+        },
+        {
+          "name": "Hafez al-Assad",
+          "start_year": 1971,
+          "end_year": 2000,
+          "indicators": {
+            "term_limits_absent": 0,
+            "president_for_life": 0,
+            "family_in_govt": null,
+            "political_killings": 1,
+            "military_executive": 0,
+            "judicial_purges": 1,
+            "const_disregard": 1,
+            "no_leg_constraint": 1,
+            "places_named": null,
+            "grandiose_titles": 1,
+            "monuments": 1,
+            "birthday_holiday": 0,
+            "hagiography": 0,
+            "cult_of_personality": 1,
+            "currency_portrait": 1,
             "oath_to_person": 0
           }
         }
@@ -19746,7 +20137,7 @@
             "grandiose_titles": 1,
             "monuments": 0,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 0,
             "oath_to_person": 0
@@ -19927,10 +20318,10 @@
             "const_disregard": 1,
             "no_leg_constraint": 1,
             "places_named": 0,
-            "grandiose_titles": 0,
+            "grandiose_titles": 1,
             "monuments": 0,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 0,
             "oath_to_person": 0
@@ -19996,7 +20387,7 @@
             "const_disregard": 0,
             "no_leg_constraint": 0,
             "places_named": 0,
-            "grandiose_titles": 0,
+            "grandiose_titles": 1,
             "monuments": 0,
             "birthday_holiday": 0,
             "hagiography": 0,
@@ -20065,7 +20456,7 @@
             "const_disregard": 0,
             "no_leg_constraint": 0,
             "places_named": 0,
-            "grandiose_titles": 0,
+            "grandiose_titles": 1,
             "monuments": 0,
             "birthday_holiday": 0,
             "hagiography": 0,
@@ -20111,7 +20502,7 @@
             "const_disregard": 0,
             "no_leg_constraint": 0,
             "places_named": 0,
-            "grandiose_titles": 0,
+            "grandiose_titles": 1,
             "monuments": 0,
             "birthday_holiday": 0,
             "hagiography": 0,
@@ -20307,11 +20698,11 @@
             "const_disregard": 1,
             "no_leg_constraint": 1,
             "places_named": 1,
-            "grandiose_titles": 0,
-            "monuments": 0,
+            "grandiose_titles": 1,
+            "monuments": 1,
             "birthday_holiday": 0,
-            "hagiography": 0,
-            "cult_of_personality": 0,
+            "hagiography": 1,
+            "cult_of_personality": 1,
             "currency_portrait": 1,
             "oath_to_person": 0
           }
@@ -20411,11 +20802,11 @@
             "const_disregard": 1,
             "no_leg_constraint": 1,
             "places_named": 1,
-            "grandiose_titles": 0,
-            "monuments": 0,
+            "grandiose_titles": 1,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 0,
-            "cult_of_personality": 0,
+            "cult_of_personality": 1,
             "currency_portrait": 0,
             "oath_to_person": 0
           }
@@ -20510,7 +20901,7 @@
             "no_leg_constraint": 0,
             "places_named": 1,
             "grandiose_titles": 0,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
@@ -20535,7 +20926,7 @@
             "grandiose_titles": 0,
             "monuments": 0,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 0,
             "oath_to_person": 0
@@ -20636,11 +21027,11 @@
             "const_disregard": 0,
             "no_leg_constraint": 0,
             "places_named": 1,
-            "grandiose_titles": 0,
-            "monuments": 0,
+            "grandiose_titles": 1,
+            "monuments": 1,
             "birthday_holiday": 1,
-            "hagiography": 0,
-            "cult_of_personality": 0,
+            "hagiography": 1,
+            "cult_of_personality": 1,
             "currency_portrait": 0,
             "oath_to_person": null
           }
@@ -20733,7 +21124,7 @@
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
-            "currency_portrait": 1,
+            "currency_portrait": 0,
             "oath_to_person": null
           }
         }
@@ -20757,7 +21148,7 @@
             "const_disregard": 1,
             "no_leg_constraint": 0,
             "places_named": 0,
-            "grandiose_titles": 0,
+            "grandiose_titles": 1,
             "monuments": 0,
             "birthday_holiday": 0,
             "hagiography": 0,
@@ -20829,6 +21220,29 @@
             "grandiose_titles": 0,
             "monuments": 0,
             "birthday_holiday": 0,
+            "hagiography": 1,
+            "cult_of_personality": 0,
+            "currency_portrait": 0,
+            "oath_to_person": 0
+          }
+        },
+        {
+          "name": "Idi Amin",
+          "start_year": 1971,
+          "end_year": 1979,
+          "indicators": {
+            "term_limits_absent": 0,
+            "president_for_life": 0,
+            "family_in_govt": null,
+            "political_killings": 1,
+            "military_executive": 1,
+            "judicial_purges": 1,
+            "const_disregard": 1,
+            "no_leg_constraint": 0,
+            "places_named": null,
+            "grandiose_titles": 1,
+            "monuments": 0,
+            "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
             "currency_portrait": 0,
@@ -20856,11 +21270,11 @@
             "no_leg_constraint": 0,
             "places_named": 0,
             "grandiose_titles": 1,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
-            "currency_portrait": 1,
+            "currency_portrait": 0,
             "oath_to_person": 1
           }
         },
@@ -21287,7 +21701,7 @@
             "const_disregard": 0,
             "no_leg_constraint": 0,
             "places_named": 1,
-            "grandiose_titles": 0,
+            "grandiose_titles": 1,
             "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 0,
@@ -21338,7 +21752,7 @@
             "birthday_holiday": 0,
             "hagiography": 1,
             "cult_of_personality": 0,
-            "currency_portrait": 0,
+            "currency_portrait": 1,
             "oath_to_person": 0
           }
         },
@@ -21358,7 +21772,7 @@
             "places_named": 1,
             "grandiose_titles": 1,
             "monuments": 1,
-            "birthday_holiday": 0,
+            "birthday_holiday": 1,
             "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 0,
@@ -21380,11 +21794,11 @@
             "no_leg_constraint": 0,
             "places_named": 1,
             "grandiose_titles": 1,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 1,
             "cult_of_personality": 0,
-            "currency_portrait": 0,
+            "currency_portrait": 1,
             "oath_to_person": 0
           }
         },
@@ -21403,11 +21817,11 @@
             "no_leg_constraint": 0,
             "places_named": 1,
             "grandiose_titles": 0,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 1,
             "cult_of_personality": 0,
-            "currency_portrait": 0,
+            "currency_portrait": 1,
             "oath_to_person": 0
           }
         },
@@ -21449,7 +21863,7 @@
             "no_leg_constraint": 0,
             "places_named": 1,
             "grandiose_titles": 0,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
@@ -21472,7 +21886,7 @@
             "no_leg_constraint": 0,
             "places_named": 1,
             "grandiose_titles": 1,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 1,
             "cult_of_personality": 0,
@@ -21572,9 +21986,9 @@
             "grandiose_titles": 0,
             "monuments": 0,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
-            "currency_portrait": 0,
+            "currency_portrait": 1,
             "oath_to_person": 0
           }
         },
@@ -21595,9 +22009,9 @@
             "grandiose_titles": 0,
             "monuments": 0,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
-            "currency_portrait": 0,
+            "currency_portrait": 1,
             "oath_to_person": 0
           }
         },
@@ -21620,7 +22034,7 @@
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 1,
-            "currency_portrait": 0,
+            "currency_portrait": 1,
             "oath_to_person": 0
           }
         }
@@ -21644,11 +22058,11 @@
             "const_disregard": 0,
             "no_leg_constraint": 0,
             "places_named": 1,
-            "grandiose_titles": 0,
-            "monuments": 0,
+            "grandiose_titles": 1,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 1,
-            "cult_of_personality": 0,
+            "cult_of_personality": 1,
             "currency_portrait": 1,
             "oath_to_person": null
           }
@@ -21668,7 +22082,7 @@
             "no_leg_constraint": 0,
             "places_named": 1,
             "grandiose_titles": 0,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
@@ -21713,7 +22127,7 @@
             "const_disregard": 0,
             "no_leg_constraint": 0,
             "places_named": 0,
-            "grandiose_titles": 0,
+            "grandiose_titles": 1,
             "monuments": 0,
             "birthday_holiday": 0,
             "hagiography": 0,
@@ -21737,7 +22151,7 @@
             "no_leg_constraint": 0,
             "places_named": 0,
             "grandiose_titles": 0,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
@@ -21759,10 +22173,10 @@
             "const_disregard": 0,
             "no_leg_constraint": 0,
             "places_named": 0,
-            "grandiose_titles": 0,
+            "grandiose_titles": 1,
             "monuments": 0,
             "birthday_holiday": 0,
-            "hagiography": 0,
+            "hagiography": 1,
             "cult_of_personality": 0,
             "currency_portrait": 0,
             "oath_to_person": null
@@ -21887,7 +22301,7 @@
             "no_leg_constraint": 0,
             "places_named": 0,
             "grandiose_titles": 0,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
@@ -21983,7 +22397,7 @@
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
-            "currency_portrait": 0,
+            "currency_portrait": 1,
             "oath_to_person": 0
           }
         },
@@ -22047,7 +22461,7 @@
             "const_disregard": 0,
             "no_leg_constraint": 0,
             "places_named": 1,
-            "grandiose_titles": 0,
+            "grandiose_titles": 1,
             "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 1,
@@ -22075,7 +22489,7 @@
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
-            "currency_portrait": 0,
+            "currency_portrait": 1,
             "oath_to_person": 0
           }
         },
@@ -22093,8 +22507,8 @@
             "const_disregard": 0,
             "no_leg_constraint": 0,
             "places_named": 0,
-            "grandiose_titles": 0,
-            "monuments": 0,
+            "grandiose_titles": 1,
+            "monuments": 1,
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
@@ -22126,8 +22540,8 @@
             "monuments": 0,
             "birthday_holiday": 1,
             "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 1,
+            "cult_of_personality": 1,
+            "currency_portrait": 0,
             "oath_to_person": 0
           }
         },
@@ -22168,12 +22582,12 @@
             "const_disregard": 0,
             "no_leg_constraint": 0,
             "places_named": 0,
-            "grandiose_titles": 0,
+            "grandiose_titles": 1,
             "monuments": 0,
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
-            "currency_portrait": 1,
+            "currency_portrait": 0,
             "oath_to_person": 0
           }
         },
@@ -22196,7 +22610,7 @@
             "birthday_holiday": 0,
             "hagiography": 0,
             "cult_of_personality": 0,
-            "currency_portrait": 1,
+            "currency_portrait": 0,
             "oath_to_person": 0
           }
         }
@@ -22267,11 +22681,11 @@
             "no_leg_constraint": 0,
             "places_named": 1,
             "grandiose_titles": 0,
-            "monuments": 0,
+            "monuments": 1,
             "birthday_holiday": 1,
             "hagiography": 0,
-            "cult_of_personality": 0,
-            "currency_portrait": 1,
+            "cult_of_personality": 1,
+            "currency_portrait": 0,
             "oath_to_person": 0
           }
         }

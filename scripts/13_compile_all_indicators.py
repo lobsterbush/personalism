@@ -122,7 +122,7 @@ INDICATORS = [
     {"key": "monuments",           "label": "Monuments/Statues",        "dimension": "cult",  "source": "Wikidata"},
     {"key": "birthday_holiday",    "label": "Birthday as Holiday",      "dimension": "cult",  "source": "Wikidata"},
     {"key": "hagiography",         "label": "State Hagiography",        "dimension": "cult",  "source": "Wikidata"},
-    {"key": "cult_of_personality", "label": "Cult of Personality (cat)","dimension": "cult",  "source": "Wikipedia categories"},
+    {"key": "cult_of_personality", "label": "Cult of Personality",      "dimension": "cult",  "source": "Wikipedia categories + text"},
     {"key": "currency_portrait",   "label": "Currency Portrait",        "dimension": "cult",  "source": "Wikidata"},
     {"key": "oath_to_person",      "label": "Loyalty Oath to Person",   "dimension": "cult",  "source": "Constitute Project"},
 ]
@@ -179,10 +179,20 @@ def main():
     const_idx = index_by_key(load_csv(RAW / "constitute_indicators.csv"))
     bank_idx = index_by_key(load_csv(RAW / "banknote_indicators.csv"))
 
+    # Wikipedia text-based indicators (script 16)
+    wiki_text_path = RAW / "wikipedia_text_indicators.csv"
+    wiki_text_idx: dict[str, dict] = {}
+    if wiki_text_path.exists():
+        for r in load_csv(wiki_text_path):
+            qid = r.get("qid", "")
+            if qid:
+                wiki_text_idx[qid] = r
+
     print(f"  Wikidata original: {len(wiki_orig)}")
     print(f"  Wikidata extra: {len(wiki_extra_idx)}")
     print(f"  V-Dem: {len(vdem_idx)}")
     print(f"  Wikipedia categories: {len(wikicat_idx)}")
+    print(f"  Wikipedia text: {len(wiki_text_idx)}")
     print(f"  Constitute: {len(const_idx)}")
     print(f"  Banknotes: {len(bank_idx)}")
 
@@ -259,6 +269,35 @@ def main():
         bn = bank_idx.get(key, {})
         if bn:
             indicators["currency_portrait"] = safe_int(bn.get("currency_portrait"))
+
+        # --- Wikipedia text-based indicators (OR with existing) ---
+        wt = wiki_text_idx.get(qid, {})
+        if wt:
+            # cult_of_personality: OR with category-based
+            if safe_int(wt.get("cult_text")) == 1:
+                indicators["cult_of_personality"] = 1
+            elif indicators["cult_of_personality"] is None:
+                indicators["cult_of_personality"] = safe_int(wt.get("cult_text"))
+            # hagiography: OR with Wikidata-based
+            if safe_int(wt.get("hagiography_text")) == 1:
+                indicators["hagiography"] = 1
+            elif indicators["hagiography"] is None:
+                indicators["hagiography"] = safe_int(wt.get("hagiography_text"))
+            # birthday_holiday: OR with Wikidata-based
+            if safe_int(wt.get("birthday_text")) == 1:
+                indicators["birthday_holiday"] = 1
+            elif indicators["birthday_holiday"] is None:
+                indicators["birthday_holiday"] = safe_int(wt.get("birthday_text"))
+            # monuments: OR with Wikidata-based
+            if safe_int(wt.get("monuments_text")) == 1:
+                indicators["monuments"] = 1
+            elif indicators["monuments"] is None:
+                indicators["monuments"] = safe_int(wt.get("monuments_text"))
+            # grandiose_titles: OR with Wikidata-based
+            if safe_int(wt.get("titles_text")) == 1:
+                indicators["grandiose_titles"] = 1
+            elif indicators["grandiose_titles"] is None:
+                indicators["grandiose_titles"] = safe_int(wt.get("titles_text"))
 
         record["indicators"] = indicators
         compiled.append(record)
