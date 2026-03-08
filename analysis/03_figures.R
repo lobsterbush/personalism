@@ -57,17 +57,34 @@ base_theme <- theme_tufte(base_size = 13) +
   )
 
 # =========================================================================
-# Figure 1: Item Parameters — discrimination vs difficulty
+# Figure 1: Bifactor Loadings — General vs Specific
 # =========================================================================
-p1 <- ggplot(item_df, aes(x = b, y = a, label = label)) +
-  geom_point(size = 2.5, colour = "#2C3E50") +
-  geom_text(nudge_y = 0.08, size = 3.2, hjust = 0.5, check_overlap = TRUE) +
-  labs(x = "Difficulty (b)", y = "Discrimination (a)",
-       title = "Item Parameters (2PL IRT)") +
-  base_theme
+load_long <- item_df |>
+  select(indicator, label, a_general, a_specific, specific_factor) |>
+  pivot_longer(cols = c(a_general, a_specific),
+               names_to = "type", values_to = "loading") |>
+  mutate(
+    type = ifelse(type == "a_general", "General", paste0("Specific (", specific_factor, ")")),
+    label = factor(label, levels = rev(item_df$label))
+  )
+
+p1 <- ggplot(load_long, aes(x = loading, y = label, shape = type, colour = type)) +
+  geom_point(size = 3) +
+  geom_vline(xintercept = 0, linetype = "dashed", colour = "grey60") +
+  scale_colour_manual(values = c("General" = "#2C3E50",
+                                  "Specific (INST)" = "#E74C3C",
+                                  "Specific (CULT)" = "#3498DB")) +
+  scale_shape_manual(values = c("General" = 16,
+                                 "Specific (INST)" = 17,
+                                 "Specific (CULT)" = 15)) +
+  labs(x = "Factor Loading", y = NULL,
+       title = "Bifactor Item Loadings",
+       colour = "Factor", shape = "Factor") +
+  base_theme +
+  theme(legend.position = "bottom")
 
 ggsave(file.path(fig_dir, "fig_item_parameters.pdf"), p1,
-       device = cairo_pdf, width = 6.5, height = 5, dpi = 300)
+       device = cairo_pdf, width = 6.5, height = 5.5, dpi = 300)
 cat("Saved: figures/fig_item_parameters.pdf\n")
 
 # =========================================================================
@@ -122,10 +139,13 @@ cat("Saved: figures/fig_top_leaders.pdf\n")
 cat("Saved: figures/fig_bottom_leaders.pdf\n")
 
 # =========================================================================
-# Figure 4: Test Information Function
+# Figure 4: Test Information Function (along general factor)
 # =========================================================================
 theta_grid <- seq(-4, 4, length.out = 201)
-tinfo      <- testinfo(mod, theta_grid)
+Theta_mat  <- matrix(0, nrow = 201, ncol = 3)  # G, S1, S2
+Theta_mat[, 1] <- theta_grid                     # vary general, hold specific at 0
+# Information along general factor direction (0° from G, 90° from S1 and S2)
+tinfo      <- testinfo(mod, Theta_mat, degrees = c(0, 90, 90))
 tinfo_df   <- data.frame(theta = theta_grid, information = tinfo)
 
 p4 <- ggplot(tinfo_df, aes(x = theta, y = information)) +
@@ -141,7 +161,7 @@ ggsave(file.path(fig_dir, "fig_test_information.pdf"), p4,
 cat("Saved: figures/fig_test_information.pdf\n")
 
 # =========================================================================
-# Figure 5: ICC Curves (all items, faceted)
+# Figure 5: ICC Curves along general factor (all items, faceted)
 # =========================================================================
 icc_data <- expand.grid(
   theta     = theta_grid,
@@ -150,11 +170,13 @@ icc_data <- expand.grid(
 )
 icc_data$prob <- NA_real_
 
+# Compute P(Y=1) along general factor, holding specifics at 0
 for (ind in irt_indicators) {
-  a_val <- item_df$a[item_df$indicator == ind]
-  b_val <- item_df$b[item_df$indicator == ind]
-  idx   <- icc_data$indicator == ind
-  icc_data$prob[idx] <- 1 / (1 + exp(-a_val * (theta_grid - b_val)))
+  item_idx <- which(colnames(resp) == ind)
+  item_obj <- extract.item(mod, item_idx)
+  probs    <- probtrace(item_obj, Theta_mat)
+  idx      <- icc_data$indicator == ind
+  icc_data$prob[idx] <- probs[, 2]  # P(Y=1)
 }
 
 icc_data$label <- label_map[icc_data$indicator]
