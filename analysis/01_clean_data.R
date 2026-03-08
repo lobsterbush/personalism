@@ -19,6 +19,13 @@ indicators <- c(
   "oath_to_person"
 )
 
+# --- Filter to autocracies ------------------------------------------------
+# V-Dem Regimes of the World: 0 = closed autocracy, 1 = electoral autocracy,
+# 2 = electoral democracy, 3 = liberal democracy
+n_before <- nrow(dat)
+dat <- dat |> filter(!is.na(regime_type) & regime_type <= 1)
+cat(sprintf("  Filtered to autocracies: %d -> %d spells\n", n_before, nrow(dat)))
+
 # --- Collapse multi-spell leaders to one row per leader -------------------
 # Archigos records non-consecutive terms as separate spells. For IRT the unit
 # should be the *leader*, not the spell, because Wikidata indicators are

@@ -243,6 +243,7 @@ def main():
             indicators["judicial_purges"] = safe_int(vd.get("judicial_purges"))
             indicators["const_disregard"] = safe_int(vd.get("const_disregard"))
             indicators["no_leg_constraint"] = safe_int(vd.get("no_leg_constraint"))
+            record["regime_type"] = safe_int(vd.get("regime_type"))
 
         # --- Wikipedia categories ---
         wc = wikicat_idx.get(qid, {})
@@ -305,12 +306,12 @@ def main():
     # Write compiled CSV
     COMPILED_DIR.mkdir(parents=True, exist_ok=True)
     csv_path = COMPILED_DIR / "personalism_full.csv"
-    csv_fields = ["qid", "leader", "ccode", "iso3", "country", "start_year", "end_year"] + indicator_keys
+    csv_fields = ["qid", "leader", "ccode", "iso3", "country", "start_year", "end_year", "regime_type"] + indicator_keys
     with open(csv_path, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=csv_fields, extrasaction="ignore")
         writer.writeheader()
         for rec in compiled:
-            flat = {k: rec[k] for k in ["qid", "leader", "ccode", "iso3", "country", "start_year", "end_year"]}
+            flat = {k: rec.get(k, "") for k in ["qid", "leader", "ccode", "iso3", "country", "start_year", "end_year", "regime_type"]}
             flat.update(rec["indicators"])
             writer.writerow(flat)
     print(f"  Wrote {len(compiled)} rows to {csv_path}")

@@ -1,20 +1,20 @@
 # Fdb version 4
-["bibtex main"] 1772959635 "main.aux" "main.bbl" "main" 1772959636 0
+["bibtex main"] 1772960366 "main.aux" "main.bbl" "main" 1772960367 0
   "./references.bib" 1772700932 3309 5130dac4cc98fe634a352c2454f74d75 ""
   "/usr/local/texlive/2023/texmf-dist/bibtex/bst/base/apalike.bst" 1292289607 24635 604dafcc79f521a11ea73e506e1fbd98 ""
-  "main.aux" 1772959636 7186 fa7d4a88e1ae35c67a041a734f09ff3c "pdflatex"
+  "main.aux" 1772960367 7186 c54b4aae2cabb5007adc8c21c3222849 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1772959635 "main.tex" "main.pdf" "main" 1772959636 0
-  "../figures/fig_bottom_leaders.pdf" 1772959616 70922 a7cd12a39243609305ff8960cc838b8e ""
-  "../figures/fig_coverage.pdf" 1772959617 27041 c63b3d8550356e461db4e57e735321d0 ""
-  "../figures/fig_icc_curves.pdf" 1772959617 39314 8e9fed9e3e384c96ca7ed8515b7fff61 ""
-  "../figures/fig_item_parameters.pdf" 1772959616 29506 27219527684c15401603a6268d915e7f ""
-  "../figures/fig_test_information.pdf" 1772959617 22916 e4173d3f3112cc536afca3245abd6223 ""
-  "../figures/fig_theta_distribution.pdf" 1772959616 27350 5c8c70f065783bd66df4f919584ed847 ""
-  "../figures/fig_top_leaders.pdf" 1772959616 35431 eb5f7a85f54a06cca03a59fd09d5c156 ""
+["pdflatex"] 1772960367 "main.tex" "main.pdf" "main" 1772960367 0
+  "../figures/fig_bottom_leaders.pdf" 1772960350 55236 15ee34a6aae8cb81db8c3a6e36e1dbe7 ""
+  "../figures/fig_coverage.pdf" 1772960351 27389 56337256784bd56bc6da2235ef067f34 ""
+  "../figures/fig_icc_curves.pdf" 1772960351 40642 012a705c294df4e0181fd0e83564bfc9 ""
+  "../figures/fig_item_parameters.pdf" 1772960350 29663 f1bfb2209c0d6607c46f8f928d864d88 ""
+  "../figures/fig_test_information.pdf" 1772960351 23821 3172812f6740ff5d88ddd999722c0b1b ""
+  "../figures/fig_theta_distribution.pdf" 1772960350 27338 01e8c2609c40fcfa355f5ccd87abe8f7 ""
+  "../figures/fig_top_leaders.pdf" 1772960350 40188 2f5967171fd9eeea573da08c10ae6ed1 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/jknappen/ec/tcrm0700.tfm" 1136768653 1536 73da8e8f1d2a4c957d51ca133585586b ""
@@ -119,11 +119,11 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1702001459 4623355 b8cad38412faebe1ce5b780a45db67bd ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1702001394 7883457 c21bb5223b4e8aa99ab2287414f6e005 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "main.aux" 1772959636 7186 fa7d4a88e1ae35c67a041a734f09ff3c "pdflatex"
-  "main.bbl" 1772959635 2175 1339f206c3606edc67460362da1b5a28 "bibtex main"
-  "main.out" 1772959636 2770 89a6f2fd8980beb58222d63084516d61 "pdflatex"
+  "main.aux" 1772960367 7186 c54b4aae2cabb5007adc8c21c3222849 "pdflatex"
+  "main.bbl" 1772960367 2175 1339f206c3606edc67460362da1b5a28 "bibtex main"
+  "main.out" 1772960367 2770 89a6f2fd8980beb58222d63084516d61 "pdflatex"
   "main.tex" 1772701004 13086 9fc02039c2fff0dbbdad1ce16f10f674 ""
-  "statistics.tex" 1772959578 1555 4c539a21fe65cfb0f57ecc295fc9773a ""
+  "statistics.tex" 1772960326 1641 16b9049f4e336dc22fb0fa31f2f6a076 ""
   (generated)
   "main.aux"
   "main.log"

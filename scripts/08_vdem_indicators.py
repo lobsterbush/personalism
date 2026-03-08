@@ -38,6 +38,7 @@ VDEM_VARS = [
     "v2csreprss",      # Civil society repression (higher = more repression)
     "v2exrescon",      # Executive respects constitution (higher = more respect)
     "v2xlg_legcon",    # Legislative constraints on executive (higher = more constrained)
+    "v2x_regime",      # Regimes of the World: 0=closed autoc, 1=elect autoc, 2=elect dem, 3=lib dem
 ]
 
 R_EXTRACT_SCRIPT = """
@@ -98,7 +99,7 @@ def merge_leader_vdem(leaders: pd.DataFrame, vdem: pd.DataFrame) -> pd.DataFrame
 
     results = []
     numeric_cols = ["v2clkill", "v2x_ex_military", "v2jupurge", "v2psbars",
-                    "v2csreprss", "v2exrescon", "v2xlg_legcon"]
+                    "v2csreprss", "v2exrescon", "v2xlg_legcon", "v2x_regime"]
 
     for _, ldr in leaders.iterrows():
         ccode = ldr["ccode"]
@@ -157,6 +158,11 @@ def merge_leader_vdem(leaders: pd.DataFrame, vdem: pd.DataFrame) -> pd.DataFrame
     # v2xlg_legcon: 0-1 interval; lower = less constrained. Score ≤ 0.25 → no_leg_constraint = 1
     scores["no_leg_constraint"] = (scores["v2xlg_legcon"] <= 0.25).astype(int)
     scores.loc[scores["v2xlg_legcon"].isna(), "no_leg_constraint"] = None
+
+    # Regime type: modal v2x_regime over tenure (0=closed autoc, 1=elect autoc, 2=elect dem, 3=lib dem)
+    # Use round of mean as approximation of mode
+    scores["regime_type"] = scores["v2x_regime"].round().astype("Int64")
+    scores.loc[scores["v2x_regime"].isna(), "regime_type"] = None
 
     return scores
 
