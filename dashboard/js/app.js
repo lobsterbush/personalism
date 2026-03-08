@@ -14,6 +14,7 @@ let DATA = null;            // raw JSON payload
 let allLeaders = [];        // flattened leader records with scores
 let indicatorMeta = [];     // indicator metadata from JSON
 let irtResult = null;       // IRT estimation output
+let rItemParams = null;     // R-estimated item parameters from JSON
 
 const POWER_INDICATORS = ['term_limits_absent', 'president_for_life', 'family_in_govt', 'oath_to_person'];
 const CULT_INDICATORS = ['places_named', 'grandiose_titles', 'monuments', 'birthday_holiday', 'hagiography', 'cult_of_personality', 'currency_portrait'];
@@ -43,6 +44,7 @@ async function loadData() {
     }
 
     indicatorMeta = DATA.metadata.indicators || [];
+    rItemParams = DATA.metadata.item_parameters || null;
 
     // Flatten to leader-level records
     allLeaders = [];
@@ -441,16 +443,16 @@ function runIRT() {
         renderInfoPlot();
         renderItemParamsTable();
         renderPatternTable();
-    } else {
-        // Show static info for bifactor model
-        const fitContainer = document.getElementById('icc-plot');
-        if (fitContainer) fitContainer.innerHTML = '<p class="chart-note">ICC curves estimated by the bifactor model in R. See the paper figures for details.</p>';
-        const infoContainer = document.getElementById('info-plot');
-        if (infoContainer) infoContainer.innerHTML = '<p class="chart-note">Test information computed along the general factor. See the paper figures for details.</p>';
-        renderItemParamsTableFromMeta();
+    } else if (hasRTheta && rItemParams && rItemParams.length > 0) {
+        // Use R-estimated bifactor item parameters for plots
+        renderICCPlotFromR();
+        renderInfoPlotFromR();
+        renderItemParamsTableFromR();
         // Skip pattern table for bifactor
         const patternContainer = document.getElementById('pattern-table');
         if (patternContainer) patternContainer.innerHTML = '';
+    } else {
+        renderItemParamsTableFromMeta();
     }
     renderRanking();
 }
@@ -499,22 +501,14 @@ function renderIRTFitCards() {
 function renderItemParamsTableFromMeta() {
     const container = document.getElementById('item-params-table');
     if (!container) return;
-
-    // Load item parameters from compiled CSV if available via metadata
-    const nWithTheta = allLeaders.filter(l => l.rTheta != null).length;
-
     let html = `<table class="irt-table">
-        <thead><tr>
-            <th>Indicator</th><th>Factor</th>
-            <th>Prevalence</th>
-        </tr></thead><tbody>`;
-
+        <thead><tr><th>Indicator</th><th>Factor</th><th>Prevalence</th></tr></thead><tbody>`;
     for (const meta of indicatorMeta) {
         const dimLabel = meta.dimension === 'power' ? 'Institutional' : 'Cult/Symbolic';
         const dimClass = meta.dimension || '';
         let coded = 0, present = 0;
         for (const l of allLeaders) {
-            if (l.rTheta == null) continue;  // Only count autocracies
+            if (l.rTheta == null) continue;
             const v = l.indicators[meta.key];
             if (v === 0 || v === 1) { coded++; if (v === 1) present++; }
         }
@@ -522,6 +516,129 @@ function renderItemParamsTableFromMeta() {
         html += `<tr>
             <td>${esc(meta.label || '')}</td>
             <td><span class="indicator-dimension ${dimClass}">${dimLabel}</span></td>
+            <td>${present}/${coded} (${prev}%)</td>
+        </tr>`;
+    }
+    html += '</tbody></table>';
+    container.innerHTML = html;
+}
+
+// --- R-estimated bifactor: ICC plot ---
+function renderICCPlotFromR() {
+    const container = document.getElementById('icc-plot');
+    if (!container || !rItemParams) return;
+
+    // Use general factor loadings as discrimination, compute approx ICC
+    // For bifactor, P(Y=1|theta_G) ≈ logistic(a_G * theta_G - d)
+    // We don't have d (difficulty) in the CSV, so approximate from prevalence
+    const curves = rItemParams.map((item, j) => {
+        const meta = indicatorMeta.find(m => m.key === item.indicator);
+        const a = item.a_general;
+        // Estimate difficulty from prevalence
+        let coded = 0, present = 0;
+        for (const l of allLeaders) {
+            if (l.rTheta == null) continue;
+            const v = l.indicators[item.indicator];
+            if (v === 0 || v === 1) { coded++; if (v === 1) present++; }
+        }
+        const prev = coded > 0 ? present / coded : 0.5;
+        const b = -Math.log(prev / (1 - Math.max(prev, 0.01))) / Math.max(a, 0.1);
+
+        const pts = IRT2PL.iccCurve(a, b);
+        return {
+            points: pts.map(p => ({ x: p.theta, y: p.p })),
+            color: ITEM_COLORS[j % ITEM_COLORS.length],
+            label: meta?.label || item.indicator,
+        };
+    });
+
+    container.innerHTML = svgPlot({
+        yLabel: 'P(X = 1 | θ)',
+        curves,
+        legend: curves.map(c => ({ label: c.label, color: c.color })),
+    });
+}
+
+// --- R-estimated bifactor: Info plot ---
+function renderInfoPlotFromR() {
+    const container = document.getElementById('info-plot');
+    if (!container || !rItemParams) return;
+
+    const yMaxVals = [];
+    const items = rItemParams.map((item, j) => {
+        const meta = indicatorMeta.find(m => m.key === item.indicator);
+        const a = item.a_general;
+        let coded = 0, present = 0;
+        for (const l of allLeaders) {
+            if (l.rTheta == null) continue;
+            const v = l.indicators[item.indicator];
+            if (v === 0 || v === 1) { coded++; if (v === 1) present++; }
+        }
+        const prev = coded > 0 ? present / coded : 0.5;
+        const b = -Math.log(prev / (1 - Math.max(prev, 0.01))) / Math.max(a, 0.1);
+        return { a, b, label: meta?.label || item.indicator, idx: j };
+    });
+
+    const curves = items.map(it => {
+        const pts = IRT2PL.itemInfoCurve(it.a, it.b);
+        yMaxVals.push(Math.max(...pts.map(p => p.info)));
+        return {
+            points: pts.map(p => ({ x: p.theta, y: p.info })),
+            color: ITEM_COLORS[it.idx % ITEM_COLORS.length],
+            label: it.label,
+        };
+    });
+
+    // Test information
+    const testPts = IRT2PL.testInfoCurve(items.map(it => ({ a: it.a, b: it.b })));
+    yMaxVals.push(Math.max(...testPts.map(p => p.info)));
+    curves.push({
+        points: testPts.map(p => ({ x: p.theta, y: p.info })),
+        color: TEST_COLOR,
+        dashed: true,
+        strokeWidth: 2.5,
+        label: 'Test information',
+    });
+
+    const yMax = Math.ceil(Math.max(...yMaxVals) * 4) / 4;
+    container.innerHTML = svgPlot({
+        yMin: 0, yMax,
+        yLabel: 'Information',
+        curves,
+        legend: curves.map(c => ({ label: c.label, color: c.color, dashed: c.dashed })),
+    });
+}
+
+// --- R-estimated bifactor: Item params table ---
+function renderItemParamsTableFromR() {
+    const container = document.getElementById('item-params-table');
+    if (!container || !rItemParams) return;
+
+    let html = `<table class="irt-table">
+        <thead><tr>
+            <th>Indicator</th><th>Specific Factor</th>
+            <th>a<sub>G</sub> (general)</th>
+            <th>a<sub>S</sub> (specific)</th>
+            <th>Prevalence</th>
+        </tr></thead><tbody>`;
+
+    for (let j = 0; j < rItemParams.length; j++) {
+        const item = rItemParams[j];
+        const meta = indicatorMeta.find(m => m.key === item.indicator);
+        const dimLabel = item.specific_factor === 'INST' ? 'Institutional' : 'Cult/Symbolic';
+        const dimClass = item.specific_factor === 'INST' ? 'power' : 'cult';
+        let coded = 0, present = 0;
+        for (const l of allLeaders) {
+            if (l.rTheta == null) continue;
+            const v = l.indicators[item.indicator];
+            if (v === 0 || v === 1) { coded++; if (v === 1) present++; }
+        }
+        const prev = coded > 0 ? (present / coded * 100).toFixed(1) : '\u2014';
+        html += `<tr>
+            <td><span class="item-color-dot" style="background:${ITEM_COLORS[j % ITEM_COLORS.length]}"></span>${esc(meta?.label || item.indicator)}</td>
+            <td><span class="indicator-dimension ${dimClass}">${dimLabel}</span></td>
+            <td>${item.a_general.toFixed(3)}</td>
+            <td>${item.a_specific.toFixed(3)}</td>
             <td>${present}/${coded} (${prev}%)</td>
         </tr>`;
     }
@@ -740,7 +857,10 @@ function renderPatternTable() {
 // --- Leader Ranking by Theta ---
 function renderRanking(filter = '', showAll = false) {
     const container = document.getElementById('ranking-table');
-    if (!container || !irtResult) return;
+    if (!container) return;
+    // Ranking works with either R theta or client-side irtResult
+    const hasTheta = allLeaders.some(l => l.theta != null);
+    if (!hasTheta) return;
 
     let leaders = [...allLeaders].sort((a, b) => (b.theta || 0) - (a.theta || 0));
 

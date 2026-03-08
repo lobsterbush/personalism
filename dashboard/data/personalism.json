@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "version": "0.4",
+    "version": "0.5",
     "description": "Personalism in dictatorships \u2014 bifactor IRT model (autocracies only)",
     "last_updated": "2026-03-08",
     "source": "Wikidata + Constitute Project + Wikipedia + Archigos 4.1",
@@ -104,6 +104,74 @@
         "label": "Loyalty Oath to Person",
         "dimension": "cult",
         "source": "Constitute Project"
+      }
+    ],
+    "item_parameters": [
+      {
+        "indicator": "term_limits_absent",
+        "a_general": 1.0981,
+        "a_specific": 3.4781,
+        "specific_factor": "INST"
+      },
+      {
+        "indicator": "president_for_life",
+        "a_general": 6.5631,
+        "a_specific": 11.2442,
+        "specific_factor": "INST"
+      },
+      {
+        "indicator": "family_in_govt",
+        "a_general": 1.0405,
+        "a_specific": -0.1521,
+        "specific_factor": "INST"
+      },
+      {
+        "indicator": "places_named",
+        "a_general": 1.4748,
+        "a_specific": 0.8434,
+        "specific_factor": "CULT"
+      },
+      {
+        "indicator": "grandiose_titles",
+        "a_general": 1.7411,
+        "a_specific": 0.6418,
+        "specific_factor": "CULT"
+      },
+      {
+        "indicator": "monuments",
+        "a_general": 1.64,
+        "a_specific": 1.2697,
+        "specific_factor": "CULT"
+      },
+      {
+        "indicator": "birthday_holiday",
+        "a_general": 2.2831,
+        "a_specific": -0.2294,
+        "specific_factor": "CULT"
+      },
+      {
+        "indicator": "hagiography",
+        "a_general": 1.4747,
+        "a_specific": 1.4307,
+        "specific_factor": "CULT"
+      },
+      {
+        "indicator": "cult_of_personality",
+        "a_general": 6.3525,
+        "a_specific": 5.4648,
+        "specific_factor": "CULT"
+      },
+      {
+        "indicator": "currency_portrait",
+        "a_general": 0.8431,
+        "a_specific": 0.0682,
+        "specific_factor": "CULT"
+      },
+      {
+        "indicator": "oath_to_person",
+        "a_general": 2.9864,
+        "a_specific": 24.5407,
+        "specific_factor": "INST"
       }
     ],
     "universe": {

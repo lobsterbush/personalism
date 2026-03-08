@@ -376,9 +376,22 @@ def main():
         for l in c["leaders"] if "theta" in l
     )
 
+    # Load R-estimated item parameters if available
+    item_params_path = COMPILED_DIR / "item_parameters.csv"
+    item_params_list = []
+    if item_params_path.exists():
+        for r in load_csv(item_params_path):
+            item_params_list.append({
+                "indicator": r["indicator"],
+                "a_general": round(float(r["a_general"]), 4),
+                "a_specific": round(float(r["a_specific"]), 4),
+                "specific_factor": r["specific_factor"],
+            })
+        print(f"  Item parameters: {len(item_params_list)} items")
+
     dashboard = {
         "metadata": {
-            "version": "0.4",
+            "version": "0.5",
             "description": "Personalism in dictatorships — bifactor IRT model (autocracies only)",
             "last_updated": str(date.today()),
             "source": "Wikidata + Constitute Project + Wikipedia + Archigos 4.1",
@@ -387,6 +400,7 @@ def main():
             "n_leaders": len(compiled),
             "n_with_theta": n_with_theta,
             "indicators": INDICATORS,
+            "item_parameters": item_params_list,
             "universe": {
                 "total_archigos": 2090,
                 "with_wikidata": 936,
