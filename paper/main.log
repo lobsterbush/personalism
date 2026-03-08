@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.7)  8 MAR 2026 20:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.12.7)  8 MAR 2026 20:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -348,7 +348,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks24
 \@floatcapt=\box54
 )
-(./statistics.tex)
+(./statistics.tex) (./gwf_statistics.tex)
 (/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count295
@@ -357,24 +357,24 @@ File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -432,7 +432,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 27.
+Package hyperref Info: Link coloring OFF on input line 28.
 
 (./main.out) (./main.out)
 \@outlinefile=\write3
@@ -441,13 +441,13 @@ Package hyperref Info: Link coloring OFF on input line 27.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 31.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 32.
 
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 31.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 32.
 
 
 (/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -459,43 +459,43 @@ al/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [2]
 
 pdfTeX warning: pdflatex (file ../figures/fig_coverage.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<../figures/fig_coverage.pdf, id=125, 469.755pt x 397.485pt>
+<../figures/fig_coverage.pdf, id=129, 469.755pt x 397.485pt>
 File: ../figures/fig_coverage.pdf Graphic file (type pdf)
 <use ../figures/fig_coverage.pdf>
-Package pdftex.def Info: ../figures/fig_coverage.pdf  used on input line 90.
+Package pdftex.def Info: ../figures/fig_coverage.pdf  used on input line 91.
 (pdftex.def)             Requested size: 469.75502pt x 397.48402pt.
 [3] [4 <../figures/fig_coverage.pdf>]
 
 pdfTeX warning: pdflatex (file ../figures/fig_item_parameters.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<../figures/fig_item_parameters.pdf, id=166, 469.755pt x 397.485pt>
+<../figures/fig_item_parameters.pdf, id=170, 469.755pt x 397.485pt>
 File: ../figures/fig_item_parameters.pdf Graphic file (type pdf)
 <use ../figures/fig_item_parameters.pdf>
 Package pdftex.def Info: ../figures/fig_item_parameters.pdf  used on input line
- 121.
+ 122.
 (pdftex.def)             Requested size: 469.75502pt x 397.48402pt.
 [5]
 
 pdfTeX warning: pdflatex (file ../figures/fig_theta_distribution.pdf): PDF incl
 usion: found PDF version <1.7>, but at most version <1.5> allowed
-<../figures/fig_theta_distribution.pdf, id=176, 469.755pt x 325.215pt>
+<../figures/fig_theta_distribution.pdf, id=180, 469.755pt x 325.215pt>
 File: ../figures/fig_theta_distribution.pdf Graphic file (type pdf)
 <use ../figures/fig_theta_distribution.pdf>
 Package pdftex.def Info: ../figures/fig_theta_distribution.pdf  used on input l
-ine 132.
+ine 133.
 (pdftex.def)             Requested size: 469.75502pt x 325.2142pt.
 [6 <../figures/fig_item_parameters.pdf>]
 
 pdfTeX warning: pdflatex (file ../figures/fig_top_leaders.pdf): PDF inclusion: 
 found PDF version <1.7>, but at most version <1.5> allowed
-<../figures/fig_top_leaders.pdf, id=204, 469.755pt x 505.89pt>
+<../figures/fig_top_leaders.pdf, id=208, 469.755pt x 505.89pt>
 File: ../figures/fig_top_leaders.pdf Graphic file (type pdf)
 <use ../figures/fig_top_leaders.pdf>
-Package pdftex.def Info: ../figures/fig_top_leaders.pdf  used on input line 143
+Package pdftex.def Info: ../figures/fig_top_leaders.pdf  used on input line 144
 .
 (pdftex.def)             Requested size: 469.75502pt x 505.88875pt.
 [7 <../figures/fig_theta_distribution.pdf>]
-Overfull \hbox (1.01047pt too wide) in paragraph at lines 150--151
+Overfull \hbox (1.01047pt too wide) in paragraph at lines 151--152
 \OT1/cmr/m/n/12 Figure []5[] dis-plays the test in-for-ma-tion func-tion. The m
 ea-sure pro-vides the most information---
  []
@@ -504,43 +504,52 @@ ea-sure pro-vides the most information---
 
 pdfTeX warning: pdflatex (file ../figures/fig_test_information.pdf): PDF inclus
 ion: found PDF version <1.7>, but at most version <1.5> allowed
-<../figures/fig_test_information.pdf, id=233, 469.755pt x 325.215pt>
+<../figures/fig_test_information.pdf, id=237, 469.755pt x 325.215pt>
 File: ../figures/fig_test_information.pdf Graphic file (type pdf)
 <use ../figures/fig_test_information.pdf>
 Package pdftex.def Info: ../figures/fig_test_information.pdf  used on input lin
-e 154.
+e 155.
 (pdftex.def)             Requested size: 469.75502pt x 325.2142pt.
 [8 <../figures/fig_top_leaders.pdf>] [9 <../figures/fig_test_information.pdf>]
-[10] (./main.bbl) [11]
+
+pdfTeX warning: pdflatex (file ../figures/fig_gwf_binary.pdf): PDF inclusion: f
+ound PDF version <1.7>, but at most version <1.5> allowed
+<../figures/fig_gwf_binary.pdf, id=293, 469.755pt x 361.35pt>
+File: ../figures/fig_gwf_binary.pdf Graphic file (type pdf)
+<use ../figures/fig_gwf_binary.pdf>
+Package pdftex.def Info: ../figures/fig_gwf_binary.pdf  used on input line 175.
+
+(pdftex.def)             Requested size: 469.75502pt x 361.34912pt.
+[10] [11 <../figures/fig_gwf_binary.pdf>] [12] (./main.bbl) [13]
 
 pdfTeX warning: pdflatex (file ../figures/fig_icc_curves.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
-<../figures/fig_icc_curves.pdf, id=297, 722.7pt x 578.16pt>
+<../figures/fig_icc_curves.pdf, id=350, 722.7pt x 578.16pt>
 File: ../figures/fig_icc_curves.pdf Graphic file (type pdf)
 <use ../figures/fig_icc_curves.pdf>
-Package pdftex.def Info: ../figures/fig_icc_curves.pdf  used on input line 224.
+Package pdftex.def Info: ../figures/fig_icc_curves.pdf  used on input line 239.
 
 (pdftex.def)             Requested size: 469.75502pt x 375.80836pt.
 
 
 pdfTeX warning: pdflatex (file ../figures/fig_bottom_leaders.pdf): PDF inclusio
 n: found PDF version <1.7>, but at most version <1.5> allowed
-<../figures/fig_bottom_leaders.pdf, id=298, 469.755pt x 505.89pt>
+<../figures/fig_bottom_leaders.pdf, id=351, 469.755pt x 505.89pt>
 File: ../figures/fig_bottom_leaders.pdf Graphic file (type pdf)
 <use ../figures/fig_bottom_leaders.pdf>
 Package pdftex.def Info: ../figures/fig_bottom_leaders.pdf  used on input line 
-233.
+248.
 (pdftex.def)             Requested size: 469.75502pt x 505.88875pt.
-[12 <../figures/fig_icc_curves.pdf>] [13 <../figures/fig_bottom_leaders.pdf>]
+[14 <../figures/fig_icc_curves.pdf>] [15 <../figures/fig_bottom_leaders.pdf>]
 (./main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 89A6F2FD8980BEB58222D63084516D61;2770.
+(rerunfilecheck)             Checksum: F7EE2767BAC9949F89E456D6E95DF16D;3012.
  ) 
 Here is how much of TeX's memory you used:
- 12017 strings out of 476025
- 192870 string characters out of 5790017
+ 12060 strings out of 476025
+ 193600 string characters out of 5790017
  1858388 words of memory out of 5000000
- 32259 multiletter control sequences out of 15000+600000
+ 32294 multiletter control sequences out of 15000+600000
  523493 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,11n,76p,1125b,461s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -557,10 +566,10 @@ l/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
 texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/t
 exlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/tex
 live/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on main.pdf (13 pages, 396832 bytes).
+Output written on main.pdf (15 pages, 455086 bytes).
 PDF statistics:
- 430 PDF objects out of 1000 (max. 8388607)
- 336 compressed objects within 4 object streams
- 54 named destinations out of 1000 (max. 500000)
- 196 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 483 PDF objects out of 1000 (max. 8388607)
+ 376 compressed objects within 4 object streams
+ 58 named destinations out of 1000 (max. 500000)
+ 209 words of extra memory for PDF output out of 10000 (max. 10000000)
 

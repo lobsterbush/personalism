@@ -1,15 +1,16 @@
 # Fdb version 4
-["bibtex main"] 1772960366 "main.aux" "main.bbl" "main" 1772960870 0
+["bibtex main"] 1772962065 "main.aux" "main.bbl" "main" 1772962066 0
   "./references.bib" 1772700932 3309 5130dac4cc98fe634a352c2454f74d75 ""
   "/usr/local/texlive/2023/texmf-dist/bibtex/bst/base/apalike.bst" 1292289607 24635 604dafcc79f521a11ea73e506e1fbd98 ""
-  "main.aux" 1772960869 7186 c54b4aae2cabb5007adc8c21c3222849 "pdflatex"
+  "main.aux" 1772962065 8001 04b70672a84783d74195a9f1bb734ed9 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1772960869 "main.tex" "main.pdf" "main" 1772960870 0
+["pdflatex"] 1772962065 "main.tex" "main.pdf" "main" 1772962066 0
   "../figures/fig_bottom_leaders.pdf" 1772960846 55240 efa14641e9a9e0153d792c96a3f0a5ec ""
   "../figures/fig_coverage.pdf" 1772960846 27386 79aaf2c959ebc741eba6ff5207e4ca6f ""
+  "../figures/fig_gwf_binary.pdf" 1772961987 57824 26d2e98d92ce13241b0d3acb62ff6cef ""
   "../figures/fig_icc_curves.pdf" 1772960846 38731 caf4ba08e98bf713780c433051904fc5 ""
   "../figures/fig_item_parameters.pdf" 1772960845 31146 2571513eb5dc298326f7e448c2fff029 ""
   "../figures/fig_test_information.pdf" 1772960846 23315 81d9c20ec813797214aebe02b7844ae5 ""
@@ -119,10 +120,11 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1702001459 4623355 b8cad38412faebe1ce5b780a45db67bd ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1702001394 7883457 c21bb5223b4e8aa99ab2287414f6e005 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "main.aux" 1772960869 7186 c54b4aae2cabb5007adc8c21c3222849 "pdflatex"
-  "main.bbl" 1772960367 2175 1339f206c3606edc67460362da1b5a28 "bibtex main"
-  "main.out" 1772960869 2770 89a6f2fd8980beb58222d63084516d61 "pdflatex"
-  "main.tex" 1772701004 13086 9fc02039c2fff0dbbdad1ce16f10f674 ""
+  "gwf_statistics.tex" 1772961987 911 758ab30bb01150bdb3aacadae2d30f1f ""
+  "main.aux" 1772962065 8001 04b70672a84783d74195a9f1bb734ed9 "pdflatex"
+  "main.bbl" 1772962065 2175 1339f206c3606edc67460362da1b5a28 "bibtex main"
+  "main.out" 1772962065 3012 f7ee2767bac9949f89e456d6e95df16d "pdflatex"
+  "main.tex" 1772962052 15373 bd848b1d163af679755d6c868ecd7614 ""
   "statistics.tex" 1772960695 1734 06d0e1012c1af14f6cb8ac63a063a377 ""
   (generated)
   "main.aux"

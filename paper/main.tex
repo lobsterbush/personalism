@@ -15,6 +15,7 @@
 
 % --- Dynamic statistics ---
 \input{statistics.tex}
+\input{gwf_statistics.tex}
 
 % --- Metadata ---
 \title{Measuring Personalism in Dictatorships:\\A Latent Trait Approach with Observable Indicators}
@@ -161,6 +162,21 @@ Figure~\ref{fig:test_info} displays the test information function. The measure p
 % TODO: Discuss M2 fit statistic, RMSEA, CFI, TLI from statistics.tex macros
 % The model yields RMSEA = \fitRMSEA{} [90\% CI: \fitRMSEAlow{}, \fitRMSEAhigh{}], CFI = \fitCFI{}, TLI = \fitTLI{}.
 
+\subsection{Comparison with GWF Classifications}
+
+As an external validation exercise, we compare our continuous personalism scores with the categorical regime classifications from \citet{geddes2014}. Of \nLeaders{} leader-spells, \gwfNmatched{} can be matched to GWF regime-years by COW code and temporal overlap; \gwfNunmatched{} remain unmatched, primarily because they govern after GWF coverage ends in 2010. Among matched leaders, \gwfNpersonal{} govern regimes classified as containing a personal element (``personal,'' ``party-personal,'' ``military-personal,'' or ``party-personal-military'') and \gwfNnonpersonal{} govern non-personal regimes.
+
+Figure~\ref{fig:gwf_binary} displays the distribution of $\hat{\theta}$ by GWF binary classification. Leaders in personal regimes score marginally higher ($\bar{\theta}$ = \gwfMeanPersonal{}, SD = \gwfSDPersonal{}) than those in non-personal regimes ($\bar{\theta}$ = \gwfMeanNonpersonal{}, SD = \gwfSDNonpersonal{}), but the difference is small and not statistically distinguishable from zero (point-biserial $r$ = \gwfPBr{}, $p$ = \gwfPBp{}; Cohen's $d$ = \gwfCohensD{}; Welch $t$ = \gwfTstat{}, $p$ = \gwfTp{}).
+
+The weak association is substantively informative. GWF classifies \textit{regimes}, while our measure captures \textit{individual-level} personalism across multiple observable dimensions, including personality cult indicators that GWF does not directly code. A leader may exhibit strong personalist tendencies---accumulating titles, naming places, commissioning statues---within a regime that GWF categorises as party-based or military. Conversely, some leaders in GWF-designated personal regimes may inherit personalist institutional structures without cultivating personality cults. This conceptual divergence supports our argument that personalism is better understood as a continuous, multidimensional trait than as a categorical regime property.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{../figures/fig_gwf_binary.pdf}
+  \caption{Distribution of personalism scores ($\hat{\theta}$) by GWF regime classification. ``Personal'' includes all GWF types containing a personal element. Boxes show interquartile ranges; violin contours show kernel density estimates.}
+  \label{fig:gwf_binary}
+\end{figure}
+
 % ==========================================================================
 \section{Discussion}
 % ==========================================================================
@@ -168,7 +184,6 @@ Figure~\ref{fig:test_info} displays the test information function. The measure p
 % TODO: Substantive discussion
 % - What do the item parameters tell us about the structure of personalism?
 % - Are power concentration and personality cult empirically separable?
-% - Comparison with GWF classifications
 % - Applications: personalism as IV/DV in conflict, governance, transition research
 
 \subsection{Limitations}
